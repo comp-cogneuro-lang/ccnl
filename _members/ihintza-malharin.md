@@ -1,7 +1,7 @@
 ---
 name: Ihintza Malharin
 image: images/malharin-ihintza.jpg
-role: pi
+role: PhD Student
 affiliation: University of Colorado
 aliases:
   - I. Malharin
