@@ -2,7 +2,7 @@
 name: Ihintza Malharin
 image: images/malharin-ihintza.jpg
 role: PhD Student
-affiliation: University of Colorado
+affiliation: BCBL. Basque Center on Cognition Brain and Language; University of the Basque Country UPV/EHU
 aliases:
   - I. Malharin
 #links:
