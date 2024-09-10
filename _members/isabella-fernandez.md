@@ -1,6 +1,6 @@
 ---
 Name: Isabella Marie Fernandez
-Image: 
+Image: images/IMG_5198 2.jpg
 Role: Undergraduate Researcher
 Group: Undergraduate Students
 
