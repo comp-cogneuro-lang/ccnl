@@ -1,5 +1,5 @@
 
-# comp-cogneuro-langDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
+# Computational Cognitive Neuroscience of Language (under construction)
 
 Visit **[comp-cogneuro-lang.github.io/ccnl](https://comp-cogneuro-lang.github.io/ccnl)** 🚀
 
