@@ -1,11 +1,11 @@
 ---
 name: Anna Kopec
-image: images/photo.jpg
+image: images/anna-kopec.jpg
 role: undergraduate researcher
-group: UConn 
+group: undergraduates 
 links:
   github: Anna-Kopec
   email: anna.kopec@uconn.edu
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+txt
