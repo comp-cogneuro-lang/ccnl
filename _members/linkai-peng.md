@@ -1,11 +1,13 @@
 ---
 name: Linkai Peng
 image: images/photo.jpg
-description: Lead Programmer
-role: programmer
+description: First year Ph.D student
+role: research assistance
 links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
+  email: penglinkai96@gmail.com
+  github: https://github.com/vocaliodmiku
+
 ---
 
-AAA
+Hi, this is Linkai Peng. I am curious about the process of human/machine speech perception. My research interests intersect in the areas of speech processing, phonetics, second language acquisition, neuroscience, and cognitive science.
+
