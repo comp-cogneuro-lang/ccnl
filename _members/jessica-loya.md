@@ -1,11 +1,11 @@
 ---
-name: Jane Smith
+name: Jessica Loya
 image: images/photo.jpg
-role: pi
-affiliation: University of Colorado
+role: Graduate Student
+affiliation: University of Connecticut
 aliases:
-  - J. Smith
-  - J Smith
+  - J.A. Loya
+  - JA Loya
 links:
   home-page: https://janesmith.com
   orcid: 0000-0001-8713-9213
