@@ -1,8 +1,8 @@
 ---
 name: Linkai Peng
 image: images/plk.jpg
-description: Ph.D student
-role: research assistance
+role: Ph.D student
+affiliation: University of Connecticut
 links:
   home-page: http://vocaliodmiku.github.io
   google-scholar: v8G7pHoAAAAJ
