@@ -7,7 +7,7 @@ links:
   home-page: http://vocaliodmiku.github.io
   google-scholar: v8G7pHoAAAAJ
   email: penglinkai96@gmail.com
-  github: https://github.com/vocaliodmiku
+  github: vocaliodmiku
 
 ---
 
