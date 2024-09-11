@@ -1,6 +1,6 @@
 ---
 name: Linkai Peng
-image: images/photo.jpg
+image: images/plk.jpg
 description: First year Ph.D student
 role: research assistance
 links:
