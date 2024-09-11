@@ -1,6 +1,6 @@
 ---
 name: Wesley Medeiros
-image: images/photo.jpg
+image: images/wesley-medeiros.jpg
 role: Graduate Student
 affiliation: University of Connecticut
 aliases:
@@ -10,10 +10,6 @@ links:
   orcid: 0000-0001-8605-1404
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+I am a 2nd year PhD student in Psychological Sciences at the University of Connecticut, advised by Dr. James Magnuson and Dr. Rachel Theodore. 
+
+My current interests are non-invasive brain data collection (e.g. EEG, fNIRS, fMRI), computational models of speech perception, and individual differences in phoneme categorization during speech.
