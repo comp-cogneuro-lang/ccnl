@@ -11,5 +11,4 @@ links:
 
 ---
 
-Hi, this is Linkai Peng. I am curious about the process of human/machine speech perception. My research interests intersect in the areas of speech processing, phonetics, second language acquisition, neuroscience, and cognitive science.
-
+Linkai’s research interests include the computational aspects of human/machine speech recognition and second language processing. Previously, he focused on research involving deep learning and large language models in speech processing.
