@@ -1,7 +1,7 @@
 ---
 name: Linkai Peng
 image: images/plk.jpg
-description: First year Ph.D student
+description: Ph.D student
 role: research assistance
 links:
   email: penglinkai96@gmail.com
