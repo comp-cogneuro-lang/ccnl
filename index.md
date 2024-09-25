@@ -1,7 +1,7 @@
 ---
 ---
 
-# Computational Cognitive Neuroscience of Language (CCNL) Lab
+# Header
 
 
 {% include section.html %}
