@@ -1,8 +1,7 @@
 ---
 ---
 
-# comp-cogneuro-langDESCRIPTION=An engaging 1-3 sentence description of your lab.'s Website
-
+# Computational Cognitive Neuroscience of Language (CCNL) Lab
 
 
 {% include section.html %}
