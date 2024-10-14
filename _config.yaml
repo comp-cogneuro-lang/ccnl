@@ -1,7 +1,8 @@
 # site properties and page defaults
-title: comp-cogneuro-langDESCRIPTION=An engaging 1-3 sentence description of your lab.
+title: Computational Cognitive Neuroscience of Language (CCNL)
 subtitle: 
-description: 
+description: We study the intricacies of human speech perception, how it happens in the real world, and possible related disfunctions.
+To do so, our lab uses insights from human behavior, human neuroimaging, computational models of speech, among other fields of research.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
