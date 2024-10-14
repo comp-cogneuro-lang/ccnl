@@ -1,8 +1,8 @@
 # site properties and page defaults
-title: Computational Cognitive Neuroscience of Language (CCNL)
+title: Computational Cognitive Neuroscience of Language (CCNL) --trace
 subtitle: 
 description: We study the intricacies of human speech perception, how it happens in the real world, and possible related disfunctions.
-To do so, our lab uses insights from human behavior, human neuroimaging, computational models of speech, among other fields of research.
+To do so, our lab uses insights from human behavior, human neuroimaging, computational models of speech, among other fields of research. --trace
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
