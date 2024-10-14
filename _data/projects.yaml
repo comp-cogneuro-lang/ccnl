@@ -1,20 +1,20 @@
-- title: Cool Dataset
+- title: Do X in Y (?)
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
   link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  description: This is a repository of lab notes, where X might be “batch adjust F0 in speech files” and Y might be “Praat”, 
+  or X in Y = “create a hash table” in “R”. The idea is to have a quick place to put our notes about common or uncommon tasks so that we stop reinventing various wheels.
   repo: greenelab/lab-website-template
   tags:
     - resource
 
-- title: Cool Package
+- title: jTRACE
   subtitle: a subtitle
   group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: https://magnuson.psy.uconn.edu/jtrace/
+  description: jTRACE is a reimplementation of the TRACE model of speech recognition with a user-friendly interface and new tools (batch processing, scripting, graphing and visualization)
   tags:
     - resource
 
