@@ -3,8 +3,7 @@
   group: featured
   image: images/photo.jpg
   link: https://github.com/
-  description: This is a repository of lab notes, where X might be “batch adjust F0 in speech files” and Y might be “Praat”, 
-  or X in Y = “create a hash table” in “R”. The idea is to have a quick place to put our notes about common or uncommon tasks so that we stop reinventing various wheels.
+  description: This is a repository of lab notes, where X might be “batch adjust F0 in speech files” and Y might be “Praat”, or X in Y = “create a hash table” in “R”. The idea is to have a quick place to put our notes about common or uncommon tasks so that we stop reinventing various wheels.
   repo: greenelab/lab-website-template
   tags:
     - resource
