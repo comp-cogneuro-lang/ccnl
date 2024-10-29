@@ -175,7 +175,7 @@
   orcid: 0000-0003-0158-2367
   plugin: sources.py
   file: sources.yaml
-  type: rich
+  type: paper
   description: Our goal is to develop a minimal cognitive model of HSR that can learn
     to map over-time speech to semantics, without explicit phonetic training as a
     first step in bridging the gap between HSR and ASR.
