@@ -179,7 +179,7 @@
   description: Our goal is to develop a minimal cognitive model of HSR that can learn
     to map over-time speech to semantics, without explicit phonetic training as a
     first step in bridging the gap between HSR and ASR.
-  image: /ccn/images/earshot.png
+  image: /ccnl/images/earshot.png
   buttons:
   - type: source
     text: Source Code
