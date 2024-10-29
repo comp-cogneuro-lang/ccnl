@@ -171,41 +171,43 @@
   orcid: 0000-0002-4655-3773
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.1111/cogs.12823
+  title: EARSHOT: A Minimal Neural Network Model of Incremental Human Speech Recognition
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  - James S. Magnuson
+  - Heejo You
+  - Sahil Luthra
+  - Monica Li
+  - Hosung Nam
+  - Monty Escabı
+  - Kevin Brown
+  - Paul D. Allopenna
+  - Rachel M. Theodore
+  - Nicholas Monto
+  - Jay G. Rueckl
+  publisher: Cognitive Science
+  date: '2020-02-05'
+  link: https://magnuson.psy.uconn.edu/wp-content/uploads/sites/1140/2020/04/EARSHOT_cogsci_2020.pdf
+  orcid: 
   plugin: sources.py
   file: sources.yaml
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  description: Our goal is to develop a minimal cognitive model of HSR that can learn to map over-time speech to semantics, without explicit phonetic training as a first step in bridging the gap between HSR and ASR.
+  image: images/earshot.png
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
+  # - type: manubot
+  #   link: https://greenelab.github.io/meta-review/
   - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+    text: Source Code
+    link: https://github.com/comp-cogneuro-lang/EARShot_TF2
+  # - type: website
+  #   link: http://manubot.org/
   tags:
   - open science
   - collaboration
   repo: greenelab/meta-review
 - id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  title: Sequential compression of gene expression across dimensionalities and methods reveals no single best method or dimensionality
   authors:
   - Gregory P. Way
   - Michael Zietz
