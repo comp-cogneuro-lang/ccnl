@@ -13,7 +13,7 @@ Cognition and action "in the wild" occur in rich contexts. Our research explores
 
 ## Highlighted
 
-{% include citation.html lookup="Developing cognitive models of human speech recognition that operate on real speech" style="rich" %}
+{% include citation.html lookup="doi:10.1111/cogs.12823" style="rich" %}
 
 {% include section.html %}
 
