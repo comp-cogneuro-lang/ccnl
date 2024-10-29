@@ -1,205 +1,158 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.5334/joc.362
+  title: Lexical Feedback in the Time-Invariant String Kernel (TISK) Model of Spoken
+    Word Recognition
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - James S. Magnuson
+  - Heejo You
+  - Thomas Hannagan
+  publisher: Journal of Cognition
+  date: '2024-01-01'
+  link: https://doi.org/g8pntn
+  orcid: 0000-0003-0158-2367
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.1101/2024.02.20.580731
+  title: Recurrent neural networks as neuro-computational models of human speech recognition
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
+  - Christian Brodbeck
+  - Thomas Hannagan
+  - James S. Magnuson
   publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  date: '2024-02-22'
+  link: https://doi.org/g8k46b
+  orcid: 0000-0003-0158-2367
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1016/j.cognition.2023.105661
+  title: 'Contra assertions, feedback improves word recognition: How feedback and
+    lateral inhibition sharpen signals over noise'
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - James S. Magnuson
+  - Anne Marie Crinnion
+  - Sahil Luthra
+  - Phoebe Gaston
+  - Samantha Grubb
+  publisher: Cognition
+  date: '2024-01-01'
+  link: https://doi.org/g8pntp
+  orcid: 0000-0003-0158-2367
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.31234/osf.io/d92gr
+  title: Lexical feedback in the Time-Invariant String Kernel (TISK) model of spoken
+    word recognition
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - James Magnuson
+  - Heejo You
+  - Thomas Hannagan
+  publisher: Center for Open Science
+  date: '2023-12-22'
+  link: https://doi.org/g8pntq
+  orcid: 0000-0003-0158-2367
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1037/xhp0000963
+  title: Attention, task demands, and multitalker processing costs in speech perception.
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - David Saltzman
+  - Sahil Luthra
+  - Emily B. Myers
+  - James S. Magnuson
+  publisher: 'Journal of Experimental Psychology: Human Perception and Performance'
+  date: '2021-12-01'
+  link: https://doi.org/g8pntr
+  orcid: 0000-0003-0158-2367
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.31234/osf.io/aq2cx
+  title: Contra assertions, feedback improves word recognition
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - James Magnuson
+  - Samantha Grubb
+  - Anne Marie Crinnion
+  - Sahil Luthra
+  - Phoebe Gaston
+  publisher: Center for Open Science
+  date: '2021-08-11'
+  link: https://doi.org/g8pnts
+  orcid: 0000-0003-0158-2367
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.31234/osf.io/8dyru
+  title: 'LexFindR: A fast, simple, and extensible R package for finding similar words
+    in a lexicon'
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - James Magnuson
+  - ZhaoBin Li
+  - Anne Marie Crinnion
+  publisher: Center for Open Science
+  date: '2021-08-11'
+  link: https://doi.org/g8pntt
+  orcid: 0000-0003-0158-2367
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
+- id: doi:10.3758/s13414-020-02203-y
+  title: Talker familiarity and the accommodation of talker variability
   authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2019-06-24'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  - James S. Magnuson
+  - Howard C. Nusbaum
+  - Reiko Akahane-Yamada
+  - David Saltzman
+  publisher: Attention, Perception, &amp; Psychophysics
+  date: '2021-01-04'
+  link: https://doi.org/g8pntv
+  orcid: 0000-0003-0158-2367
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+- id: doi:10.1037/xlm0000945
+  title: Boosting lexical support does not enhance lexically guided perceptual learning.
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
+  - Sahil Luthra
+  - James S. Magnuson
+  - Emily B. Myers
+  publisher: 'Journal of Experimental Psychology: Learning, Memory, and Cognition'
+  date: '2021-04-01'
+  link: https://doi.org/gjm5dw
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/cad.20331
+  title: "Cohesion of Cortical Language Networks During Word Processing Is Predicted\
+    \ by a Common Polymorphism in the\n            <i>SETBP1</i>\n            Gene"
+  authors:
+  - Natalia Rakhlin
+  - Nicole Landi
+  - Maria Lee
+  - James S. Magnuson
+  - Oxana Yu. Naumova
+  - Irina V. Ovchinnikova
+  - Elena L. Grigorenko
+  publisher: New Directions for Child and Adolescent Development
+  date: '2020-01-01'
+  link: https://doi.org/gp44hd
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jml.2020.104112
+  title: "Corrigendum to \u2018Individual differences in subphonemic sensitivity and\
+    \ phonological skills\u2019. [J. Memory Language 107 (2019) 195\u2013215]"
+  authors:
+  - Monica Y.C. Li
+  - David Braze
+  - Anuenue Kukona
+  - Clinton L. Johns
+  - Whitney Tabor
+  - Julie A. Van Dyke
+  - W. Einar Mencl
+  - Donald P. Shankweiler
+  - Kenneth R. Pugh
+  - James S. Magnuson
+  publisher: Journal of Memory and Language
+  date: '2020-06-01'
+  link: https://doi.org/ghbtpg
+  orcid: 0000-0003-0158-2367
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1111/cogs.12823
@@ -219,6 +172,9 @@
   publisher: Cognitive Science
   date: '2020-02-05'
   link: https://doi.org/gh75tc
+  orcid: 0000-0003-0158-2367
+  plugin: sources.py
+  file: sources.yaml
   type: paper
   description: Our goal is to develop a minimal cognitive model of HSR that can learn
     to map over-time speech to semantics, without explicit phonetic training as a
@@ -231,8 +187,866 @@
   tags:
   - open science
   - collaboration
-  plugin: sources.py
-  file: sources.yaml
+- id: doi:10.1111/desc.13023
+  title: Is that a <i>pibu</i> or a <i>pibo</i>? Children with reading and language
+    deficits show difficulties in learning and overnight consolidation of phonologically
+    similar pseudowords
+  authors:
+  - Jeffrey G. Malins
+  - Nicole Landi
+  - Kayleigh Ryherd
+  - Jan C. Frijters
+  - James S. Magnuson
+  - Jay G. Rueckl
+  - Kenneth R. Pugh
+  - Rose Sevcik
+  - Robin Morris
+  publisher: Developmental Science
+  date: '2020-08-07'
+  link: https://doi.org/g6gh4m
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s41809-019-00035-3
+  title: 'Fixations in the visual world paradigm: where, when, why?'
+  authors:
+  - James S. Magnuson
+  publisher: Journal of Cultural Cognitive Science
+  date: '2019-09-23'
+  link: https://doi.org/gq3f2m
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jml.2019.03.008
+  title: Individual differences in subphonemic sensitivity and phonological skills
+  authors:
+  - Monica Y.C. Li
+  - David Braze
+  - Anuenue Kukona
+  - Clinton L. Johns
+  - Whitney Tabor
+  - Julie A. Van Dyke
+  - W. Einar Mencl
+  - Donald P. Shankweiler
+  - Kenneth R. Pugh
+  - James S. Magnuson
+  publisher: Journal of Memory and Language
+  date: '2019-08-01'
+  link: https://doi.org/ggf3kn
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.31234/osf.io/h7a4n
+  title: 'EARSHOT: A minimal neural network model of incremental human speech recognition'
+  authors:
+  - James Magnuson
+  - Heejo You
+  - Hosung Nam
+  - Paul Allopenna
+  - Kevin Brown
+  - Monty Escabi
+  - Rachel M. Theodore
+  - Sahil Luthra
+  - Monica Yin Chen Li
+  - Jay Rueckl
+  publisher: Center for Open Science
+  date: '2018-12-13'
+  link: https://doi.org/g8pntw
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/23273798.2018.1476727
+  title: Individual differences in decoding skill, print exposure, and cortical structure
+    in young adults
+  authors:
+  - Clinton L. Johns
+  - Andrew A. Jahn
+  - Hannah R. Jones
+  - Dave Kush
+  - Peter J. Molfese
+  - Julie A. Van Dyke
+  - James S. Magnuson
+  - Whitney Tabor
+  - W. Einar Mencl
+  - Donald P. Shankweiler
+  - David Braze
+  publisher: Language, Cognition and Neuroscience
+  date: '2018-05-22'
+  link: https://doi.org/g8pntx
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fpsyg.2018.00369
+  title: 'Interaction in Spoken Word Recognition Models: Feedback Helps'
+  authors:
+  - James S. Magnuson
+  - Daniel Mirman
+  - Sahil Luthra
+  - Ted Strauss
+  - Harlan D. Harris
+  publisher: Frontiers in Psychology
+  date: '2018-04-03'
+  link: https://doi.org/gdctz5
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.neuropsychologia.2018.01.011
+  title: Neural representations for newly learned words are modulated by overnight
+    consolidation, reading skill, and age
+  authors:
+  - Nicole Landi
+  - Jeffrey G. Malins
+  - Stephen J. Frost
+  - James S. Magnuson
+  - Peter Molfese
+  - Kayleigh Ryherd
+  - Jay G. Rueckl
+  - William E. Mencl
+  - Kenneth R. Pugh
+  publisher: Neuropsychologia
+  date: '2018-03-01'
+  link: https://doi.org/gdgkpg
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3758/s13428-017-1012-5
+  title: 'TISK 1.0: An easy-to-use Python implementation of the time-invariant string
+    kernel model of spoken word recognition'
+  authors:
+  - Heejo You
+  - James S. Magnuson
+  publisher: Behavior Research Methods
+  date: '2018-04-30'
+  link: https://doi.org/gdqsfx
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/e20070526
+  title: Universal Features in Phonological Neighbor Networks
+  authors:
+  - Kevin Brown
+  - Paul Allopenna
+  - William Hunt
+  - Rachael Steiner
+  - Elliot Saltzman
+  - Ken McRae
+  - James Magnuson
+  publisher: Entropy
+  date: '2018-07-12'
+  link: https://doi.org/gd2qr3
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.31234/osf.io/3fncy
+  title: Individual Differences in Subphonemic Sensitivity and Phonological Skills
+  authors:
+  - Monica Yin Chen Li
+  - David Braze
+  - Anuenue Kukona
+  - Clinton L. Johns
+  - Whitney Tabor
+  - Julie A. Van Dyke
+  - W. Einar Mencl
+  - Donald P. Shankweiler
+  - Kenneth R. Pugh
+  - James Magnuson
+  publisher: Center for Open Science
+  date: '2017-09-25'
+  link: https://doi.org/g8pntz
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.31234/osf.io/f7tpn
+  title: Individual differences in decoding skill, print exposure, and cortical structure
+    in young adults
+  authors:
+  - Clinton L. Johns
+  - Andrew A. Jahn
+  - Hannah R. Jones
+  - Dave Kush
+  - Peter J. Molfese
+  - Julie A. Van Dyke
+  - James Magnuson
+  - Whitney Tabor
+  - W. Einar Mencl
+  - Donald P. Shankweiler
+  - David Braze
+  publisher: Center for Open Science
+  date: '2017-05-12'
+  link: https://doi.org/g8pnt2
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/cogs.12315
+  title: Breaking Down the Bilingual Cost in Speech Production
+  authors:
+  - Jasmin Sadat
+  - Clara D. Martin
+  - James S. Magnuson
+  - "Fran\xE7ois\u2010Xavier Alario"
+  - Albert Costa
+  publisher: Cognitive Science
+  date: '2015-10-25'
+  link: https://doi.org/f9cz35
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/10407413.2016.1195176
+  title: 'Direct and Real: Carol A. Fowler''s Theory and Approach to Science'
+  authors:
+  - Annie J. Olmstead
+  - Navin Viswanathan
+  - James S. Magnuson
+  publisher: Ecological Psychology
+  date: '2016-07-02'
+  link: https://doi.org/g8pnt3
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.neuroimage.2015.08.064
+  title: 'Functionally integrated neural processing of linguistic and talker information:
+    An event-related fMRI and ERP study'
+  authors:
+  - Caicai Zhang
+  - Kenneth R. Pugh
+  - W. Einar Mencl
+  - Peter J. Molfese
+  - Stephen J. Frost
+  - James S. Magnuson
+  - Gang Peng
+  - William S-Y. Wang
+  publisher: NeuroImage
+  date: '2016-01-01'
+  link: https://doi.org/f73jpk
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1542/peds.2015-2469
+  title: Genome-Wide Association and Exome Sequencing Study of Language Disorder in
+    an Isolated Population
+  authors:
+  - Sergey A. Kornilov
+  - Natalia Rakhlin
+  - Roman Koposov
+  - Maria Lee
+  - Carolyn Yrigollen
+  - Ahmet Okay Caglayan
+  - James S. Magnuson
+  - Shrikant Mane
+  - Joseph T. Chang
+  - Elena L. Grigorenko
+  publisher: Pediatrics
+  date: '2016-04-01'
+  link: https://doi.org/f8gnn6
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4324/9781315772110
+  title: Speech Perception and Spoken Word Recognition
+  authors: []
+  publisher: Psychology Press
+  date: '2016-10-04'
+  link: https://doi.org/gg8q2j
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.actpsy.2016.09.009
+  title: 'The real-time prediction and inhibition of linguistic outcomes: Effects
+    of language and literacy skill'
+  authors:
+  - Anuenue Kukona
+  - David Braze
+  - Clinton L. Johns
+  - W. Einar Mencl
+  - Julie A. Van Dyke
+  - James S. Magnuson
+  - Kenneth R. Pugh
+  - Donald P. Shankweiler
+  - Whitney Tabor
+  publisher: Acta Psychologica
+  date: '2016-11-01'
+  link: https://doi.org/f9dj9p
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11145-015-9608-6
+  title: Vocabulary does not complicate the simple view of reading
+  authors:
+  - David Braze
+  - Leonard Katz
+  - James S. Magnuson
+  - W. Einar Mencl
+  - Whitney Tabor
+  - Julie A. Van Dyke
+  - Tao Gong
+  - Clinton L. Johns
+  - Donald P. Shankweiler
+  publisher: Reading and Writing
+  date: '2015-12-17'
+  link: https://doi.org/f8b48p
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/desc.12219
+  title: 'Individual differences in the shape bias in preschool children with specific
+    language impairment and typical language development: theoretical and clinical
+    implications'
+  authors:
+  - Beverly Anne Collisson
+  - Bernard Grela
+  - Tammie Spaulding
+  - Jay G. Rueckl
+  - James S. Magnuson
+  publisher: Developmental Science
+  date: '2014-08-28'
+  link: https://doi.org/g8pnt4
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0954579415000097
+  title: 'Lexical processing deficits in children with developmental language disorder:
+    An event-related potentials study'
+  authors:
+  - Sergey A. Kornilov
+  - James S. Magnuson
+  - Natalia Rakhlin
+  - Nicole Landi
+  - Elena L. Grigorenko
+  publisher: Development and Psychopathology
+  date: '2015-05-01'
+  link: https://doi.org/gnp35x
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1121/1.4904543
+  title: Phoneme restoration and empirical coverage of interactive activation and
+    adaptive resonance models of human speech processing
+  authors:
+  - James S. Magnuson
+  publisher: The Journal of the Acoustical Society of America
+  date: '2015-03-01'
+  link: https://doi.org/f6546n
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/87565641.2014.960964
+  title: Attentional But Not Pre-Attentive Neural Measures of Auditory Discrimination
+    Are Atypical in Children With Developmental Language Disorder
+  authors:
+  - Sergey A. Kornilov
+  - Nicole Landi
+  - Natalia Rakhlin
+  - Shin-Yi Fang
+  - Elena L. Grigorenko
+  - James S. Magnuson
+  publisher: Developmental Neuropsychology
+  date: '2014-10-03'
+  link: https://doi.org/gp44hc
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.actpsy.2013.10.004
+  title: Effect of repetition proportion on language-driven anticipatory eye movements
+  authors:
+  - Allison E. Britt
+  - Daniel Mirman
+  - Sergey A. Kornilov
+  - James S. Magnuson
+  publisher: Acta Psychologica
+  date: '2014-01-01'
+  link: https://doi.org/f5r884
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/xan0000008
+  title: "Eye movements reveal planning in humans: A comparison with Scarf and Colombo\u2019\
+    s (2009) monkeys."
+  authors:
+  - Damian Scarf
+  - Herbert Terrace
+  - Michael Colombo
+  - James S. Magnuson
+  publisher: 'Journal of Experimental Psychology: Animal Learning and Cognition'
+  date: '2014-01-01'
+  link: https://doi.org/g8pnt5
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/a0036214
+  title: 'Information for coarticulation: Static signal properties or formant dynamics?'
+  authors:
+  - Navin Viswanathan
+  - James S. Magnuson
+  - Carol A. Fowler
+  publisher: 'Journal of Experimental Psychology: Human Perception and Performance'
+  date: '2014-01-01'
+  link: https://doi.org/f564v2
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/a0034903
+  title: 'Lexical interference effects in sentence processing: Evidence from the visual
+    world paradigm and self-organizing models.'
+  authors:
+  - Anuenue Kukona
+  - Pyeong Whan Cho
+  - James S. Magnuson
+  - Whitney Tabor
+  publisher: 'Journal of Experimental Psychology: Learning, Memory, and Cognition'
+  date: '2014-01-01'
+  link: https://doi.org/gh5fdp
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/a0030735
+  title: 'Similar response patterns do not imply identical origins: An energetic masking
+    account of nonspeech effects in compensation for coarticulation.'
+  authors:
+  - Navin Viswanathan
+  - James S. Magnuson
+  - Carol A. Fowler
+  publisher: 'Journal of Experimental Psychology: Human Perception and Performance'
+  date: '2013-01-01'
+  link: https://doi.org/f46mmw
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/fpsyg.2013.00563
+  title: Spoken word recognition without a TRACE
+  authors:
+  - Thomas Hannagan
+  - James S. Magnuson
+  - Jonathan Grainger
+  publisher: Frontiers in Psychology
+  date: '2013-01-01'
+  link: https://doi.org/gbfpw9
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4324/9780203810064
+  title: Single-Word Reading
+  authors: []
+  publisher: Psychology Press
+  date: '2007-08-24'
+  link: https://doi.org/g8pnt6
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11145-011-9316-9
+  title: What lexical decision and naming tell us about reading
+  authors:
+  - Leonard Katz
+  - Larry Brancazio
+  - Julia Irwin
+  - Stephen Katz
+  - James Magnuson
+  - D. H. Whalen
+  publisher: Reading and Writing
+  date: '2011-05-29'
+  link: https://doi.org/fgwstm
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.cognition.2010.12.002
+  title: The time course of anticipatory constraint integration
+  authors:
+  - Anuenue Kukona
+  - Shin-Yi Fang
+  - Karen A. Aicher
+  - Helen Chen
+  - James S. Magnuson
+  publisher: Cognition
+  date: '2011-04-01'
+  link: https://doi.org/dbnbzp
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bandl.2011.01.004
+  title: 'Theories of spoken word recognition deficits in Aphasia: Evidence from eye-tracking
+    and computational modeling'
+  authors:
+  - Daniel Mirman
+  - Eiling Yee
+  - Sheila E. Blumstein
+  - James S. Magnuson
+  publisher: Brain and Language
+  date: '2011-05-01'
+  link: https://doi.org/brjrcb
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.cortex.2009.11.005
+  title: 'Unification of sentence processing via ear and eye: An fMRI study'
+  authors:
+  - David Braze
+  - W. Einar Mencl
+  - Whitney Tabor
+  - Kenneth R. Pugh
+  - R. Todd Constable
+  - Robert K. Fulbright
+  - James S. Magnuson
+  - Julie A. Van Dyke
+  - Donald P. Shankweiler
+  publisher: Cortex
+  date: '2011-04-01'
+  link: https://doi.org/bjg82g
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/a0018391
+  title: 'Compensation for coarticulation: Disentangling auditory and gestural theories
+    of perception of coarticulatory effects in speech.'
+  authors:
+  - Navin Viswanathan
+  - James S. Magnuson
+  - Carol A. Fowler
+  publisher: 'Journal of Experimental Psychology: Human Perception and Performance'
+  date: '2010-01-01'
+  link: https://doi.org/bd7fhq
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/j.1532-7078.2009.00023.x
+  title: 'Computational Modeling of Statistical Learning: Effects of Transitional
+    Probability Versus Frequency and Links to Word Learning'
+  authors:
+  - Daniel Mirman
+  - Katharine Graf Estes
+  - James S. Magnuson
+  publisher: Infancy
+  date: '2010-08-04'
+  link: https://doi.org/cbggjt
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/j.1551-6709.2009.01069.x
+  title: Effect of Representational Distance Between Meanings on Recognition of Ambiguous
+    Spoken Words
+  authors:
+  - Daniel Mirman
+  - Ted J. Strauss
+  - James A. Dixon
+  - James S. Magnuson
+  publisher: Cognitive Science
+  date: '2010-01-01'
+  link: https://doi.org/bz5hzk
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3758/PBR.16.1.74
+  title: A critical examination of the spectral contrast account of compensation for
+    coarticulation
+  authors:
+  - N. Viswanathan
+  - C. A. Fowler
+  - J. S. Magnuson
+  publisher: Psychonomic Bulletin &amp; Review
+  date: '2009-02-01'
+  link: https://doi.org/ct2qrh
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3758/MC.37.7.1026
+  title: Dynamics of activation of semantically similar concepts during spoken word
+    recognition
+  authors:
+  - Daniel Mirman
+  - James S. Magnuson
+  publisher: Memory &amp; Cognition
+  date: '2009-10-01'
+  link: https://doi.org/d6gww6
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1103/PhysRevE.79.056114
+  title: "L\xE9vy-like diffusion in eye movements during spoken-language comprehension"
+  authors:
+  - Damian G. Stephen
+  - Daniel Mirman
+  - James S. Magnuson
+  - James A. Dixon
+  publisher: Physical Review E
+  date: '2009-05-27'
+  link: https://doi.org/dpp4tz
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3758/MC.37.8.1132
+  title: 'The dynamics of insight: Mathematical discovery as a phase transition'
+  authors:
+  - Damian G. Stephen
+  - Rebecca A. Boncoddo
+  - James S. Magnuson
+  - James A. Dixon
+  publisher: Memory &amp; Cognition
+  date: '2009-12-01'
+  link: https://doi.org/dzkjms
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3758/PBR.16.4.671
+  title: The effect of frequency of shared features on judgments of semantic similarity
+  authors:
+  - Daniel Mirman
+  - James S. Magnuson
+  publisher: Psychonomic Bulletin &amp; Review
+  date: '2009-08-01'
+  link: https://doi.org/bpdbz2
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/0278-7393.34.1.65
+  title: 'Attractor dynamics and semantic neighborhood density: Processing is slowed
+    by near neighbors and speeded by distant neighbors.'
+  authors:
+  - Daniel Mirman
+  - James S. Magnuson
+  publisher: 'Journal of Experimental Psychology: Learning, Memory, and Cognition'
+  date: '2008-01-01'
+  link: https://doi.org/bcm6zx
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/03640210701864063
+  title: 'Effects of Attention on the Strength of Lexical Influences on Speech Perception:
+    Behavioral Experiments and Computational Mechanisms'
+  authors:
+  - Daniel Mirman
+  - James L. McClelland
+  - Lori L. Holt
+  - James S. Magnuson
+  publisher: Cognitive Science
+  date: '2008-03-01'
+  link: https://doi.org/cpbzxh
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.cognition.2008.06.005
+  title: Immediate effects of form-class constraints on spoken word recognition
+  authors:
+  - James S. Magnuson
+  - Michael K. Tanenhaus
+  - Richard N. Aslin
+  publisher: Cognition
+  date: '2008-09-01'
+  link: https://doi.org/bqq7nr
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.jml.2007.11.006
+  title: 'Statistical and computational models of the visual world paradigm: Growth
+    curves and individual differences'
+  authors:
+  - Daniel Mirman
+  - James A. Dixon
+  - James S. Magnuson
+  publisher: Journal of Memory and Language
+  date: '2008-11-01'
+  link: https://doi.org/dwjxq8
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.cognition.2008.02.003
+  title: The link between statistical segmentation and word learning in adults
+  authors:
+  - Daniel Mirman
+  - James S. Magnuson
+  - Katharine Graf Estes
+  - James A. Dixon
+  publisher: Cognition
+  date: '2008-07-01'
+  link: https://doi.org/dwsjdx
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/0096-1523.33.2.391
+  title: Acoustic differences, listener expectations, and the perceptual accommodation
+    of talker variability.
+  authors:
+  - James S. Magnuson
+  - Howard C. Nusbaum
+  publisher: 'Journal of Experimental Psychology: Human Perception and Performance'
+  date: '2007-01-01'
+  link: https://doi.org/bqpg7h
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/03640210709336987
+  title: The Dynamics of Lexical Competition During Spoken Word Recognition
+  authors:
+  - James S. Magnuson
+  - James A. Dixon
+  - Michael K. Tanenhaus
+  - Richard N. Aslin
+  publisher: Cognitive Science
+  date: '2007-02-01'
+  link: https://doi.org/frmqzz
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3758/BF03192840
+  title: 'jTRACE: A reimplementation and extension of the TRACE model of speech perception
+    and spoken word recognition'
+  authors:
+  - Ted J. Strauss
+  - Harlan D. Harris
+  - James S. Magnuson
+  publisher: Behavior Research Methods
+  date: '2007-02-01'
+  link: https://doi.org/cbrwk5
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/B978-012369374-7/50009-2
+  title: Spoken Word Recognition
+  authors:
+  - Delphine Dahan
+  - James S. Magnuson
+  publisher: Handbook of Psycholinguistics
+  date: '2006-01-01'
+  link: https://doi.org/bb93sp
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1073/pnas.0504413102
+  title: Moving hand reveals dynamics of thought
+  authors:
+  - James S. Magnuson
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2005-07-11'
+  link: https://doi.org/dxzm7q
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/0278-7393.30.3.687
+  title: Actions and Affordances in Syntactic Ambiguity Resolution.
+  authors:
+  - Craig G. Chambers
+  - Michael K. Tanenhaus
+  - James S. Magnuson
+  publisher: 'Journal of Experimental Psychology: Learning, Memory, and Cognition'
+  date: '2004-01-01'
+  link: https://doi.org/bqpxpc
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/S0364-0213(03)00067-3
+  title: 'Lexical effects on compensation for coarticulation: a tale of two systems?'
+  authors:
+  - James S. Magnuson
+  - Bob McMurray
+  - Michael K. Tanenhaus
+  - Richard N. Aslin
+  publisher: Cognitive Science
+  date: '2003-09-01'
+  link: https://doi.org/cgsszs
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/S0364-0213(03)00004-1
+  title: 'Lexical effects on compensation for coarticulation: the ghost of Christmash
+    past'
+  authors:
+  - James S. Magnuson
+  - Bob McMurray
+  - Michael K. Tanenhaus
+  - Richard N. Aslin
+  publisher: Cognitive Science
+  date: '2003-03-01'
+  link: https://doi.org/fs84bv
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/0096-3445.132.2.202
+  title: 'The time course of spoken word learning and recognition: Studies with artificial
+    lexicons.'
+  authors:
+  - James S. Magnuson
+  - Michael K. Tanenhaus
+  - Richard N. Aslin
+  - Delphine Dahan
+  publisher: 'Journal of Experimental Psychology: General'
+  date: '2003-01-01'
+  link: https://doi.org/ct9fjr
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/01690960143000074
+  title: 'Subcategorical mismatches and the time course of lexical access: Evidence
+    for lexical competition'
+  authors:
+  - Delphine Dahan
+  - James S. Magnuson
+  - Michael K. Tanenhaus
+  - Ellen M. Hogan
+  publisher: Language and Cognitive Processes
+  date: '2001-10-01'
+  link: https://doi.org/fb9g6z
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1006/cogp.2001.0750
+  title: 'Time Course of Frequency Effects in Spoken-Word Recognition: Evidence from
+    Eye Movements'
+  authors:
+  - Delphine Dahan
+  - James S. Magnuson
+  - Michael K. Tanenhaus
+  publisher: Cognitive Psychology
+  date: '2001-06-01'
+  link: https://doi.org/cggrhn
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1023/A:1026464108329
+  title: ''
+  authors:
+  - Michael K. Tanenhaus
+  publisher: Journal of Psycholinguistic Research
+  date: '2000-01-01'
+  link: https://doi.org/dpvptc
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1006/jmla.1999.2688
+  title: Linguistic Gender and Spoken-Word Recognition in French
+  authors:
+  - Delphine Dahan
+  - Daniel Swingley
+  - Michael K. Tanenhaus
+  - James S. Magnuson
+  publisher: Journal of Memory and Language
+  date: '2000-05-01'
+  link: https://doi.org/ckqprt
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0140525X0048324X
+  title: No compelling evidence against feedback  in spoken word recognition
+  authors:
+  - Michael K. Tanenhaus
+  - James S. Magnuson
+  - Bob McMurray
+  - Richard N. Aslin
+  publisher: Behavioral and Brain Sciences
+  date: '2000-06-01'
+  link: https://doi.org/dvm642
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1006/jmla.1997.2558
+  title: 'Tracking the Time Course of Spoken Word Recognition Using Eye Movements:
+    Evidence for Continuous Mapping Models'
+  authors:
+  - Paul D. Allopenna
+  - James S. Magnuson
+  - Michael K. Tanenhaus
+  publisher: Journal of Memory and Language
+  date: '1998-05-01'
+  link: https://doi.org/d3bqsc
+  orcid: 0000-0003-0158-2367
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
