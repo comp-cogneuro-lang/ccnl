@@ -2,11 +2,14 @@
   type: paper
   description: Our goal is to develop a minimal cognitive model of HSR that can learn to map over-time speech to semantics, without explicit phonetic training as a first step in bridging the gap between HSR and ASR.
   date: 2020-02-05
-  image: images/earshot.png
+  image: /ccn/images/earshot.png
   buttons:
     - type: source
       text: Source Code
       link: https://github.com/comp-cogneuro-lang/EARShot_TF2
+    - type: website
+      text: Paper
+      link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.12823
   tags:
-    - open science
-    - collaboration
+    - computational model
+    - HSR
