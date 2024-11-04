@@ -7,10 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+Computational Cognitive Neuroscience of Language (CCNL), Dept. of Psychology, U. of Connecticut, Storrs, CT 06269-1020
 {%
   include button.html
   type="email"
