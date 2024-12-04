@@ -1,6 +1,6 @@
 ---
 name: Anna Kopec
-image: images/anna-kopec.png
+image: images/anna-kopec.JPG
 role: undergraduate researcher
 group: undergraduates 
 links:
