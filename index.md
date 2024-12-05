@@ -7,6 +7,7 @@ We are particularly interested in understanding the neurobiology of language, sp
 
 What excites us the most is the potential to uncover how language functions in real-world contexts and how it adapts over the lifespan. Our interdisciplinary collaborations allow us to push the boundaries of knowledge and develop innovative approaches to studying language. Join us on this fascinating journey as we delve into the intricate workings of the human mind and its remarkable ability to communicate.
 
+**Opportunities:** The lab admits new PhD students most years (applications due December 1). We are a core lab with the NSF-funded NRT training program Science of Learning & Art of Communication (Jim Magnuson, PI). We almost always have room for undergraduate students who want to be involved in research. We occasionally have openings for postdocs or technicians (see [Positions]((https://www.microsoft.com))). Prospective students, postdocs, or lab techs should feel free to send inquiries to Jim Magnuson.
 
 {% include section.html %}
 
