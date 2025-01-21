@@ -17,6 +17,16 @@
   tags:
     - resource
 
+  - title: The influence of individual differences over perceptual learning of speech sounds
+  subtitle: Project developed under supervision of Dr. James Magnuson and Dr. Rachel Theodore at UConn.
+  group: featured
+  image: images/active-listening.jpg
+  link: 
+  description:  In this project, we intend to measure whether differences in speech perception 
+  measured prior to learning a new sound may impact lexical biasing effects over that said sound. Positive results may support the presence of such changes, 
+  predicted in the literature, and reinforce the need to emphasize individual differences when studying strategies in speech categorization.
+    - resource
+
 - title: Cool Tutorial
   subtitle: a subtitle
   image: images/photo.jpg
