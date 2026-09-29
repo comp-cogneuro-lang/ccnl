@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>jTRACE | Computational Cognitive Neuroscience of Language (CCNL)</title>
+
+<link rel="icon" href="/ccnl/images/icon.png">
+
+<meta name="title" content="jTRACE">
+<meta name="description" content="We study the intricacies of human speech perception, how it happens in the real world, and possible related dysfunctions. To do so, our lab uses insights from human behavior, human neuroimaging, computational models of speech, among other fields of research.">
+
+<meta property="og:title" content="jTRACE">
+<meta property="og:site_title" content="Computational Cognitive Neuroscience of Language (CCNL)">
+<meta property="og:description" content="We study the intricacies of human speech perception, how it happens in the real world, and possible related dysfunctions. To do so, our lab uses insights from human behavior, human neuroimaging, computational models of speech, among other fields of research.">
+<meta property="og:url" content="https://comp-cogneuro-lang.github.io/ccnl">
+<meta property="og:image" content="/ccnl/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="jTRACE">
+<meta property="twitter:description" content="We study the intricacies of human speech perception, how it happens in the real world, and possible related dysfunctions. To do so, our lab uses insights from human behavior, human neuroimaging, computational models of speech, among other fields of research.">
+<meta property="twitter:url" content="https://comp-cogneuro-lang.github.io/ccnl">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/ccnl/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "jTRACE",
+    "description": "We study the intricacies of human speech perception, how it happens in the real world, and possible related dysfunctions. To do so, our lab uses insights from human behavior, human neuroimaging, computational models of speech, among other fields of research.",
+    "headline": "jTRACE",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/ccnl/images/icon.png" }
+    },
+    "url": "https://comp-cogneuro-lang.github.io/ccnl"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="https://comp-cogneuro-lang.github.io/ccnl/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/ccnl/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/ccnl/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/ccnl/_scripts/anchors.js"></script>
+
+  <script src="/ccnl/_scripts/dark-mode.js"></script>
+
+  <script src="/ccnl/_scripts/fetch-tags.js"></script>
+
+  <script src="/ccnl/_scripts/search.js"></script>
+
+  <script src="/ccnl/_scripts/site-search.js"></script>
+
+  <script src="/ccnl/_scripts/table-wrap.js"></script>
+
+  <script src="/ccnl/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/ccnl/images/background.jpg')" data-dark="true">
+  <a href="/ccnl/" class="home">
+    
+      <span class="logo">
+        
+          <svg xmlns="http://www.w3.org/2000/svg" viewbox="-40 -60 80 100">
+  <style>
+    .bubble {
+      animation: float 2s ease-out both infinite var(--delay);
+    }
+    @keyframes float {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        transform: translateY(0);
+        opacity: 0;
+      }
+      75% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-40px);
+      }
+    }
+  </style>
+  <g fill="currentColor" opacity="0.5">
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.1s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.4s"></circle>
+    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 1.1s"></circle>
+  </g>
+  <path fill="#38bdf8" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L -19.5 11.25
+      L 0 22.5
+      L 19.5 11.25
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="#bae6fd" d="
+      M 0 -22.5
+      L -19.5 -11.25
+      L 0 0
+      L 19.5 -11.25
+      z
+    "></path>
+  <path fill="none" stroke="currentColor" stroke-width="5" d="
+      M -18 -53
+      L -10 -53
+      L -10 -29.2
+      L -30.3 -17.5
+      L -30.3 17.5
+      L 0 35
+      L 30.3 17.5
+      L 30.3 -17.5
+      L 10 -29.2
+      L 10 -53
+      L 18 -53
+    "></path>
+</svg>
+
+        
+      </span>
+    
+    
+      <span class="title-text" data-tooltip="Home">
+        
+          <span class="title">Computational Cognitive Neuroscience of Language (CCNL)</span>
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/ccnl/research/" data-tooltip="What we study">
+          Research
+        </a>
+      
+    
+      
+        <a href="/ccnl/publications/" data-tooltip="Papers, chapters, and proceedings">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/ccnl/projects/" data-tooltip="Software, models, and resources">
+          Projects
+        </a>
+      
+    
+      
+        <a href="/ccnl/team/" data-tooltip="About our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/ccnl/blog/" data-tooltip="Musings and miscellany">
+          Blog
+        </a>
+      
+    
+      
+        <a href="/ccnl/contact/" data-tooltip="Email, address, and location">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 id="jtrace">
+<i class="icon fa-solid fa-diagram-project"></i>jTRACE</h1>
+
+<p><em>An easy-to-use, cross-platform, reimplementation of TRACE with a new graphical user interface and many other features</em></p>
+
+<p>jTRACE is a freely-available <em>re</em>-implementation of the TRACE model of spoken word recognition. It is implemented in Java, and runs on any computer that supports Java. Researchers can run simulations quickly and easily, using code that has been validated against the original TRACE code. Advanced programmers can extend the jTRACE model to implement new behaviors.</p>
+
+<p>jTRACE was created by the Magnuson Lab at the <a href="https://uconn.edu/">University of Connecticut</a> with the support of the <a href="https://www.nidcd.nih.gov/">National Institute of Deafness and Other Communications Disorders</a>. Primary code development was done by Ted Strauss and Harlan Harris.</p>
+
+<h2 id="whats-trace">What’s TRACE?</h2>
+
+<p>TRACE is a highly influential model of speech perception and spoken word recognition, created by Jay McClelland and Jeff Elman (1986). The original implementation of that model was used to run dozens of simulations comparing TRACE’s behavior with results from experimental studies with human subjects. TRACE’s behavior accounted for human behavior in a number of important ways, and it is still frequently cited as the canonical <em>interactive-activation</em> model of speech perception and spoken word recognition. TRACE has proved remarkably robust, accounting for results in paradigms that were developed 10 years after the model (e.g., fine-grained time course measures from eye tracking).</p>
+
+<h2 id="features-and-version-history">Features, and version history</h2>
+
+<p><img src="/ccnl/resources/jtrace/jtrace-screen.jpg" alt="jTRACE screenshot"></p>
+
+<ul>
+  <li>Underlying model is functionally equivalent to the original TRACE code.</li>
+  <li>Graphical user interface is powerful and easy to use.</li>
+  <li>Node activations are visualized as the simulation progresses.</li>
+  <li>Graphical analyses of word and phoneme activations over time.</li>
+  <li>Powerful scripting capabilities.</li>
+  <li>Parameter and other files are saved in flexible XML format.</li>
+  <li>Alpha.55 (current version)
+    <ul>
+      <li>Phoneme panel for editing/adding phoneme representations</li>
+      <li>‘Duration scalar’ parameter for modifying the temporal extent of phonemes.</li>
+      <li>Input panel for designing ambiguous and spliced input representations</li>
+      <li>Lexicon validation; sorting on lexicon table.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+  <li>Any computer with <a href="https://www.java.com/">Java 2 1.4.2</a> or later installed (most up-to-date computers will already have Java)</li>
+</ul>
+
+<h2 id="downloads">Downloads</h2>
+
+<p>The zip file below is for <strong>all operating systems.</strong> There is no installer.</p>
+
+<ul>
+  <li>To get started, unzip the contents of the file into a <em>new</em> directory.
+    <ul>
+      <li>On Windows run the “jtrace.bat” file.</li>
+      <li>On Linux or Mac OS X, run the “jtrace.sh” file. (In Linux or OS X: open a terminal window, get to the new directory where you have unzipped jTRACE, and enter “./jtrace.sh” or “sh ./jtrace.sh”). See the <a href="/ccnl/resources/jtrace/release-notes">Release Notes</a>.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><em>NOTE: The following is a functional but not polished pre-release (beta) version of the software. Significant interface and usability bugs may remain.</em></p>
+
+<ul>
+  <li>Download <a href="/ccnl/resources/jtrace/jtrace-a64.zip">jtrace-a64</a> (version 0.64 alpha, 12.8 mb, last updated 01/10/2010)</li>
+  <li><a href="/ccnl/resources/jtrace/release-notes">Release notes</a></li>
+  <li>This <a href="/ccnl/resources/jtrace/analysis-notes.pdf">appendix</a> to the user’s manual distinguishes between the analysis options available in the graph panel.</li>
+  <li>We’d like to know who is using jTRACE and what we can do to help (when we have time). Please send an email to <a href="mailto:james.magnuson@uconn.edu">Jim Magnuson</a> to let him know you’re using the system. We’ll also keep you updated on improvements to the software.</li>
+</ul>
+
+<h3 id="for-advanced-users">For advanced users</h3>
+
+<ul>
+  <li>The jTRACE source code is available here: <a href="https://github.com/ted-strauss-K1/jTRACE">https://github.com/ted-strauss-K1/jTRACE</a>
+</li>
+  <li>People interested in validating jTRACE against the original implementation may download our instrumented version of TRACE, called cTRACE. Instructions are included. <a href="/ccnl/resources/jtrace/ctrace.zip">ctrace.zip</a>
+</li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="/ccnl/resources/jtrace/users-guide">jTRACE instruction manual</a></li>
+  <li>Tutorial slides: “Computational Modeling of Spoken Language Processing”
+    <ul>
+      <li><a href="/ccnl/resources/jtrace/jTRACETutorial-Abstract.pdf">1-page abstract</a></li>
+      <li><a href="/ccnl/resources/jtrace/jTRACETutorial-Module01.pdf">module 1</a></li>
+      <li><a href="/ccnl/resources/jtrace/jTRACETutorial-Module02.pdf">module 2</a></li>
+      <li><a href="/ccnl/resources/jtrace/jTRACETutorial-Module03.pdf">module 3</a></li>
+      <li><a href="/ccnl/resources/jtrace/jTRACETutorial-Module04.pdf">module 4</a></li>
+      <li><a href="/ccnl/resources/jtrace/jTRACETutorial-Module05.pdf">module 5</a></li>
+    </ul>
+  </li>
+  <li>Strauss, T. J., Harris, H. D., &amp; Magnuson, J. S. (2007). jTRACE: A reimplementation and extension of the TRACE model of speech perception and spoken word recognition. <em>Behavior Research Methods, 39,</em> 19-30. [<a href="/ccnl/publications">Publications</a>]</li>
+  <li>
+<a href="/ccnl/resources/jtrace/TRACE-replications.pdf">Replications</a> of earlier TRACE simulations done with jTRACE</li>
+</ul>
+
+<h2 id="tutorial">Tutorial</h2>
+
+<ul>
+  <li>8:30-12:00, July 26th, 2006: <strong>Speech Perception: Linking Computational Models and Human Data</strong>. Strauss, T.J., Mirman, D., &amp; Magnuson, J.S. <a href="http://www.cogsci.rpi.edu/~rsun/cogsci2006/"><em>28th Annual Conference of the Cognitive Science Society</em></a>. Vancouver, Canada. 2006.</li>
+</ul>
+
+<h2 id="contact">Contact</h2>
+
+<p>For questions or problems with this web page, contact <a href="mailto:james.magnuson@uconn.edu">Jim Magnuson</a>.</p>
+
+<h2 id="citation">Citation</h2>
+
+<p>If you use jTRACE in your research, please cite this article:</p>
+
+<ul>
+  <li>Strauss, T. J., Harris, H. D., &amp; Magnuson, J. S. (2007). jTRACE: A reimplementation and extension of the TRACE model of speech perception and spoken word recognition. <em>Behavior Research Methods, 39,</em> 19-30. [<a href="/ccnl/publications">Publications</a>]</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<p>There are three foundational papers on TRACE. <a href="http://psychology.stanford.edu/~jlm/">Jay McClelland</a> has made them all available on his <a href="http://psychology.stanford.edu/~jlm/papers/">publications</a> page.</p>
+
+<ol>
+  <li>McClelland and Elman (1986). The TRACE model of speech perception. <em>Cognitive Psychology, 18,</em> 1-86. <strong>[This is the main original paper about the familiar version of TRACE that maps from subphonemic representations to words, which is technically “TRACE II”.]</strong>
+    <ul>
+      <li>An overview of this paper is presented in chapter 15 of:
+        <ul>
+          <li>McClelland, J. L., Rumelhart, D. E., and the PDP research group. (1986). <em>Parallel distributed processing: Explorations in the microstructure of cognition. Volume II.</em> Cambridge, MA: MIT Press.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Elman, J. L., &amp; McClelland, J. L. (1986). Exploiting the lawful variability in the speech wave. In J. S. Perkell and D. H. Klatt (Eds.), <em>Invariance and variability of speech processes.</em> Hillsdale, NJ: Lawrence Erlbaum Associates, Inc. <strong>[This chapter describes TRACE I, which focused on mapping from actual speech to phonemes. It was, however, abandoned. The time may be right for re-examining the positive aspects of this approach…]</strong>
+</li>
+  <li>McClelland, J. L. (1991). Stochastic interactive processes and the effect of context on perception. <em>Cognitive Psychology, 23,</em> 1-44. <strong>[In this paper, McClelland develops a stochastic (nondeterministic) version of TRACE to answer criticisms of the original model.]</strong>
+</li>
+</ol>
+
+<p>Some other papers using TRACE (PDFs of lab papers are available via our <a href="/ccnl/publications">publications</a> page):</p>
+
+<ul>
+  <li>Allopenna, P. D., Magnuson, J. S., and Tanenhaus, M. K. (1998). Tracking the time course of spoken word recognition using eye movements: Evidence for continuous mapping models. <em>Journal of Memory and Language, 38</em>, 419-439. <strong>[The paper establishing the linking hypothesis between eye movements in the visual world paradigm (VWP) and response probabilities derived from TRACE.]</strong>
+</li>
+  <li>Magnuson, J. S., Dahan, D., &amp; Tanenhaus, M. K. (2001). On the interpretation of computational models: The case of TRACE. In J. S. Magnuson and K.M. Crosswhite (Eds.), University of Rochester Working Papers in the Language Sciences, 2 (1), 71 – 91. <strong>[The paper where we tested 3 implementations of frequency for TRACE.]</strong>
+</li>
+  <li>Dahan, D., Magnuson, J. S., Tanenhaus, M. K., and Hogan, E. M. (2001). Tracking the time course of subcategorical mismatches: Evidence for lexical competition. <em>Language and Cognitive Processes, 16 (5/6)</em>, 507-534. <strong>[This paper demonstrates that the VWP linking hypothesis can predict very subtle patterns of eye movement behavior, including changes as a function of whether or not competitors are present in the display.]</strong>
+</li>
+  <li>Dahan, D., Magnuson, J. S., and Tanenhaus, M. K. (2001). Time course of frequency effects in spoken-word recognition: Evidence from eye movements. <em>Cognitive Psychology, 42</em>, 317-367. <strong>[The paper where we tested 3 implementations of frequency for TRACE.]</strong>
+</li>
+  <li>Spivey, M., Grosjean, M., &amp; Knoblich, G. (2005). Continuous attraction toward phonological competitors. Proceedings of the National Academy of Sciences, 102(29), 10393-10398. <strong>[Links TRACE to a recurrence-normalization model to predict continuous mouse movements linked to on-line spoken word recognition.]</strong>
+</li>
+</ul>
+
+<h2 id="known-bugs-and-workarounds">Known bugs and workarounds</h2>
+
+<p>If you encounter a bug in jTRACE, please carefully document the problem and the circumstances under which it occurs. Please email bug reports to <a href="mailto:james.magnuson@uconn.edu">Jim Magnuson</a>, with ‘jtrace bug’ in the subject line. Known bugs will be resolved in order of priority.</p>
+
+<ul>
+  <li>
+<strong>Help window doesn’t appear.</strong>
+    <ul>
+      <li>If the help documentation does not open when told, navigate to the jTRACE/doc folder and open manual.html file in a web browser.</li>
+    </ul>
+  </li>
+  <li>
+<strong>Scripting</strong>
+    <ul>
+      <li>Some edits made during scripting <em>do not cause an update of the interface</em>. In other words, after you change something, you don’t see the result of it. This problem usually affects adding and deletion of items. As a workaround, to see the results of these changes, it is necessary to save and reload the script file.</li>
+      <li>
+<em>I run the script, but nothing happens.</em> Currently, jTRACE does not validate the contents of a script when it is run. Save and reload the script, double-check the logic of the script. If it still doesn’t work, let us know.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="3rd-party-software">3rd Party Software</h2>
+
+<p>jTRACE is coded in Java. The Java Web Services Developers Pack (JWSDP 1.5) is used. Two third party libraries are also included. Licenses governing their use are included in the THIRDPARTYLICENSES.txt file, included with the jTRACE download. Permission to use these tools has greatly enhanced jTRACE functionality.</p>
+
+<ul>
+  <li>
+<a href="https://www.jfree.org/jfreechart/">JFreeChart</a> – jfree.org</li>
+  <li>
+<a href="http://www.jaxfront.com/">JaxFront</a> – xcentric technology and consulting GmbH</li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p>This software is copyright under the following conditions:</p>
+
+<p>Permission to use, copy, and modify this software and its documentation for any purpose other than distribution-for-profit is hereby granted without fee, provided that the above copyright notice and this permission notice appear in all copies of the software and related documentation.</p>
+
+<p>Permission to distribute the software or modified or extended versions thereof on a not-for-profit basis is explicitly granted, under the above conditions. HOWEVER, THE RIGHT TO DISTRIBUTE THE SOFTWARE OR MODIFIED OR EXTENDED VERSIONS THEREOF FOR PROFIT IS *NOT* GRANTED EXCEPT BY PRIOR ARRANGEMENT AND WRITTEN CONSENT OF THE COPYRIGHT HOLDERS.</p>
+
+<p>THE SOFTWARE IS PROVIDED “AS-IS” AND WITHOUT WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.</p>
+
+<p>IN NO EVENT SHALL THE UNIVERSITY OF CONNECTICUT BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/ccnl/images/background.jpg')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:james.magnuson@uconn.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0000-0003-0158-2367" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=ETJoidYAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/comp-cogneuro-lang" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/ccnl" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
+      <i class="icon fa-brands fa-twitter"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/ccnl" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
+      <i class="icon fa-brands fa-youtube"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2026
+    Computational Cognitive Neuroscience of Language (CCNL)
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
