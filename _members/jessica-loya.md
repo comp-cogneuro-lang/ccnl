@@ -1,20 +1,13 @@
 ---
 name: Jessica Loya
-image: images/photo.jpg
-role: Graduate Student
+image: images/jessica-loya.jpg
+role: phd
+group: alum
+description: Former PhD Student; now working with Ken Pugh (UConn)
 affiliation: University of Connecticut
 aliases:
-  - J.A. Loya
-  - JA Loya
-links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  - J. A. Loya
+  - J. Loya
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Faucibus purus in massa tempor nec feugiat nisl pretium fusce.
-Elit at imperdiet dui accumsan.
-Duis tristique sollicitudin nibh sit amet commodo nulla facilisi.
-Vitae elementum curabitur vitae nunc sed velit dignissim sodales.
-Lacinia at quis risus sed vulputate odio ut.
-Magna eget est lorem ipsum.
+Jessica's research in the lab focused on bilingualism and heritage speakers.

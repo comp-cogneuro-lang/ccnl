@@ -1,16 +1,15 @@
 ---
 title: Projects
 nav:
-  order: 2
-  tooltip: Software, datasets, and more
+  order: 3
+  tooltip: Software, models, and resources
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Software, models, and other resources from the lab. See also our [resources page]({{ "resources" | relative_url }}) for lab notes and archival methods reports.
 
-{% include tags.html tags="publication, resource, website" %}
+{% include tags.html tags="software, model, resource, project" %}
 
 {% include search-info.html %}
 

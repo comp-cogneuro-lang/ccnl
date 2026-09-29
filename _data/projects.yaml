@@ -1,56 +1,54 @@
-- title: Do X in Y (?)
-  subtitle: a subtitle
+- title: EARSHOT
+  subtitle: A minimal neural network model of human speech recognition
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: This is a repository of lab notes, where X might be “batch adjust F0 in speech files” and Y might be “Praat”, or X in Y = “create a hash table” in “R”. The idea is to have a quick place to put our notes about common or uncommon tasks so that we stop reinventing various wheels.
-  repo: greenelab/lab-website-template
+  image: images/earshot_model.png
+  link: https://github.com/maglab-uconn/EARSHOT
+  description: A model of human speech recognition that learns to map real speech to semantic patterns without explicit phonetic training. See Magnuson et al. (2020), *Cognitive Science*, [doi:10.1111/cogs.12823](https://doi.org/10.1111/cogs.12823).
+  repo: maglab-uconn/EARSHOT
   tags:
-    - resource
+    - software
+    - model
 
 - title: jTRACE
-  subtitle: a subtitle
+  subtitle: A reimplementation and extension of the TRACE model
+  group: featured
+  image: resources/jtrace/jtrace-screen.jpg
+  link: resources/jtrace/
+  description: A cross-platform reimplementation of the TRACE model of speech perception and spoken word recognition, with a graphical user interface and tools for batch processing, scripting, graphing, and visualization.
+  tags:
+    - software
+    - model
+
+- title: LexFindR
+  subtitle: An R package for finding similar words in a lexicon
   group: featured
   image: images/photo.jpg
-  link: https://magnuson.psy.uconn.edu/jtrace/
-  description: jTRACE is a reimplementation of the TRACE model of speech recognition with a user-friendly interface and new tools (batch processing, scripting, graphing and visualization)
+  link: https://github.com/maglab-uconn/LexFindR
+  description: A fast, simple, and extensible R package for finding phonological competitors and other similar words in a lexicon. See Li, Crinnion, & Magnuson (2021), *Behavior Research Methods*, [doi:10.3758/s13428-021-01667-6](https://doi.org/10.3758/s13428-021-01667-6).
+  repo: maglab-uconn/LexFindR
+  tags:
+    - software
+
+- title: TISK 1.0
+  subtitle: The time-invariant string kernel model of spoken word recognition
+  image: images/photo.jpg
+  link: https://doi.org/10.3758/s13428-017-1012-5
+  description: An easy-to-use Python implementation of the TISK model. See You & Magnuson (2018), *Behavior Research Methods*.
+  tags:
+    - software
+    - model
+
+- title: Resources
+  subtitle: Lab notes, methods reports, and other materials
+  image: images/photo.jpg
+  link: resources/
+  description: "\"Do X in Y\" lab notes (where X might be \"batch adjust F0 in speech files\" and Y might be \"Praat\"), archival methods reports, and pointers to other materials such as growth curve analysis."
   tags:
     - resource
 
-  - title: The influence of individual differences over perceptual learning of speech sounds
+- title: The influence of individual differences over perceptual learning of speech sounds
   subtitle: Project developed under supervision of Dr. James Magnuson and Dr. Rachel Theodore at UConn.
-  group: featured
-  image: images/active-listening.jpg
-  link: 
-  description:  In this project, we intend to measure whether differences in speech perception 
-  measured prior to learning a new sound may impact lexical biasing effects over that said sound. Positive results may support the presence of such changes, 
-  predicted in the literature, and reinforce the need to emphasize individual differences when studying strategies in speech categorization.
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/active-listening.png
+  description: In this project, we intend to measure whether differences in speech perception measured prior to learning a new sound may impact lexical biasing effects over that said sound. Positive results may support the presence of such changes, predicted in the literature, and reinforce the need to emphasize individual differences when studying strategies in speech categorization.
   tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - project

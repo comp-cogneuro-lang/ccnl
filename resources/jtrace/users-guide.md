@@ -1,0 +1,1049 @@
+---
+title: jTRACE User's Guide
+---
+
+# {% include icon.html icon="fa-solid fa-book" %}jTRACE User's Guide
+
+[&larr; Back to jTRACE]({{ "resources/jtrace" | relative_url }})
+
+*This is the jTRACE instruction manual, imported from the old lab website. The same manual is included with the jTRACE download.*
+
+## Welcome to jTRACE!
+
+> This document may be viewed in a web browser. In the browser’s file menu, use “Open File…” and select “manual.html” from the “docs” directory of your jTRACE installation directory.
+
+<a id="ug-quickstart"></a>
+
+To get started quickly, select New Model from the File menu. Keep the default parameters (“\^br\^pt” with a small sample lexicon), then select the Simulation tab. Press Play to start the simulation. After running the model for 40 or so cycles, press Stop, then select the Graphing tab. Select the Analysis tab and select Response Probabilities (Luce-choice rule) and press Update Graph.
+
+## <a id="ug-toc"></a>Table of Contents
+
+- [Introduction](#ug-introduction)
+- Using jTRACE
+  - [Menu functions](#ug-using-jtrace)
+    - File menu
+    - Gallery menu
+    - Window menu
+    - Help menu
+  - Simulations
+    - [Phonemes panel](#ug-phonemes-panel)
+    - [Input panel](#ug-input-panel)
+    - [Parameters panel](#ug-parameters-panel)
+    - [Simulation panel](#ug-simulation-panel)
+    - [Graphing panel](#ug-graphing-panel)
+  - [Scripting](#ug-scripting-panel)
+    - [Basics](#ug-scripting-panel-basics)
+    - [Templates](#ug-scripting-panel-templates)
+    - [Scripting element specification](#ug-scripting-panel-api)
+      - [Iterators](#ug-scripting-panel-api-iterator)
+      - [Conditionals](#ug-scripting-panel-api-conditional)
+      - [Actions](#ug-scripting-panel-api-action)
+      - [Primitives](#ug-scripting-panel-api-primitive)
+        - Text
+        - Integer
+        - File-locator
+        - Lexicon
+        - TRACE parameters
+        - List
+        - [Query](#ug-scripting-panel-api-query)
+        - [Predicate](#ug-scripting-panel-api-predicate)
+    - [Useful tips](#ug-scripting-panel-tips)
+- [About pre-loaded simulations](#ug-preloaded-simulations)
+- [Which jTRACE features have a direct connection to psycholinguistic literature?](#ug-theoretical)
+- [References](#ug-references)
+- [Credits](#ug-credits), [Authorship](#ug-authorship), [Contact](#ug-contact)
+
+## <a id="ug-introduction"></a>About jTRACE
+
+TRACE is a highly influential model of spoken word recognition, created by McClelland and Elman (1986). The original implementation of that model, which we call “cTRACE,” was used to run dozens of simulations comparing TRACE’s behavior with results from experimental studies with human subjects. TRACE’s behavior accounted for human behavior in a number of important ways, and it is still frequently cited as the canonical interactive-activation model of word recognition.
+
+Although TRACE remains highly important, its original implementation, cTRACE, is very difficult to use and even more difficult to extend. For that reason, we have created jTRACE, a re-implementation of the TRACE model in the cross-platform Java language, with a graphical user interface and a number of powerful tools allowing researchers to perform simulations with TRACE easily and flexibly.
+
+For additional information, see the [References](#ug-references) section of this document, or see the jTRACE web site:
+
+[jTRACE home page]({{ "resources/jtrace" | relative_url }})
+
+<a id="ug-using-jtrace"></a>
+
+## How to use jTRACE
+
+jTRACE has simulations, analogous to documents in a word processor. Up to 20 simulations may be active at any one time. Each simulation contains three panels, Parameters, Simulation, and Graphing. The Parameters panel is used to change the parameters of that simulation. Simulation is used to run and visualize the simulation. Graphing is used to analyze model activations over time. In addition to the simulation windows, the Scripting window can be used to create and run batches of simulations.
+
+### File menu
+
+New Model
+:   Open a new jTRACE simulation with the default parameters.
+
+Clone
+:   Make a duplicate of the current simulation. This is useful when examining the effects of different inputs, parameters, etc.
+
+Load…
+:   Load a jTRACE simulation from a file. If the file is a single simulation, it opens normally. If it is a script, you will be asked whether to run the script or to open in in the [script editor](#ug-scripting-panel).
+
+Save, Save As…
+:   Save the current jTRACE simulation to a file. Note that only the parameters are saved, not the results of the simulation. To save or export the results, see the [Simulation panel](#ug-simulation-panel) section.
+
+Close All
+:   Close all open jTRACE simulations. If they have been modified, you will be asked if you want to save them first.
+
+Exit
+:   Quit jTRACE.
+
+### Gallery menu
+
+This menu contains a list of the .jt files (single simulations and scripts) in the “gallery” subdirectory/folder. Selecting an item from the menu either opens the simulation or runs the script. The jTRACE distribution includes a set of sample scripts that show some historically important results for the TRACE model. For more information, see the [Pre-loaded simulations](#ug-preloaded-simulations) section of this document.
+
+### Window menu
+
+Scripting
+:   Enables the [scripting window](#ug-scripting-panel).
+
+Cascade
+:   Cascade the windows from the upper-left corner. The scripting window is included in the cascade.
+
+Tile
+:   Tile the windows. The scripting window is minimized.
+
+Window names
+:   Bring the specified window to the top and select it.
+
+### Help menu
+
+Help…
+:   Open a help window and view this document.
+
+About…
+:   Displays version and other information about jTRACE.
+
+<a id="ug-phonemes-panel"></a>
+
+### Phonemes panel
+
+The phonemes panel permits editing of the phoneme specifications that TRACE uses while processing pseudo-speech. The simulation possibilities enabled by this panel have scarcely been explored by researchers (as of 07/2007).
+
+Working from top-down and left to right, let’s review the interface elements. First is the phoneme specification table, where the actual phoneme feature values are edited. Next is the duration scalar table, which modifies the temporal extent of the phoneme being edited. The allophonic relations table permits the user to tell TRACE that a pair of phonemes should not compete with eachother during phoneme processing. On the lower left, there is a list of languages and buttons for managing languages. On the lower right is the phoneme list and button for managing phonemes; the phoneme that’s selected in the list has it’s values displayed in the tables above.
+
+#### Work flow in the phoneme panel
+
+When the phoneme panel is opened, jTRACE retrieves all ‘languages’ stored in memory, and those saved to files in the jTRACE/phonology directory. A ‘language’, for the purposes of this section is defined as a set phoneme definitions. The languages are loaded to the language list (lower left); the first one is selected usually ‘default’) and its set of phonemes are then loaded to the phoneme list (lower right); the first phoneme in the list is selected, and the specifications for that phoneme are then loaded into the tables above. The specifications of the phoneme can then be edited by selecting a cell in a table and changing it’s value. As soon as a cell’s value has been changed, the simulation will reflect the change (there is no other step to affect the change). By selecting other items in the phoneme list, you can browse the phoneme definitions. By selecting other languages, their phoneme lists are loaded, etc.
+
+The phoneme panel is usually used to modify a current language, or to create a new language definition. To create a new language, the + button next to the language list will create an empty phoneme set, or the duplicate button will copy the currently selected language. In either case, you’ll be prompted to name the new language, and this name will then appear in the list. Once you have your language selected in the list, you’ll start working with the phonemes.
+
+The save and load buttons next to the language list save and load complete language definitions (with no other parameters included). It is good practice to save languages to the jTRACE/phonology folder. Then, the next time you open jTRACE, these will automatically appear in the list.
+
+#### Working with phonemes
+
+There are four buttons for managing phonemes. The + and – buttons create and delete phonemes from the list. The rename button prompts the user to give a new phoneme symbol while the specifications do not change. The duplicate button copies a phoneme specification and prompts for a new symbol.
+
+##### Phoneme specification – Feature values
+
+Once you are ready to start modifying a phoneme specification, select it and the details will appear in the tables above. The phoneme specification consists of feature values, duration scalars, and allophone relations. The feature values (the only part that existed in the original TRACE) consist of seven feature vectors, each with nine dimensions. Each of the seven features is named for a phonetic or acoustic feature. Whereas such features are typically binary for phoneticians, in TRACE they are represented by a set of nine numbers, each ranging from 0 to 1. This allows for greater detail in specifying a phoneme, and permits the spreading of the features in time, to approximate speech extended over time. The seven features are BURst, VOIcing, CONsonantal, Acuteness (GRD), DIFfuseness, VOCalic, POWer. There are no firmly established methods for defining this phonetic space. A description of how McClelland and Elman (1986) defined their phonemes can be found starting on page 14 of the TRACE paper.
+
+##### Phoneme specification – Duration scalar
+
+The effect of duration scaling is to increase or decrease the amount that the phoneme is spread out in time. In the simulation panel, temporal extent is represented on the x-axis, so changing the duration scale will spread the phoneme out longer or shorter on that dimension. The scalar may range from 0.0 to 2.0, where 1.0 specifies the normal unscaled duration. This parameter is called duration *scale* because the duration is scaled relative to the feature spread values. By default, all of the seven phoneme features have a spread value of 6, meaning they will ramp on for 6 time slices then ramp off for 6 times slices. Increasing the duration scale from 1.0 to 1.5 will cause the features to ramp on for (1.5\*6=) 9 time slices and off for 9. At this stage of development, the values in the duration table a locked to one another, so editing one value will change them all. The effect of duration scaling on speech perception simulations has not yet been thoroughly evaluated.
+
+##### Phoneme specification – Allophonic relations
+
+The effect of the allophonic relations table is to suppress phoneme inhibition between two phonemes that you’d want to consider to be allophones. At each cycle of processing TRACE runs a phoneme competition algorithm, which causes phonemes to inhibit eachother. The outcome is that the most active phonemes inhibit less active phonemes that are alligned with it in time, i.e. on the x-axis. As an example, let’s say that in the default phoneme set, in addition to the /a/ phoneme we add a duplicate phoneme called /@/, and set /@/ to be duration scaled by a factor of 2.0. We now have two identical vowel phonemes, where one is longer than the other. One might suggest that these two phonemes are actually allophones, and so should not compete with one another in TRACE. To implement that suggesting, check the appropriate box in the table. Whether this notion of allophony in TRACE is representative of human speech perception is an unanswered empirical question. Indeed, the effect of the allophony relation is extremely subtle, and may only be detectable in sophisticated simulations designed to highlight the effect.
+
+##### A tip for visualizing phoneme work
+
+As you make changes to the phoneme specification, if you’d like to see the consequences on a simulation, the simplest thing to do is to switch over to the input panel tab. Once there, set up an input string containing the phoneme(s) that you are working on, preferably bordered by silence phonemes, i.e. the dash symbol. The input visualizer at the bottom of the panel will provide some visual feedback. For more visual feedbaack, run the simulation.
+
+<a id="ug-input-panel"></a>
+
+### Input panel
+
+The input panel allows the user to design the input segment by segment. A visualization area shows what the pseudo-spectral input will look when the simulation is run. While all of the options in this panel can also be modified from the parameters panel, the input panel is useful for beginning users to learn about the input options, and for all users to gain insight into the finer details about the stimuli that they are designing for their simulations.
+
+#### Work flow in the input panel
+
+Work in the input panel proceeds, roughly, from top to bottom. At the top of the panel is a table of one row in which each segment of the input string is assigned to a cell. By highlighting a cell, it’s specifications are passed into the tabbed area immediately below. There are three tabs labeled *normal*,*ambiguous*, and *spliced*, each for specifying a particular type of input segment. Selecting a tab and setting interface elements will automatically update the selected segment in the table. In turn, changes made in the input panel are automatically reflected in the parameters panel and elsewhere. All changes to the input specification are reflected in the visualizer window, at the bottom of the screen. This gives a preview of the pseudo-spectral representation formed by the input.
+
+##### What each of the three tabs does
+
+In the *normal* tab, select a phoneme from a drop-down list to insert that segment into the input string. In the *ambiguous* tab, choose a *from* segment, a *to*segment, and the number of *steps*, to create a phoneme continuum (all with drop-down lists); then, select a particular element from the continuum to insert that ambiguous segment into the input specification. In the *spliced* tab chose the *first* and *second* phonemes, and a value for the position of the splice. The result will be a segment in which the first phoneme extends for that many time slices, then suddenly switches to the other phoneme, as though the two sounds were artificially edited together using audio waveform software. Spliced input is traditionally used in ‘sub-categorical mismatch’ simulations (cf. Marslen-Wilson and Warren, 1994; Magnuson, Dahan and Tanenhaus, 2001; Dahan, Magnuson, Tanenhaus, Hogan, 2001).
+
+##### Input parameters
+
+A handful of TRACE parameters directly effect how the input specification will be realized. These are made available in a table. Modifying these parameters will result in changes in the input visualizer below.
+
+##### Tip
+
+Use of the input panel is basically redundant, in that the same changes can be made in the parameters panel. Once you understand how the input specifications work, these settings can simply be typed into the parameters panel, instead of using the more elaborate interface here.
+
+.
+
+<a id="ug-parameters-panel"></a>
+
+### Parameters panel
+
+The parameters panel allows various parameters of the model to be set. In the upper left hand corner, the TRACE lexicon can be specified. In the upper-right is the model’s input. Below is a table with the other parameters of TRACE.
+
+#### Lexicon
+
+Use the + and – buttons to add and delete lexical items. You can delete multiple items by holding the shift key, or dragging with the mouse.
+
+The lexicon table has six columns: lexical item, frequency, priming, label, \# cohorts\[1\], and \# cohorts\[2\]. The lexical item is the main identity of the word in the lexicon – it’s phonological make-up. When editing these entries the table validates your entries to ensure that illegal entries are not used. The frequency is lexical frequency that by default has no effect, but can be turned on in the parameters table. The priming score causes a priming to affect that words processing; by default it is off, but can be turned on with parameters. Note that the three different algorithms for implementing frequency and priming are identical. The label value allows groups of words to be assigned here, to be used in scripting. For example, you could assign the labels set1, set2, set3 to various words, and then tells scripting to do the same operations to all members of a group. This feature is not yet implemented in scripting, but is coming soon.
+
+The last two columns of the lexicon table can not be edited by the user, but are present for informational purposes. \# cohorts\[1\] indicates how many other words start with the same letter as the word in that row. For example, if ‘bark’ shows ’22 (b)’, this means there are 22 words that start with /b/. Similarly, \# cohorts\[2\] indicates how many words start with the same two phoneme combination. ‘bark’ with ‘7 (ba)’ means there are 7 other /ba/ words. These columns are useful when designing lexicons because the greatest amount of lexical competition occurs between cohorts, that is, words that overlap initially.
+
+The lexicon table can be sorted according to any of the six columns. Click the column header to trigger ascending sorting, and click again for descending sort. The sorter turns out to be case-sensitive, so all words starting with capital letters come before any with lower-case letters.
+
+The Load button allows lexicons to be loaded from files. A selection of lexicons are made available with jTRACE, in the jTRACE/lexicons subdirectory. The save button saves the lexicon to a file. It is good practice to save lexicons to the lexicons folder.
+
+#### Model input
+
+Enter the input string in the box. To specify an intermediate phonetic form, click the Enable Continuum box. Then specify the endpoints of the continuum and the number of steps. For example, if you create a continuum from “p” to “b” in 5 steps, then the numeral “0” now represents a “p”, “4” represents a “b”, and “2” represents a phoneme exactly in between the two.
+
+#### Parameters
+
+Comment, User, Date
+:   Not used by the model, but feel free to put stuff here.
+
+aLPHA\[\*\]
+:   Between-layer activation weights. See the TRACE paper for details.
+
+GAMMA\[\*\]
+:   Within-layer inhibition weights. See the TRACE paper for details.
+
+DECAY\[\*\]
+:   Activation decay constants. See the TRACE paper for details.
+
+REST.\*
+:   Resting activation of various levels of the model. See the TRACE paper for details.
+
+Input Noise
+:   Standard deviation of noise to add to all input nodes.
+
+Stochasticity
+:   Standard deviation of noise to add to all nodes of the model at each time step.
+
+Attention
+:   Lexical Gain, cf. Mirman, D., McClelland, J.L., Holt, L.L., and Magnuson, J.S. (in press). Effects of attention on the strength of lexical influences on speech perception: Behavioral experiments and computational mechanisms. Cognitive Science.
+
+Bias
+:   Lexical bias, cf. ibid.
+
+Learning Rate
+:   Hebbian learning of phonetic representations, not yet implemented; cf. Mirman, D., McClelland, J.L., and Holt, L.L. (2006). An interactive Hebbian account of lexically guided tuning of speech perception. Psychonomic Bulletin & Review, 13(6), 958-965.
+
+spreadScale
+:   Scales all of the FETSPREAD parameters. (Usually 1).
+
+min, max
+:   Minimum and maximum activation of nodes in the network.
+
+frq resting levels, frq p-\>w wts, frq post-act
+:   Frequency parameters. See Dahan et al. (2001) for details.
+
+Priming (rest, weight, post-act)
+:   Priming parameters, use the priming column of the lexicon as input. Same implementation as frequency parameters wht the same names.
+
+FETSPREAD.\*
+:   Width (in time steps) of various phonetic features. See the TRACE paper for details.
+
+fSlices
+:   Number of time slices to allow the model to run.
+
+deltaInput
+:   Interval at which phonemes are presented to the model.
+
+nreps
+:   Number of time slices per model cycle. (Usually 1).
+
+slicesPerPhon
+:   Number of (input) time slices per phoneme time step.
+
+### <a id="ug-simulation-panel"></a>Simulation panel
+
+The sim panel shows the progress of a simulation, as it happens.
+
+Graphs
+:   There are four graphs – clockwise from the lower-left: Input Stimulus, Feature Activations, Word Activations, and Phoneme Activations. The Input Stimulus graph shows the current input to the model (the blue line) and previous inputs. See McClelland and Elman (1986) for details of the model’s feature-based input representation. The other three graphs show the models internal representation of time, at three layers of representation. TRACE represents the past, present, and (predicted) future of a perception – input at time-step 20 can influence representations before and after time-step 20 at various levels. Feature Activations show the model’s estimates of the percept at the feature layer; Phoneme Activations show the model’s estimates of the percept at the phoneme layer; Word Activations show the model’s estimates of the percept at the word layer. Note that by moving the mouse over the panels, the current activation of a node in the model (by default in the range -0.3 to 1.0) is shown in the box at the bottom of the panel.
+
+TRACE Controls
+:   These work basically like the controls on a VCR. Play starts the simulation. \|\<\< rewinds it to the beginning. \>\>\| fast-forwards to the last computed time step. \< and \> step forward or back one time step.
+
+Display Options
+:   The “\~” button next to the Word Activations display toggles the graph from one where the top 10 words are shown in rows, to one where the top 10 words are shown as floating boxes. The “\~” button next to the Phoneme Activations display does likewise.
+
+Display enabled
+:   This toggle button allows the display to be turned off to run the model faster.
+
+Save image…
+:   This exports a screenshot of the four graph panels to a PNG file. An alternative is to use your operating system’s screenshot capability and crop the results.
+
+Export data…
+:   This exports the raw activation data (used to generate the four graphs) to a set of files. Select (or create) an empty directory. Subdirectories are created for each layer of the model, with separate files for each cycle of the model. The files are in a simple text format, and are suitable for analysis.
+
+Set input…
+:   This box does the same thing as the input box in the Parameters panel.
+
+<a id="ug-graphing-panel"></a>
+
+### Graphing panel
+
+The graphing panel allows you to analyze and visualize the activation over time of the associated simulation panel. After selecting and setting options on the tabs on the left part of the screen, press the Update Graph button. Variants of the Luce choice rule (Luce, 1959) can be used to link activation values with likelihoods of responses.
+
+Note that jTRACE uses a third-party graphing package (JFreeChart) with some sophisticated functionality. Try selecting regions of the graph with the mouse to zoom in, or right-clicking on the graph to set some other options.
+
+#### Display tab
+
+X-Axis Label, Y-Axis Label, Title
+:   As expected.
+
+Input Label Position
+:   This vertical slider allows the input to the model to be moved wherever looks best. Note that the horizontal position of each phoneme is located at the beginning of that phoneme’s activation. Put this slider all the way to the top or bottom to remove the phoneme annotation from the graph.
+
+#### Analysis tab
+
+Analyze
+:   Either words or phonemes may be examined in this panel.
+
+Content
+:   Either raw activations or response probabilities (using the Luce choice rule) may be plotted.
+
+Items
+:   Either the N items with the highest activations/response probabilities may be plotted, or specified items from the lexicon or from the phoneme list may be selected. When Specified Items is selected, the box on the right shows the displayed items. To move an item from the left box to the right box, select it (or Ctrl-click to select multiple items) and press the right arrow button to move that item (or those items). The All button moves/displays all possible items, while the Reset button removes them from the right-hand list.
+
+Alignment
+:   jTRACE implements five ways of selecting which time step to use to plot a word/phoneme’s activation. Recall that the X-axis of these graphs represent input time-steps. However, TRACE represents the past, present, and future in terms of time slices. The *specified alignment *option aligns the words/phonemes to a particular time slice (location on the X axis of the phoneme and word graph of the simulation panel). The *average activations* option uses the average activation of each word or phoneme over all time slices. The *maximal alignment (post-hoc) *option finds the maximal value of each word or phoneme over *all* time slices, and uses *that* value. The *maximal alignment (ad-hoc)* option finds the maximal value of each word or phoneme on *each* time slice, and uses *those* values. The Fraunfelder and Peeter (1988) rule uses the maximum activations on time slices 4 and 5. (It also changes the behavior of the Luce choice rule – see the original citation for details.)
+
+Luce Choice
+:   When the *All Items* option is selected, all possible lexical items in the set of possible responses, including the null response (“-”), are used in the denominator of the calculation. The F*orced Choice *option includes only the items you have chosen to graph. The exponent in the Luce choice rule is typically notated as *k*, and may be set here.
+
+#### Buttons
+
+Update Graph
+:   Updates the displayed graph with any changes made to the Display or Analysis tabs. Note that the simulation can be running in the background.
+
+Save Image…
+:   Exports the current graph to a 1024×768 pixel PNG file.
+
+Export Graph Data…
+:   For further analysis or graphing in external packages, the data used to construct the graph (the results of the simulation, processed by whatever analysis is specified in the Graphing panel), can be exported to a text file.
+
+### <a id="ug-scripting-panel"></a>Scripting panel
+
+The scripting panel allows users to automate preparation, running and analysis of groups of simulations. For example, one might ask : “to what extent is the lexical effect on phoneme activation contingent on inhibition at the phoneme layer?” In scripting, you can run the same simulation 10 times with 10 different Gamma.P (phoneme inhibition) values, then generate a graph analysis for each that focusses in on the relevant perceptual effect; then save each of those graphs to images. By viewing those images, an answer to the above question might emerge. That would be a very simple script, and this section of the manual describes the components of scripts of varying complexity.
+
+#### The Scripting Tree
+
+In what follows, there will be references to the “scripting tree” and to “nodes” in the tree. A jTRACE script is composed of structural elements (nodes) that have specific hierarchical and recursive relations to one another. There are four categories of elements: iterators, conditionals, actions, and primitive values. In addition, each of these categories has sub-categories. The user decides how these elements are designed, ordered and embedded within one another. The resulting configuration is the scripting tree. It all sounds pretty complicated, but by working from the templates that are built-in, scripting is mostly straight-forward.
+
+<a id="ug-scripting-panel-basics"></a>
+
+#### Scripting Panel Basics
+
+Script Action : Run, Save, Load
+:   Run current script, save script, load a script.
+
+Load template
+:   Select a scripting template from the drop-down list and press the button to load the specified script. All script files in the “templates” subdirectory are listed in the drop-down list. Several templates (described below) are included with jTRACE.
+
+Set base parameters…
+:   Every script starts with a base parameter set. Actions and iterators and other scripting things alter those base parameters as the script proceeds. Press this button to specify what the starting point is for the script. The default base parameters are the same as appears in the normal parameters panel.
+
+Main scripting window : scripting tree (left)
+:   Here, a high-level view of the scripting tree is shown, including number of nodes and how they are embedded in one another. Though the labels on the nodes are seldom useful for understanding the composition of the script, the tree is quite useful as a navigational tool.
+
+To see detailed information about each node, simply left-click it and its specifications will appear in the main window (right). By right-clicking a node, you can delete the current node, copy the node to the bottom of the list, or copy the contents of the node to be pasted into another node (this feature only works under particular circumstances).
+
+Main scripting window : node specifications (right)
+:   When nodes are selected, the user supplies the majority of the script details in this main window. Each node is different, and users are directed to the script element specification table below for details about each element.
+
+**Important note:** many scripting elements take as their argument(s) an unbounded list of other elements. Scripting elements that take lists include iterators, conditionals, the specify-watch-items action and the write-to-a-file action. To cycle between elements of these lists a white box appears at the top of the scripting window. Click on the black and white rows in this box to select items in the list. At the right of this box are add, copy and delete buttons, which relate specifically to the currently selected list.
+
+<a id="ug-scripting-panel-templates"></a>
+
+#### Scripting Templates
+
+The scripting templates can be loaded from the drop-down box in the scripting panel, They are the easiest way to start scripting because most of the work is already done. Each template lends itself to different applications, iterating over parameters in different ways, and generating different kinds of data files. The set of templates cover many of the most useful features available with scripting. Here is a short description of each template.
+
+- **basic-template.jt** — This is the default template. It iterates over a selected parameter, from one value to another. The input to the model is always the default input, \^br\^pt. At each step in the iteration, the script opens a new jTRACE window.
+
+- **lexical-iterator.jt** — Iterate over the current lexicon. By default, do nothing at each step.
+
+- **eye-tracking-and-graph-averaging** — Dahan et. al (2001) model eye-tracking data. To do this, they implement feedback in the TRACE model. They use the forced-choice in the LCR calculation. And they average over the results of a set of simulations. This template demonstrates how to do an eye-tracking simulation and average over the results.
+
+- **noise-and-predicate-iterator** — First, uses a series of actions to create some standard analysis settings. Then uses a predicate iterator to iteratively add input noise to a simulation (in increments of 0.2) until the target item no longer exceeds a certain response probability threshold (0.6). Then stops. Saves a graph image for each simulation until the iterator stops. This template also demonstrates how to create a dynamic graph title using a combination of text and queries in the set-graph-title action.
+
+- **contribution-of-feedback** — Demonstrates a basic usage of the decision rule report. Run simulations for all items in a lexicon at two levels of lexical-to-phoneme feedback (0.0, 0.03) and generate a decision rule report for each sim. The results (which must be analyzed externally) reveal whether feedback helps or hinders accuracy and recognition time. This methodology is used by Magnuson et al. (2005).
+
+- **2D-parameter-space-and-lexical-iterator** — This template demonstrates how to do a 2-dimensional exploration of the TRACE parameter space, and assess the results using the decision rule report. Basically, we iterate over two parameters and then over every word in a lexicon at each point in the parameter space. The decision rule result (which must be analyzed externally) reveal total accuracy and average recognition time at each point in parameter space. This methodology is used by Magnuson et al. (2005).
+
+- **word-pair-segmentation** — This template replicates a simulation from McClelland & Elman (1986). Starting from the slex lexicon, 213 word pairs were randomly selected. These were saved to a new lexicon, slex_pairs.jt. So if \^slip and bar are two words in slex that were randomly paired, the entry in slex_pairs would appear as “-\^slipbar-“, with silence at the edges but no pause in between words. This script attempt to parse 213 such word pairs.
+
+  A lexical iterator iterates over the elements of the slex_pairs lexicon, as loaded from a file. For each iteration, analysis settings are given, including the MAX-ADHOC type. Then, the write-to-a-file action is used to save a line of text to the specified file for each simulation in the iterator. For each simulation, the following is saved:  
+  input: *input-string* parse: *top-1st-peak* *top-2nd-peak* *top-3rd-peak*
+
+  The ‘peak’ refers to the *item-with-nth-highest-peak* query. This query creates the specified analysis (graph) then sorts items by their peaks and returns the one asked for by the user. Because there is a silence item in the slex lexicon which always becomes highly active, we ask for the top 3 items. If the other two top items written to the file make a correct parse, then TRACE has successfully segmented the word pair. Running this template reveals that TRACE does very well, and the mistakes it does make are due to coarticulation or multiple correct interpretations. See McClelland & Elman (1986) for more about this.
+
+- **your-templates-here!** — Simply save a script file to the jTRACE/templates directory and the next time you start jTRACE, your template will appear in the templates drop down list.
+
+<a id="ug-scripting-panel-api"></a>
+
+#### Scripting Elements
+
+**Scripting Element Specification Table**
+
+<div class="table-wrapper" style="overflow-x: auto;" markdown="0">
+<table>
+<tbody>
+<tr>
+<th>Scripting element</th>
+<th>Sub-type</th>
+<th>Description</th>
+<th>Arguments</th>
+</tr>
+<tr>
+<td colspan="4"><strong>Note:</strong> The term <em>expression</em> refers to an <em>action type, iterator</em> type or <em>conditional</em> type. The script root and the body of iterator and conditional types takes an unbounded list of expressions, which can be any of those three types.</td>
+</tr>
+<tr>
+<td>Root</td>
+<td>Description</td>
+<td>Provide a description of the script to alert other users to what it’s for and what result to expect.</td>
+<td>Description (Text).</td>
+</tr>
+<tr>
+<td>Root</td>
+<td>Script Root</td>
+<td>This is the root of the script. Add instructions to create script behavior.</td>
+<td>list-of-expressions.</td>
+</tr>
+<tr>
+<td colspan="4"><a id="ug-scripting-panel-api-iterator"></a><strong>Iterators</strong> are the work horses of scripting. They automate the preparation of parameter sets. There are currently six iterator sub-types, described below. Once iterator settings are given, you must add nodes to the iterator body; each node tells the script to do something at each iteration. For example, you could save a graph file and open a new simulation window for each iteration. The content of an iterator is an unbounded list of actions, iterators or conditionals. Iterators can be embedded into eachother, creating multi-dimensional iterators.</td>
+</tr>
+<tr>
+<td>Iterate</td>
+<td></td>
+<td>Repeatedly execute a list of expressions until a set of conditions have been satisfied. Conditions depend upon the iterator subtype.</td>
+<td>iteration details (depends on subtype); list of expressions.</td>
+</tr>
+<tr>
+<td>Iterate</td>
+<td>incrementing-value</td>
+<td>For numeric parameters, iterate from one value to another in the given number of steps.</td>
+<td>target parameter, type, from value, to value, number of steps; list of expressions.</td>
+</tr>
+<tr>
+<td>Iterate</td>
+<td>over-phoneme- continuum</td>
+<td>At each step in this phoneme continuum, if the current model input contains the ‘?’ character, then this is replaced with the current phoneme in the continuum. If there is no ‘?’ in the input, then there is no effect.</td>
+<td>from phoneme, to phoneme, number of steps; list of expressions.</td>
+</tr>
+<tr>
+<td>Iterate</td>
+<td>over-items-in- a-lexicon</td>
+<td>The model input parameter iterates through the items in the given lexicon. Three options are available: use-the-current-lexicon, use-a-newly-specified-lexicon, use-a-saved-lexicon. The third option takes a lexicon file as argument.</td>
+<td>lexicon choice – current, new or from a file; list of expressions.</td>
+</tr>
+<tr>
+<td>Iterate</td>
+<td>over-eye-tracking- four-tuples</td>
+<td>This iterator is designed to model an important eye-tracking paradigm (See, e.g. Dahan et al. 2001). Each four-tuple is treated as four items from the lexicon that are being displayed on a computer screen; the subject hears a spoken instruction to click on one of the four items. The FORCED choice option is used to here to focus attention on the four items. based on the hypothesis that only the four on-screen items compete for activation during spoken word recogntion, and all other words in the lexicon are effectively muted by the visual context.</td>
+<td>list of four-tuples; list of expressions.</td>
+</tr>
+<tr>
+<td>Iterate</td>
+<td>over-list- of-values</td>
+<td>Provide a list of values that will be sent to the target parameter in the order given.</td>
+<td>target parameter, type, list of values; list of expressions.</td>
+</tr>
+<tr>
+<td>Iterate</td>
+<td>while-predicate- is-true</td>
+<td>Provide a predicate that asks a true/false question about the current jTRACE state. When the predicate answers ‘false’, then stop the iterator.</td>
+<td>predicate ; list of expressions.</td>
+</tr>
+<tr>
+<td>Scripting element</td>
+<td>Sub-type</td>
+<td>Description</td>
+<td>Arguments</td>
+</tr>
+<tr>
+<td colspan="4"><a id="ug-scripting-panel-api-conditional"></a><strong>Conditionals</strong> support if-then expressions in scripting. See also the predicates section.</td>
+</tr>
+<tr>
+<td>Condition</td>
+<td>(none)</td>
+<td>Provide a predicate that asks a true/false question about the current jTRACE state. If the predicate evaluates to true, then execute the content of the conditional. Content is a list of actions, iterators or conditionals.</td>
+<td>predicate ; list of expressions.</td>
+</tr>
+<tr>
+<td>Scripting element</td>
+<td>Sub-type</td>
+<td>Description</td>
+<td>Arguments</td>
+</tr>
+<tr>
+<td colspan="4"><a id="ug-scripting-panel-api-action"></a>If iterators are the work-horses of scripting, then <strong>actions</strong> must be the worker-bees. Actions complete menial tasks like saving/loading files, tweaking parameter values and opening new simulation windows.</td>
+</tr>
+<tr>
+<td>Action</td>
+<td></td>
+<td>An instruction to <em>do</em> something in jTRACE. Actions never return a value that can be passed as an argument in scripting. Use<a href="#ug-scripting-panel-api-query">queries</a> to fetch values that can be passed as arguments.</td>
+<td>Arguments (depends on subtype)</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>new-window</td>
+<td>Open a new jTRACE document window based on the current parameters and graph settings.</td>
+<td>No arguments.</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-cycles- per-sim</td>
+<td>Set the number of cycles to run each simulation hereafter.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>add-silence- to-input-edges</td>
+<td>Add the silence segment /-/ to the beginning and end of the current model input. This is useful, for example, if iterating over all items in a lexicon and you want to place words within the context of silence.</td>
+<td>No arguments.</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>increment-parameter- by-this-amount</td>
+<td>Adds the given numerical value to the specified parameter.</td>
+<td>parameter-name (text), amount (decimal).</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>average-all-analyses- in-current- iteration-and- save-graph</td>
+<td>Based on the specified analysis settings, run the analysis for each simulation in the current iterator, and sum the resulting graphs. Once the iterator is complete, average the summed graph. Then create both a PNG graphic file and export the raw data from this graph. User provides labels for the averaged graph legend. User is responsible for making sure that there are the same number of curves in each graph, and that the averaged graph is meaningful.</td>
+<td>saved file name (file locator), list of graph labels (list of text).</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>write-to-a-file</td>
+<td>Write one line to a file. Takes a list of primitives as arguments; each is written to the file separated by a tab. At the end, a line break is inserted. This action is useful in conjunction with the decision rule query.</td>
+<td>file-locator, list of primitives</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>load-sim-from- file</td>
+<td>Load a jTRACE simulation from a file, after which it can be open with a new-window call or modified with other actions.</td>
+<td>file-locator</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-lexicon</td>
+<td>Specify a lexicon to be used as the current lexicon.</td>
+<td>lexicon</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-parameters</td>
+<td>Set parameters to be used as current parameters.</td>
+<td>parameter set</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>reset-graph- defaults</td>
+<td>Reset graph setting to their defaults.</td>
+<td>no arguments.</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-graph-domain</td>
+<td>Set graph domain to be words or phonemes.</td>
+<td>WORD / PHONEME</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-watch-type</td>
+<td>Include specific items in the graph, or include the top items as sorted by their peak value?</td>
+<td>WATCH-TOP-N / WATCH-SPECIFIED</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-watch-top-n</td>
+<td>Once items are sorted according to their peaks, how many of the largest peaks will be included in the graph?</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-watch-items</td>
+<td>Which items (words / phonemes) will be included in the graph?</td>
+<td>list of watch items (text/query)</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-analysis-type</td>
+<td>How units from the simulation chosen for inclusion in the numerator and denominator of the Luce choice rule calculation?</td>
+<td>SPECIFIED / AVERAGE / MAX (AD-HOC) / MAX (POST-HOC) / FRAUENFELDER</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-choice-type</td>
+<td>Use normal choice or forced choice?</td>
+<td>NORMAL / FORCED</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-content-type</td>
+<td>Graph activation values or response probabilities?</td>
+<td>ACTIVATIONS / RESPONCE PROBABILITIES</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-k-value</td>
+<td>Set the exponent scalar for content type RESPONCE PROBABILITIES. See theory section below.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-alignment</td>
+<td>Set alignment for analysis types SPECIFIED and FRAUENFELDER</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>add-one-analysis- item</td>
+<td>Add one analysis item from the graph settings; requires set-watch-type = WATCH-SPECIFIED</td>
+<td>text / query</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>remove-one- analysis-item</td>
+<td>Remove one analysis item from the graph settings; requires set-watch-type = WATCH-SPECIFIED</td>
+<td>text / query</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-graph-x- axis-bounds</td>
+<td>Set the left/right bounds of the x-axis in the graph panel.</td>
+<td>decimal , decimal</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-graph-y- axis-bounds</td>
+<td>Set the botton/top bounds of the y-axis in the graph panel.</td>
+<td>decimal, decimal</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-graph-title</td>
+<td>Provide a simple graph title. Or, using a combination of text and query items, create a dynamic title that fetches, e.g., current parameter values.</td>
+<td>List of text/query items.</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-graph-x- axis-label</td>
+<td>Set the x-axis label in the graph panel.</td>
+<td>text / query</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-graph-y- axis-label</td>
+<td>Set the y-axis label in the graph panel.</td>
+<td>text / query</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-graph-input- position</td>
+<td>Sets the vertical position of the input string in the graph panel. Purely a display preference.</td>
+<td>iteger</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>cancel-script</td>
+<td>If this action is reached, quit the script. Equivalent to a <em>break</em>call in programming languages.</td>
+<td>no argument</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>set-root-directory</td>
+<td>By default, the root directory is the jTRACE application directory. If you want another directory to be used as root directory, enter its absolute path here.</td>
+<td>text</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>save-parameters- to-jt</td>
+<td>Save the simulation parameters to a .jt file that can be reload to jTRACE via scripting.</td>
+<td>file-locator</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>save-parameters- to-txt</td>
+<td>Save the simulation parameters to a text file.</td>
+<td>file-locator</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>save-simulation- to-jt</td>
+<td>Save the simulation to a .jt file that can be reloaded to jTRACE.</td>
+<td>file-locator</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>save-simulation- to-txt</td>
+<td>Save the simulation to a directory tree containing raw data files.</td>
+<td>file-locator</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>save-graph-to-png</td>
+<td>Save the current graph to a PNG graphic file.</td>
+<td>file-locator</td>
+</tr>
+<tr>
+<td>Action</td>
+<td>save-graph-to-txt</td>
+<td>Save the graph data to a raw text file.</td>
+<td>file-locator</td>
+</tr>
+<tr>
+<td>Scripting element</td>
+<td>Sub-type</td>
+<td>Description</td>
+<td>Arguments</td>
+</tr>
+<tr>
+<td colspan="4"><a id="ug-scripting-panel-api-primitive"></a><strong>Primitive</strong> values are the values that get passed in as arguments to other expressions. Besides obvious primitives like text and numbers, jTRACE treats parameter sets, lexicons and even queries (that return a value) as primitives. Basically, anything that can be passed in as an argument is a primitive.</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td></td>
+<td>Primitive values are passed as arugments into expressions, predicates and queries. Primitives are returned by queries.</td>
+<td>value (depends on subtype)</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>text</td>
+<td>Text can be a name, a description, a phoneme, anything with letters.</td>
+<td>some text</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>integer</td>
+<td>Integers are natural numbers, e.g. 2.</td>
+<td>a natural number</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>decimal</td>
+<td>Decimals are rational numbers, e.g. 0.04.</td>
+<td>a rational number</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>file-locator</td>
+<td>A file locator tells jTRACE how to create file(s) during scripting. If the path field is left blank, jTRACE will save files to the jTRACE root. If the name field is left blank, jTRACE will create an appropriate file name. The file-locator type is also be used to load a lexicon, parameter, or sim file.</td>
+<td>path (optional), file-name (optional)</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>file-locator/Absolute path</td>
+<td>An absolute path is a directory path on the users computer.</td>
+<td>an absolute path , e.g. /home/projects/semester2/psych</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>file-locator/Relative path</td>
+<td>A relative path specifies the name of a folder inside of the jTRACE program folder.</td>
+<td>a relative path, e.g. /psych</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>file-locator/File name</td>
+<td>A file name. If being used to generate files, jTRACE will add numbers to the file name so that a set of files may be created. Adding the appropriate file extension is optional.</td>
+<td>a file name</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>lexicon</td>
+<td>A TRACE lexicon.</td>
+<td>A list of words, each having phonology, frequency (optional) and familiarity (optional)</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>TRACE parameters</td>
+<td>TRACE parameters is a primitive type that contains a parameter set defining one TRACE simulation. These are usually generated by jTRACE and not constructed by the user.</td>
+<td>parameter set</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>list</td>
+<td>This is a list of other primitives. For example, a list of numbers or words.</td>
+<td></td>
+</tr>
+<tr>
+<td>Scripting element</td>
+<td>Sub-type</td>
+<td>Description</td>
+<td>Arguments</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td><a id="ug-scripting-panel-api-query"></a>query</td>
+<td></td>
+<td>query-type, arguments (depends on the type)</td>
+</tr>
+<tr>
+<td colspan="4">A <strong>query</strong> asks a question about the current TRACE simulation and returns a value, usually text or a number.
+<p>Many of the queries take the current graph panel as the subject of investigation. How this works is that jTRACE takes all of it’s instructions so far (cycles-per-sim, parameters, graph settings) and constructs a representation of the graph (which is not displayed) and then queries this representation. All this to say that: you must be aware of how the graph is generated before you create the query.</p></td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/decision-rule- report</td>
+<td>The decision rule is an analysis of the contents of the currrent graph. It asks: At what processing cycle does the target word reach the given threshold? This query returns a line of text, which is typically written to a file using the write-to-a-file action. What gets returned depends on the verbosity argument. Currently verbosity = 1 returns a one line report:<br />
+target= <em>target-word</em> # <em>first-word-to-thresh</em>, <em>thresh-value</em>, <em>cycle-at-thresh</em>, <em>peak-value</em>, <em>cycle-at-peak</em> # (if target word was NOT the first to reach thresh, but it DID reach thresh, give it’s info next) (<em>target-word</em>, <em>thresh-value</em>, <em>cycle-at-thresh</em>, <em>peak-value</em>,<em>cycle-at-peak</em>) # <em>first-word-to-thresh</em>, <em>second-word-to-thresh</em>,<em>third-word-to-thresh</em>, <em>fourth-word-to-thresh</em>, …</td>
+<td>threshold, target-word, verbosity</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/fetch-current- value-of-a-parameter</td>
+<td>Get the value of a parameter.</td>
+<td>parameter-name</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/item-with- highest-peak</td>
+<td>In the current graph, what item (word or phoneme) has the highest peak.</td>
+<td>no arguments</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/value-of- highest-peak</td>
+<td>In the current graph, what is the value of the highest peak.</td>
+<td>no arguments</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/item-with- nth-highest-peak</td>
+<td>In the current graph, what item (word or phoneme) has the nth highest peak.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/value-of- nth-highest-peak</td>
+<td>In the current graph, what is the value of the nth highest peak.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/nth-item- in-lexicon</td>
+<td>What is the nth item in the current lexicon.</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/current-input</td>
+<td>What is the model input in the current simulation.</td>
+<td>no arguments</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/peak-value- of-item</td>
+<td>In the current graph, what is the peak value of the given item (word or phoneme).</td>
+<td>text / query</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/cycle-when- item-exceeds-threshold</td>
+<td>Processing cycle when the given item (word or phoneme) exceeds the given threshold. If it never exceeds that value, returns -1.</td>
+<td>item (text / query), threshold</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>query/nth-item-to- exceed-threshold</td>
+<td>Given a threshold value, what is the nth item (word or phoneme) to exceed that threshold.</td>
+<td>integer (n), decimal (threshold)</td>
+</tr>
+<tr>
+<td>Scripting elememt</td>
+<td>Sub-type</td>
+<td>Description</td>
+<td>Arguments</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td><a id="ug-scripting-panel-api-predicate"></a>predicate</td>
+<td>A predicate is something that evaluates to true or false. See below for more on predicates.</td>
+<td></td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>predicate/equals</td>
+<td>True if two items evaluate to the same value.</td>
+<td>primitive, primitive</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>predicate/not-equal</td>
+<td>True if two items do not evaluate to the same value.</td>
+<td>primitive, primitive</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>predicate/is-greater-that</td>
+<td>Is true if the first (numeric) argument is greater than the second.</td>
+<td>integer / decimal, integer / decimal</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>predicate/is-less-than</td>
+<td>Is true if the first (numeric) argument is less than the second.</td>
+<td>integer / decimal, integer / decimal</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>predicate/is-member-of-list</td>
+<td>True if the given item is a member of the given list.</td>
+<td>primitive, list-of-primitives</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>predicate/and</td>
+<td>True if the two given predicates evaluate to true.</td>
+<td>predicate, predicate</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>predicate/or</td>
+<td>True if at least one of the two given predicates evaluate to true.</td>
+<td>predicate, predicate</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>predicate/not</td>
+<td>True if the given predicate evaluates to false.</td>
+<td>predicate</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>predicate/true</td>
+<td>True constant.</td>
+<td>no arguments</td>
+</tr>
+<tr>
+<td>Primitive</td>
+<td>predicate/false</td>
+<td>False constant.</td>
+<td>no arguments</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<a id="ug-scripting-panel-tips"></a>
+
+#### Suggestions for effective use of scripting.
+
+1.  Focus on the modeling problem
+    - What is research question?
+    - To answer this, what perceptual effect you are attempting to demonstrate? Can it be broken down into smaller pieces?
+    - What is the minimal grouping of simulations that will demonstrate that effect?
+    - How will those simulations be analyzed to come up with a simple result?
+    - How can the latter two points be turned into a jTRACE script?
+    - Once a script has been created: Does it work? Can it be simplified?
+    - Do the results convincingly address the research question?
+
+2.  **Analysis settings** — When generating Graph images or exporting graph data, a small mistake in setting graph parameters will lead to frustration. Be confident about the type of analysis you need to do by testing it out on individual simulations. Then use actions to set the graph parameters and double-check the settings.
+
+    A common mistake: If using the SPECIFIED or FRAUENFELDER analyses, the alignment parameter is critical. If the *add-silence-to-input-edges* action is called, this will affect the onset alignment of the input. Use the *new-window* action to get a complete picture of each simulation while setting up new scripts.
+
+3.  **Order of operations** — The current version of scripting attempts to constrain the use of nodes, but there are many legal node combinations that result in undesirable effects, and some scripts that will cause jTRACE to have a memory overload. An example: An action inside an iterator will apply at every iteration. If the action need be applied only once, it is generally better to do so outside the iterator.
+
+4.  **Time constraints** — Obviously, the number of simulations in the script multiplies the processing time. As well, processing time depends very much on the machine running jTRACE. But, there are several parameters which have a particularly dramatic effect on processing time, and these are noted here.
+
+    - Lexicon size. A large lexicon will slow processing considerably. Expect to notice significant delays around lexicon size = 1000.
+    - “Fraunfelder” analysis rule. Particularly complex calculations are required to compute the competitor set’s activation in the modified Luce choice rule.
+    - Cycles-per-sim. For normal single-word simulations, 66 cycles should be sufficient. Very long simulations (cycles \> 100) will increase running time.
+    - fslices. This parameter, set to 66 by default, controls the number of total nodes in the model as well as the number of connections. Like cycles-per-sim, it should be kept as small as possible.
+
+5.  Use the *write-to-a-file* actionThis action is the cleanest way to generate TXT file containing information about groups of simulations. A single call to this action writes one line of text to the file, with each argument separated by a tab. If the *decision-rule-report* query is not appropriate to your application, use other queries in conjunction with *write-to-a-file*.
+
+## <a id="ug-preloaded-simulations"></a>About the pre-loaded simulations
+
+A selection of the simulations used by McClelland & Elman (1986) to argue their case for TRACE are included in the gallery subdirectory. To run each, simply select from the gallery menu. We provide here a short description of each simulation and how to interpret the result. A page number refers to the TRACE paper, where complete details are given.
+
+1.  basic lexical effect 1.jt (p.24): A word-initial ambiguous phoneme halfway between /p/ and /b/ is dis-ambiguated once the model has boosted a target word to a high level of activation. In the Simulation tab, animate the sim in order to see word and phoneme progress in parallel.
+2.  basic lexical effect 2.jt (p.24): A word-initial ambiguous phoneme halfway between /p/ and /k/ is dis-ambiguated once the model has boosted a target word to a high level of activation. In the Simulation tab, animate the sim in order to see word and phoneme progress in parallel.
+3.  word-final lexical effect.jt (p.27): The lexical effect on phoneme perception is most salient when the ambiguous phoneme occurs word finally.
+4.  phoneme ambiguity.jt (p.28): The lexical effect on phoneme perception is applied only to ambiguous phonological representations. Unambiguous representations activate their corresponding phoneme units, and any lexical feedback effects are obscured by the strength of the bottom-up signal.
+5.  reaction time effect 1.jt (p.30): The lexical effect on phoneme perception is present only when the stimulus is a word (not a nonsense word) and is stronger later in the word. There is no lexical effect at the beginning of a word because the item has not yet been identified as a word, so its activation is minimal and cannot influence phoneme perception. Part 1 shows the positive case, where the target phoneme is (non)word-final.
+6.  reaction time effect 2.jt (p.30): Part 2 shows the negative case, where the target phoneme is (non)word initial.
+7.  lexical conspiracy effect 1.jt (p.33): “Are phonotactic rule effects the result of a conspiracy?” asks the heading on page 33. Traditional phonotactic probability theory suggests that the frequency of occurrence sound patterns in a language lead to expectations about sounds pattern in hearers of that language. These expectations, once established through experience, are traditionally thought to be independent of lexical representations. These simulations show that phonotactic probability effects could be the result of lexical feedback from words in the entire lexicon. In part 1, with an ambiguous phoneme between /l/ and /r/, -s?i- primes /l/ because there are more “sli-” words in the slex lexicon; -t?i- primes /r/ because there are more “tri-” words in the lexicon.
+8.  lexical conspiracy effect 2.jt (p.33): simulation of /?luli/ (with a continuum between /p/ and /t/), where the model eventually settles on the word “truly”, and thus /t/ comes to dominate /p/ as the initial phoneme. This result is notable because phonotactically /pl/ is a more likely sequence than /tr/; despite this /t/ come to dominate /p/ because the most plausible lexical interpretation “truly” dominates and exerts its influence on the phoneme level.
+9.  word recognition.jt (p.62): demonstrates TRACE recognizing a selection of words from the slex lexicon.
+10. word segmentation.jt (p.63): “Lexical basis of word segmentation” suggests that the process of (1) recognizing words is the basis for the process of (2) parsing a continuous sound into a sequence of words. “… When one word is identified, its identity can be used to determine where it ends and therefore where the next word begins” (p.65). For example, upon hearing /barti/, activation of “bar” suggests that the next word will begin after the /r/ sound, which would encourage activation of “tea”. Conversely, upon hearing /parti/ the word “party” would be activated and compete strongly with “tea”, effectively ruling it out. For a two-word parse to be successful in that case, a pause between “par” and “tee” might be necessary (ignoring for the moment possible syntactic or semantic contributions to segmentation). The 4 simulations included in this example illustrate some of these principles; the figures may offer differing interpretations and investigators are encouraged to observe the sim animation, tweak graphing parameters, and refer to the text for further discussion of this important topic.
+11. nonword boundaries.jt (p.65): The two simulations in this example touch upon several ideas. /pas\^b\^ltarg\^t/ is an excellent case for the lexical segmentation : the long initial word “possible” dominates early on, providing strong evidence for a word boundary after /l/. This will help to segment that utterance. In addition, if the model’s task was to detect the phoneme /t/, doing so here would be facilitated by a cue to a word boundary (cf. Foss and Blank, 1980). Contrast the second simulation: /piSd\^rptarg\^t/. In this case the initial portion does not active a single strong candidate. Therefore there is no reliable word boundary cue, and this does not lend support for activation of the /t/ following /piSd\^rp/. Comparing the activation curve of /t/ in the two sims models the result of Foss & Blank (1980), that subjects performance on detecting phonemes was faster when the target phoneme directly followed a word versus slower when the target directly followed a nonword.
+12. short sentences.jt (p.69): These simulations provide further demonstration of word segmentation in TRACE. In this case, sequences contain 2+ words.
+13. your-gallery-item!.jt : By saving a simulation file to the jTRACE/gallery folder, your simulation will appear in the Gallery menu the next time you start jTRACE.
+
+## <a id="ug-theoretical"></a>Which jTRACE features have a direct connection to psycholinguistic literature?
+
+A number of features are implemented in order to replicate the results of specific research articles in the spoken word recognition literature. This section will state what features those are and how they should be used in the context of earlier work.
+
+1.  **Lexical frequency** – Dahan et al (2001) implemented three types of lexical frequency effects in TRACE. These were designed to fit eye-tracking data that demonstrated a clear lexical frequency effect. If you wish to affect a stronger or weaker frequency effect than originally obtained, do so by tweaking the authors’ original setting, given below.
+    1. **frq resting levels** – Log frequency is applied to resting activation values of lexical units. Value used by researchers to simulate frequency effect = 0.06.
+    2. **frq p-\>w wts** – Log frequency is applied to connections between phoneme and word units for each processing cycle. This is a more “active” conceptualization of frequency, versus the more “passive” approach represented by the resting levels implementation. This implementation of frequency resulted in the closest fit to the eye-tracking data, see Dahan et al. (2003). Value used by researchers to simulate frequency effect = 0.13.
+    3. **frq post-act** – Log frequency is applied to Luce choice rule processing. This implementation is a post-perceptual approach to lexical frequency, in that frequency is applied at the decision stage, rather than at the processing stage. Said another way, it is only when the system must make a decision that lexical frequency biases a listeners perception. Value used by researchers to simulate frequency effect = 15.
+
+2.  **Stochasticity** – McClelland (1991) implemented two types of stochasticity in TRACE in order to demonstrate that context effects during phoneme perception occur in stochastic models as well as in idealized models.
+    1. **Input noise** – Noise sampled from a Gaussian distribution is added to the pseudo-acoustic input representation, where the standard distribution of the Gaussian function equals the value given in the parameter table. The effect of input noise depends upon the min and max values given. Assuming defaults of -0.3 and 1.0, respectively, then setting Noise SD to 1.0 adds a substantial amount of noise.
+    2. **Internal stochasticity** – Noise sampled from a Gaussian distribution is added to each node in each processing layer for each cycle. This simulates noise *inside* the system. Stochasticity = 0.02 was the original value used, and adds a substantial amount of input noise.
+
+3.  **The Luce choice rule (LCR)** – All LCR functions are accessed in the graph panel, or are automated via scripting. Simply put, the Luce choice rule states that the probability of selecting (or responding to, or deciding on…) one item out of a set of items is equal to the (exponentially scaled) strength of that item over the summed (exponentially-scaled) strength of all items in the set. This principle has proved highly useful in modeling a variety of choice behavior (Luce, 1959). When implementing it in TRACE, though, a number of tricky decisions must be made.
+
+    – The first decision is: considering that each phoneme and each word have multiple copies of themselves arranged at different temporal alignments, how do we decide which of those alignments to use to represent that word/phoneme when calculating the LCR. We call this decision the calculation type. Although the difference in results may be subtle from one type to the next, it is worthwhile to appreciate the theoretical commitment(s) being made at this step, which we will attempt to convey in the description of each.
+
+    1. **Content type**
+        1. Content type: Activations- Choosing to graph activations simply provides a line-graph of the same activation values observed in the simulation panel. The advantage, of course, is the ability to directly compare specific items of interest from the phoneme and word domains.
+        2. Content type: Response Probabilities- Choosing to graph response probabilities
+
+    2. **Alignment type**
+        1. **Alignment type: Specified** – The most straight-forward calculation type: an alignment value is supplied by the user. Use the word/phoneme at that specified alignment to represent each item. This assumes that the system knows in advance the temporal alignment of the speech being presented. In other words, a measure of omniscience is granted to the system. Segmentation of continuous speech cannot be accomplished on this definition because only a single alignment is ever being considered at one time. This type is used throughout the original TRACE paper (McClelland & Elman, 1986), whenever the LCR is used. It is also the default type in the graph panel, mainly because its results lend are easiest to interpret.
+        2. **Alignment type : Frauenfelder** – Frauenfelder & Peeters (1998) conducted a series of useful simulations, comparing TRACE’s performance to recent experimental results. They employed a unique calculation type whose aim was to incorporate lexical competition to a large extent. As in the specified calculation, the user supplies an alignment. The numerator of the LCR function is then calculated as the response strength of the target item at the given aligned plus the response of the target item at given alignment + 1, i.e. one slot to the right. The denominator of the LCR function is equal to all phoneme/word items that “overlap” with the given alignment. This means that any item whose temporal extent coincides with the given alignment is included in the denominator sum. Theoretically, this calculation type is omniscient in the same way as the specified calculation; in that it pre-supposes an alignment. The implementation of competition is a useful innovation, certainly worthy of experimental attention.
+        3. **Alignment type : Max (Post-hoc)** – For each item, determine the alignment at which its peak activation is greatest, then use this alignment to represent that item. This type is less omniscient than the formers because it does not presuppose a temporal alignment. The selected alignment for each item is incorporated into the graph legend. This type performs lexical segmentation quite well, though fails if an item repeats, as in “dog eats dog”. This type has not been reported in literature that we know of.
+        4. **Alignment type : Max (Ad-hoc)** – For each item, determine the alignment at which its activation is greatest *for each processing cycle*; then use the *alignment-per-item-per-cycle* as the representatives. This type is the least omniscient available. This type has not been reported in literature that we know of.
+
+    3. **Luce Denominator Parameter** – Another decision to be made when setting up a LCR graph is normal choice versus forced choice. This setting can usually be left at normal. The distinction being made here relates to what type of experimental design TRACE is attempting to model. At the implementation level, this setting affects what items are to be included in the denominator of the LCR calculation.
+         1. **Choice: normal choice** – If the task being modeled by TRACE has the subject considering all words in their lexicon or all phonemes in their phoneme roster, as per the case, then this is considered normal choice. Such tasks include perception of continuous speech, lexical decision, auditory naming, word identification and phoneme identification.
+         2. **Choice: forced choice** – If the task being modeled by TRACE forces the subject to choose from among a small set of words/phonemes, then this is considered forced choice. For example, in the eye-tracking paradigm used by Dahan et al. (2003) subjects saw four on-screen objects are were required to click on one based on an auditory instruction. The researchers reasoned that lexical activation is constrained by the fact that they must choose between four specific items. To model this in TRACE
+
+    4. **K-value (exponentiation)** – If content type is set to Response Probabilities (instead of activations), it is necessary to set the k-value. The K-value controls the magnitude of exponentiation applied to the activation value. The effect of a larger k value is to widen the gap between items that have an advantage and less active items. Increasing k in steps of 2 and updating the graph illustrates this principle.
+
+        The value that results from this exponentiation is sometimes called *response strength*. These response strengths are then passed through a version of the Luce choice rule, and the result of that calculation is then called a *response probability*. Sources may differ on how these stages of processing are named.
+
+4.  **Spliced input segments** – (coming soon) See: Marslen-Wilson & Warren (1994); Magnuson et al. (2001); Dahan et al. (2001b).
+
+5.  **Word-to-phoneme feedback** – (coming soon) See: Magnuson et al. (2005).
+
+## <a id="ug-references"></a>References
+
+- Dahan, D., Magnuson, J.S., & Tanenhaus, M.K. (2001). Time course of frequency effects in spoken-word recognition : evidence from eye movements. Cognitive Psychology, 42, 317–367.
+- Dahan, D., Magnuson, J.S., Tanenhaus, M.K., Hogan E.M. (2001b). Subcategorical mismatches and the time course of lexical access: Evidence for lexical competition. Language and Cognitive Processes, 16(5/6), 507-534.
+- Frauenfelder, U. H. & Peeters, G. (1998). Simulating the time course of spoken word recognition: an analysis of lexical competition in TRACE. In J. Grainger and A. M. Jacobs (Eds.), Localist connectionist approaches to human cognition (pp. 101-146). Mahwah, NJ: Erlbaum.
+- Ganong, William F. (1981). Phonetic categorization in auditory word perception,. Journal of Experimental Psychology: Human Perception and Performance, 6 (1), 110-125.
+- Luce, R. D. (1959). Individual choice behavior,. New York: Wiley.
+- Magnuson, J.S., Strauss, T.J., Harris, H.D. (2005). Feedback in models of spoken word recognition : Feedback Helps. Proceedings of CogSci 2005, Stresa, Italia. Cognitive Science Society.
+- Magnuson, J.S., Dahan, D., & Tanenhaus, M. K. (2001). On the interpretation of computational models: The case of TRACE. In J.S. Magnuson & K.M. Crosswhite (Eds.), University of Rochester Working Papers in the Language Sciences, 2(1), 71– 91.
+- McClelland, J.L., & Elman, J. L. (1986).The TRACE model of speech perception. Cognitive Psychology, 18, 1-86.
+- McClelland, J.L. (1991). Stochastic interactive processes and the effect of context on perception. Cognitive Psychology, 23, 1-44.
+- Marslen-Wilson, W., & Warren P. (1994). Levels of perceptual representation and process in lexical access. Psychological Review, 101, 653– 675.
+
+## <a id="ug-credits"></a>Credits
+
+- We thank Jay McClelland and Jeff Elman for making the original C source code for TRACE freely available, and for helpful comments on this project.
+- We thank Jay McClelland for sharing the C code and parameter files from his 1991 simulations with a stochastic version of TRACE.
+- Development of jTRACE and preparation of this manuscript were supported by National Institute on Deafness and Other Communication Disorders Grant DC-005765 to James S. Magnuson.
+- Copyright 2005 University of Connecticut
+
+## <a id="ug-authorship"></a>Authorship
+
+jTRACE created by Magnuson Lab for Language and Cognition, Department of Psychology, Experimental Group, University of Connecticut. jTRACE code written by (in alphabetical order) Harlan D. Harris, Raphael Peloff, and Ted Strauss.
+
+## <a id="ug-contact"></a>Contact
+
+If writing to report a bug or make a suggestion, please include “jtrace bug” in the subject line.
+
+james.magnuson@uconn.edu  
+[jTRACE home page]({{ "resources/jtrace" | relative_url }})

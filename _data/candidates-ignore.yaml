@@ -1,0 +1,7 @@
+# ORCID works that should never be proposed again by _cite/orcid_candidates.py
+# (e.g., preprints superseded by the published version, items not wanted on the site).
+# Each entry needs an id (doi:...) or a title.
+#
+# - id: doi:10.1101/2024.02.20.580731
+#   note: preprint of Brodbeck et al. 2025 PLOS Comp Bio
+

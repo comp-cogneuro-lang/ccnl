@@ -1,0 +1,638 @@
+# Conference presentations (all "Other conference presentations") plus keynote/plenary invited talks.
+# Generated from Magnuson CV (2026-08-19). Titles italicized; text otherwise verbatim.
+
+# CV other-1
+- date: 2025-11-01
+  kind: conference
+  text: "Schoen Simmons, E., Paul, R., Aslin, R., & Magnuson, J. S. (2025, November). *Phonological and semantic competition during spoken word recognition in late talking toddlers*. Boston University Conference on Language Development. Boston, USA."
+
+# CV other-2
+- date: 2025-10-01
+  kind: conference
+  text: "Malharin, I., Saavedra, B.M., Peng, L., Mancini, S., & Magnuson, J.S. (October, 2025). *First steps towards simulating aphasia in a neural network of human speech processing*. Poster presentation at the 2025 meeting of the Academy of Aphasia (AoA), San Diego, California, USA."
+
+# CV other-3
+- date: 2025-09-01
+  kind: conference
+  text: "Malharin, I., Saavedra, B.M., Peng, L., Mancini, S., & Magnuson, J.S. (September, 2025). *First steps towards simulating aphasia in the EARSHOT model of human speech processing*. Poster presentation at the 2025 meeting of the Society for the Neurobiology of Language (SNL), Washington D.C., USA"
+
+# CV invited-3
+- date: 2025-09-01
+  kind: keynote
+  text: "Magnuson, J. S. (2025, September). *Understandable models of human language*. Keynote, Institute of Language, Communication, and the Brain (ILCB) Summer School. Marseille, France."
+
+# CV other-4
+- date: 2024-11-01
+  kind: conference
+  text: "Magnuson, J. S. & Luthra, S. (2024, November). *Simple Recurrent Networks are interactive*. Oral presentation. Psychonomic Society. New York, USA."
+
+# CV other-5
+- date: 2024-11-01
+  kind: conference
+  text: "Crinnion, A. M., Myers, E., & Magnuson, J. S. (2024, November). *Individual differences in acoustic-phonetic and contextual cue use: considering relationships to hearing and cognitive functions*. Poster. Psychonomic Society. New York, USA."
+
+# CV other-6
+- date: 2024-11-01
+  kind: conference
+  text: "Fernandez, I. & Magnuson, J. S. (2024, November). *Qualitatively Different Feedback Effects in Recurrent Network Models of Spoken Word Recognition*. Poster. Psychonomic Society. New York, USA."
+
+# CV other-7
+- date: 2024-10-01
+  kind: conference
+  text: "Luthra, S., Brown, K., Rueckl, J. G., & Magnuson, J. S. (2024, October). *A computational investigation of the transformation from talker-specific detail to talker-invariant lexical representations*. Poster presentation at Society for Neurobiology of Language, Brisbane, Australia."
+
+# CV other-8
+- date: 2024-07-01
+  kind: conference
+  text: "Brown, K. S., Rueckl, J., Magnuson, J. S., McRae, K., & Yee, E. (2024, July). *Nonuniversal foraging behavior in semantic networks*. Poster presented at the Annual Meeting of the Cognitive Science Society. Rotterdam, NL."
+
+# CV other-9
+- date: 2023-11-01
+  kind: conference
+  text: "Magnuson, James S. (2023, November). *Reexamining reported and predicted failures of Simple Recurrent Networks to simulate aspects of statistical learning*. Talk presented at the 64th Annual Meeting of the Psychonomic Society, San Francisco."
+
+# CV other-10
+- date: 2023-11-01
+  kind: conference
+  text: "Brown, K., Rueckl, J. G., Saltzman, E., Magnuson, J. S. & McRae, K., Yee, E. (2023, November). *Nonuniversal foraging behavior in semantic networks*. Talk presented at the 64th Annual Meeting of the Psychonomic Society, San Francisco."
+
+# CV other-11
+- date: 2023-11-01
+  kind: conference
+  text: "Giovannone, N., Cummings, S. N., García-Sierra, A., Magnuson, J. S.., & Theodore, R. M. (2023, November). *Early neural encoding of acoustic-phonetic information*. Talk presented at the 64th Annual Meeting of the Psychonomic Society, San Francisco."
+
+# CV other-20
+- date: 2023-11-01
+  kind: conference
+  text: "Crinnion, A.M., Magnuson, J.M., Myers, E., & Gaston, P. (2023, November). *Predictability effects on auditory word recognition in a novel priming paradigm*. Talk presented at the 64th Annual Meeting of the Psychonomic Society, San Francisco."
+
+# CV other-12
+- date: 2023-10-01
+  kind: conference
+  text: "Malharin, I., & Magnuson, J. S. (2023, October). *Double dissociations emerge in a “flat” attractor network*. Poster, Society for the Neurobiology of Language, Marseille, France."
+
+# CV other-13
+- date: 2023-10-01
+  kind: conference
+  text: "Giovannone, N. Cummings, S., García-Sierra, A., Magnuson, J. S., & Theodore, R. (2023, October). *Early neural encoding of acoustic-phonetic information is consistent across language ability*. Poster, Society for the Neurobiology of Language, Marseille, France."
+
+# CV other-14
+- date: 2023-10-01
+  kind: conference
+  text: "Magnuson, J. S., Simarro González, M., Hannagan, T., Beck, N., & Carreiras, M. (2023, October). *Mitigating catastrophic interference in neural network models of bilingual lexical acquisition*. Poster, Society for the Neurobiology of Language, Marseille, France."
+
+# CV other-15
+- date: 2023-10-01
+  kind: conference
+  text: "Bekemeir, N., Hundt, M., Jäger, L., Zúñiga, F., Sennrich, X., Lapresa-Serrano, J., Magnuson, J. S., Molinaro, N., & Hervais-Adelman, A. (2023, October). *Situating the neural basis of adjectival modification across typologically diverse languages*. Poster, Society for the Neurobiology of Language, Marseille, France."
+
+# CV other-16
+- date: 2023-10-01
+  kind: conference
+  text: "Xu, Q., Sjuls, G., Kalashnikova, M., & Magnuson, J. S. (2023, October). *What's in a word? Raw statistical learning sequences emulate neural entrainment*. Poster, Society for the Neurobiology of Language, Marseille, France."
+
+# CV other-19
+- date: 2023-09-01
+  kind: conference
+  text: "Magnuson, J. S., Saltzman, D., Luthra, S., Crinnion, A. M., Grubb, S., Peraza-Santiago, G., Dalal, P., Daniel, J., & Xie, B. *Neighbors (and other factors) — but not cohorts — predict spoken word recognition performance in decision tasks*. Poster presentation at Conference of the European Society for Cognitive Psychology, Porto, Portugal, September 2023."
+
+# CV other-17
+- date: 2023-08-01
+  kind: conference
+  text: "Sossounov, N. & Magnuson, J. S. (2023, August). *Extending TRACE with realistic feature, phoneme, and word inventories*. Poster, Architectures and Mechanisms for Language Processing 29, San Sebastián, Spain."
+
+# CV other-18
+- date: 2023-08-01
+  kind: conference
+  text: "Xu, Q. & Magnuson, J. S. (2023, August). *Modeling cortical tracking of statistical learning in simple recurrent networks*. Poster, Architectures and Mechanisms for Language Processing 29, San Sebastián, Spain."
+
+# CV invited-9
+- date: 2023-08-01
+  kind: keynote
+  text: "Magnuson, J. S. (2023, August). *Feedback and prediction in computational models of human spoken word recognition*. Keynote address, Architectures and Mechanisms for Language Processing (AMLaP) annual meeting. Donostia-San Sebastián, Spain."
+
+# CV invited-10
+- date: 2022-06-01
+  kind: keynote
+  text: "Magnuson, J. S. (2022, June). *Forms, formalisms, and emergence*. Keynote address, Interdisciplinary Advances in Statistical Learning. Donostia-San Sebastián, Spain."
+
+# CV other-21
+- date: 2021-11-01
+  kind: conference
+  text: "Crinnion, A. M., Luthra, S., Gaston, P., & Magnuson, James S. (2021, November). *Resolving competing predictions in speech perception* [Oral Presentation]. Abstracts of the Psychonomic Society, 85."
+
+# CV other-22
+- date: 2021-10-01
+  kind: conference
+  text: "Luthra, S., Magnuson, J. S., & Myers, E. B. (2021, October). *Right posterior temporal cortex supports integration of phonetic and talker information* [Poster Presentation]."
+
+# CV other-23
+- date: 2021-10-01
+  kind: conference
+  text: "Luthra, S., Mechtenberg, H., Giorio, C., Theodore, R. M., Magnuson, J. S., & Myers, E. B. (2021, October). *Using TMS to evaluate a causal role for right posterior temporal cortex in talker-specific phonetic processing* [Poster Presentation]."
+
+# CV other-24
+- date: 2021-10-01
+  kind: conference
+  text: "Luthra, S., Rueckl, J. S., & Magnuson, J. S. (2021, October). *A computational investigation of the transformation from talker-specific detail to talker-invariant lexical representations*."
+
+# CV other-25
+- date: 2021-01-01
+  kind: conference
+  text: "Brown, K., Monto, N. R, Rueckl, J., & Magnuson, J. (2021). *Distributed semantics in a neural network model of human speech recognition*. Poster presentation. Proceedings of the Annual Meeting of the Cognitive Science Society, p. 3508."
+
+# CV other-26
+- date: 2021-01-01
+  kind: conference
+  text: "Brodbeck, C., Luthra, S., Gaston, P., & Magnuson, J. S. (2021). *Discovering computational principles in models and brains*. Poster presentation. Proceedings of the Annual Meeting of the Cognitive Science Society, p. 3438."
+
+# CV other-27
+- date: 2020-11-01
+  kind: conference
+  text: "Peraza-Santiago, G., Beeson, K., Luthra, S., Saltzman, D., Crinnion, A. M., & Magnuson, J. S. (2020, November). *Robust Lexically-Mediated Compensation for Coarticulation (LCfC) supports feedback in spoken word recognition*. Poster presented online at the Annual Meeting of the Psychonomic Society."
+
+# CV other-28
+- date: 2020-11-01
+  kind: conference
+  text: "Grubb, S., Dalal, P., Daniel, J., Peraza-Santiago, G., Luthra, S., Saltzman, D., Xie, B., Crinnion, A. M., & Magnuson, J. S. (2020, November). *Talkers, time, tasks, and similarity in spoken word recognition*. Poster presented online at the Annual Meeting of the Psychonomic Society."
+
+# CV other-29
+- date: 2020-11-01
+  kind: conference
+  text: "Saltzman, D., Luthra, S., Myers, E. B., & Magnuson, J. S. (2020, November). *Multi-talker processing costs in monitoring reflect task demands, not normalization*. Psychonomic Society, Virtual Conference, November 2020."
+
+# CV other-30
+- date: 2020-08-01
+  kind: conference
+  text: "Brown, K., Yee, E., Saltzman, E., Magnuson, J. S., & McRae, K. (2020, August). *What do computers know about semantics anyway? Testing distributional semantics models against a broad range of relatedness ratings*. Poster presented at the Annual Meeting of the Cognitive Science Society."
+
+# CV other-31
+- date: 2020-04-01
+  kind: conference
+  text: "Grubb, S., Daniel, J., Dalal, P., Peraza-Santiago, G., Xie, B., Luthra, S., Saltzman, D., & Magnuson, J.S. (2020, April). *The phonological structure of human knowledge*. University of Connecticut Frontiers in Undergraduate Research (virtual forum due to pandemic)."
+
+# CV other-32
+- date: 2020-04-01
+  kind: conference
+  text: "Beeson, K., Peraza-Santiago, G., Luthra, S., Saltzman, D., & Magnuson, J.S. (2020, April). *Context-sensitive speech perception: Lexically-mediated compensation for coarticulation*. University of Connecticut Frontiers in Undergraduate Research (virtual forum due to pandemic)."
+
+# CV other-33
+- date: 2020-04-01
+  kind: conference
+  text: "Daniel, J., Dalal, P., Grubb, S., Peraza-Santiago, G., Xie, B., Luthra, S., Saltzman, D., & Magnuson, J.S. (2020, April). *A performance database for studying the structure of human semantic knowledge*. University of Connecticut Frontiers in Undergraduate Research (virtual forum due to pandemic)."
+
+# CV other-34
+- date: 2019-11-01
+  kind: conference
+  text: "Luthra, S., Steiner, R., Magnuson, J.S. & Myers, E. (2019, November). *The influence of sentence context on lexically guided perceptual learning*. Poster, Psychonomic Society, Montreal, QB."
+
+# CV other-35
+- date: 2019-11-01
+  kind: conference
+  text: "Schoen Simmons, Elizabeth & Magnuson, J.S. (2019, November). *Spoken word recognition in young children*. Poster, Psychonomic Society, Montreal, QB."
+
+# CV other-36
+- date: 2018-11-01
+  kind: conference
+  text: "Gow, D.W., Li, M.Y.C., & Magnuson, J.S. (2018, November). *The consolations of clumpiness: How top-down lexical influences explain a paradox in the structure of lexical perceptual space*. Poster, Psychonomic Society, New Orleans."
+
+# CV other-37
+- date: 2018-11-01
+  kind: conference
+  text: "Li, M.Y.C., You, H., Luthra, S., Steiner, R., & Magnuson, J.S. (2018, November). *Predictive processing in computational models of spoken word recognition*. Poster, Psychonomic Society, New Orleans."
+
+# CV other-38
+- date: 2018-11-01
+  kind: conference
+  text: "Luthra, S., You, H. & Magnuson, J.S. (2018, November). *Orthographic neighbor effects on visual word identification differ across letter positions*. Poster, Psychonomic Society, New Orleans."
+
+# CV other-39
+- date: 2018-11-01
+  kind: conference
+  text: "Steiner, R.J., Brown, K., Allopenna, P.D., McRae, K., Saltzman, E., & Magnuson, J.S. (2018, November). *Time and similarity in spoken word recognition*. Poster, Psychonomic Society, New Orleans."
+
+# CV other-40
+- date: 2018-11-01
+  kind: conference
+  text: "You, H., Nam, H., Allopenna, P.D., Brown, K., & Magnuson, J.S. (2018, November). *DeepListener: A new neural network model of spoken word recognition that operates on real speech*. Talk (presented by Magnuson), Psychonomic Society, New Orleans."
+
+# CV other-41
+- date: 2018-08-01
+  kind: conference
+  text: "You, H., Nam, H., Allopenna, P., Brown, K., & Magnuson, J.S. (2018, August). *DeepListener: A computational model of human speech recognition that works with real speech and develops distributed phonological codes*. Poster, Society for the Neurobiology of Language, Quebec City, Quebec, Canada."
+
+# CV invited-21
+- date: 2018-08-01
+  kind: keynote
+  text: "Magnuson, J.S. (2018, August). *The visual world paradigm and spoken language processing: Insights into computation, development, and disorder*. Keynote lecture, AttLis (Attentive Listener in the Visual World) 2018, Trondheim, Norway."
+
+# CV other-42
+- date: 2018-05-01
+  kind: conference
+  text: "Magnuson, J.S., Li, M., You, H., Luthra, S. & Steiner, R. (2018, May). *Predictive processing and predictive coding in computational models of spoken word recognition*. Talk, Workshop on Predictive Processing, San Sebastian, Spain."
+
+# CV other-43
+- date: 2017-11-01
+  kind: conference
+  text: "Simmons, E.S., Paul, R., Theodore, R., Li, M., & Magnuson, J. (2017). *Insight into spoken word processing in young children using eye movements*. Poster presented at the Conference of the Society for the Neurobiology of Language, Baltimore, MD, November."
+
+# CV other-44
+- date: 2017-07-01
+  kind: conference
+  text: "Luthra, S., & Magnuson, J. S. *Cumulative response probabilities: Estimating time course of lexical activation from single-point response times*. Poster, Cognitive Science Society, London, UK, July 2017."
+
+# CV other-45
+- date: 2016-11-01
+  kind: conference
+  text: "Eigsti, I. M., Mayo , J., Simmons , E., & Magnuson, J. S. (2016, November). *Qualitative versus quantitative measurement of speech in autism: Beyond the Good and the Beautiful*. Paper, Boston University Conference on Language Development (BUCLD), Boston, MA."
+
+# CV other-46
+- date: 2016-11-01
+  kind: conference
+  text: "Simmons, E.S., Dokura, S., DeMayo, D., Magnuson, J., & Eigsti, I. (2016, November). *Acoustic and perceptual correlates of spoken prosody and their relationship to clinical ratings in Autism Spectrum Disorder*. Poster presented at the Annual American Speech-Language Hearing Association, Philadelphia, PA."
+
+# CV other-47
+- date: 2016-04-01
+  kind: conference
+  text: "Malins, J., Fiters, J., Magnuson, J. Goeger, C., Buis, B., Mencl, W. E., Sevcik, R., Pugh, K., Morris, R., & Frost, S. (2016, April). *Was that a pibu I just saw? Using an artificial lexicon to characterize the link between phonological abilities and reading deficits in children*. Poster presented at the 2016 Meeting of the Cognitive Neuroscience Society, New York, NY."
+
+# CV other-48
+- date: 2016-03-01
+  kind: conference
+  text: "Gong, T., Braze, D., Magnuson, J., Mencl, E., Tabor, W., Van Dyke, J., & Shankweiler, D. (2016, March). *Interactions between reading skills and lexical properties on on-line sentence reading*. Poster presented at the 29th Annual CUNY Conference on Human Sentence Processing, Gainesville, FL."
+
+# CV other-49
+- date: 2015-10-01
+  kind: conference
+  text: "Landi, N., Frost, S., Malins, J., Rueckl, J., Mencl, W. E., & Pugh, K. (2015, October). *Behavioral and neural (fMRI) evidence for improved lexical learning in a paired associate learning paradigm after a period of offline consolidation*. Poster presented at the Society for the Neurobiology of Language, Chicago, IL."
+
+# CV other-50
+- date: 2015-10-01
+  kind: conference
+  text: "Kornilov, S., Landi, N., Lee, M., Magnuson, J., & Grigorenko, E. (2015, October). *Cohesion of cortical language networks in the alpha EEG band during word processing is predicted by a common polymorphism in the SETBP1 gene*. Poster presented at the Society for the Neurobiology of Language, Chicago, IL."
+
+# CV other-51
+- date: 2015-10-01
+  kind: conference
+  text: "Tsai, J-T., Su, C-I. E., & Magnuson, J. S. (2015, October). *Incremental processing of Chinese spoken words and the influence of fluent speech on lexical competition effects: Evidence for eye movements*. Poster presented at the Society for the Neurobiology of Language, Chicago."
+
+# CV invited-30
+- date: 2014-11-01
+  kind: keynote
+  text: "Magnuson, J. S. (November 8, 2014). *Attention, language, and the natural scheduling hypothesis*. Keynote address, International Symposium on the Biological Foundations of Language, Chinese University of Hong Kong."
+
+# CV other-52
+- date: 2014-08-01
+  kind: conference
+  text: "Zhang, C., Pugh, K. R., Mencl, W. E., Molfese, P. J., Frost, S. J., Magnuson, J. S., Peng, G., & Wang, W. S-Y. (2014, August). *Temporal locus of interaction of phonetic and talker processing in speech perception: An ERP study*. Proceedings of the Annual Meeting of the Society for the Neurobiology of Language, p. 34. Amsterdam."
+
+# CV other-53
+- date: 2014-07-01
+  kind: conference
+  text: "Magnuson, J. S. (2014, July). *Phoneme restoration in interactive activation models: Yes they can!* Proceedings of the 36th Annual Cognitive Science Society Conference, p. 3347. Québec City."
+
+# CV other-54
+- date: 2014-07-01
+  kind: conference
+  text: "Magnuson, J. S. (2014, July). *Simple Recurrent Networks and human spoken word recognition*. Proceedings of the 36th Annual Cognitive Science Society Conference, p. 3348. Québec City."
+
+# CV other-55
+- date: 2014-05-01
+  kind: conference
+  text: "Johns, A. R. & Magnuson, J. S. (2014, May). *Lexically-mediated perceptual learning generalizes to new word positions*. Poster presented at the 167th Meeting of the Acoustical Society of America. Providence."
+
+# CV other-56
+- date: 2014-04-01
+  kind: conference
+  text: "Johns, C. L., Braze, D., Molfese, P. J., Van Dyke, J. A., Magnuson, J. S., Tabor, W., Mencl, W. E., Shankweiler, D. P. (2014, April). *Structural MRI reveals correlations between individual differences in language-related cognitive abilities and thickness of language-relevant cortical areas*. Poster presented at the Cognitive Neuroscience Society, Boston."
+
+# CV other-57
+- date: 2014-04-01
+  kind: conference
+  text: "Magnuson, J. S., Frost, S., Landi, N., Molfese, P., Sharoh, D., Rueckl, J., Preston, J., Mencl, W. E., Pugh, K. (2014, April). *A crucial role for phonological inhibition in auditory referential word learning: Evidence from an artificial lexicon paradigm*. Poster presented at the Cognitive Neuroscience Society, Boston."
+
+# CV other-58
+- date: 2014-04-01
+  kind: conference
+  text: "Zhang, C., Pugh, K. R., Mencl, W. E., Molfese, P. J., Frost, S. J., Magnuson, J. S., Peng, G., Wang, W. S-Y. (2014, April). *Neural processing of phonetic and talker information in a tone language: An fMRI study*. Poster presented at the Cognitive Neuroscience Society, Boston."
+
+# CV other-59
+- date: 2014-04-01
+  kind: conference
+  text: "Frost, S., Landi, N., Molfese, P., Magnuson, J., Sharoh, D., Rueckl, J., Preston, J., Mencl, W. E., & Pugh, K. (2014, April). *Differential functional activation in speech/language areas associated with auditory lexical learning as a function of sleep consolidation*. Poster, Cognitive Neuroscience Society, Boston."
+
+# CV other-60
+- date: 2013-11-01
+  kind: conference
+  text: "Brozdowski, C. R., Gordils, J., & Magnuson, J. S. (2013, November). *Contra the Qualitatively Different Representation Hypothesis (QDRH), concrete concepts activate associates faster than abstract concepts*. Talk presented at the Psychonomic Society, Toronto."
+
+# CV other-61
+- date: 2013-11-01
+  kind: conference
+  text: "Brozdowski, C. R., Gordils, J., & Magnuson, J. S. (2013, November). *Using text instead of pictures in the Visual World Paradigm: Phonological, semantic, and perceptual similarity effects*. Poster presented at the Psychonomic Society, Toronto."
+
+# CV other-62
+- date: 2013-11-01
+  kind: conference
+  text: "Kurian, A. M., Zhao, J., Magnuson, J., & Rueckl, J. (2013, November). *Phoneme transposition effects in spoken word recognition*. Poster presented at the Psychonomic Society, Toronto."
+
+# CV other-63
+- date: 2013-11-01
+  kind: conference
+  text: "Myers, E., Mesite, L., Johns, A., & Magnuson, J. S. (2013, November). *How the brain processes talker variability: The role of expectation*. Poster presented at the Society for the Neurobiology of Language, San Diego."
+
+# CV other-64
+- date: 2013-11-01
+  kind: conference
+  text: "Zhang, C., Magnuson, J. S., Landi, N., Peng, G., & Wang, W. S-Y. (2013, November). *Adjust the expectation of the phonetic form of words according to a talker's voice: A phonological mismatch negativity study*. Poster presented at the Society for the Neurobiology of Language, San Diego."
+
+# CV other-65
+- date: 2013-11-01
+  kind: conference
+  text: "Magnuson, J. S. (2013, November). *Interactive activation models simulate phoneme restoration with appropriate linking hypotheses*. Poster presented at the Society for the Neurobiology of Language, San Diego."
+
+# CV other-66
+- date: 2013-07-01
+  kind: conference
+  text: "Collison, B., Grela, B., Spaulding, T., Rueckl, J., & Magnuson, J. S. (2013, July). *Individual differences in shape bias are predicted by non-linguistic perceptual ability*. Proceedings of the 35th Annual Meeting of the Cognitive Science Society, 3910."
+
+# CV other-67
+- date: 2013-07-01
+  kind: conference
+  text: "Johns, A., van der Lely, H., & Magnuson, J. S. (2013, July). *Early Event-Related Potentials (ERPs) sensitive to animacy expectations in sentence comprehension are not overridden by context*. Proceedings of the 35th Annual Meeting of the Cognitive Science Society, 3992."
+
+# CV other-68
+- date: 2013-04-01
+  kind: conference
+  text: "Johns, A., van der Lely, H., & Magnuson, J. S. (2013, April). *Structure-driven expectations for animacy drive early left event-related potential negativities that are not overridden by contextual expectations*. Poster presented at the 20th Annual Meeting of the Cognitive Neuroscience Society, San Franciso, CA."
+
+# CV other-69
+- date: 2013-03-01
+  kind: conference
+  text: "Sadat, J., Martin, C.D., Magnuson, J., Alario, F.-X., & Costa, A. (2013, March). *Breaking down the bilingual cost in speech production*. Poster presented at the 11th International Symposium of Psycholinguistics, Tenerife, Canary Island, Spain."
+
+# CV other-70
+- date: 2012-11-01
+  kind: conference
+  text: "Shaw, A., Demos, A. P., Arthur, D., & Magnuson, J. S. (2012, November). *Individual differences in lexical quality of newly learned words*. Poster presented at the Psychonomic Society, Minneapolis, MN."
+
+# CV other-71
+- date: 2012-11-01
+  kind: conference
+  text: "Kornilov, S., Landi, N., Rakhlin, N., Grigorenko, E. L. & Magnuson, J. S. (2012, November). *Atypical simple tone discrimination and processing in children with developmental language impairment*. Poster presented at the Society for the Neurobiology of Language, San Sebastian, Spain."
+
+# CV other-72
+- date: 2012-05-01
+  kind: conference
+  text: "Braze, D., Kukona, A., Tabor, W., Magnuson, J. S., Mencl, E., Kornilov, S., Van Dyke, J.A., Johns, C., & Shankweiler, D. (2012, May). *Individual differences in speech-drivengaze patterns in the visual world task*. The Scandinavian Workshop on Applied Eye Tracking, Karolinska Institutet, Stockholm."
+
+# CV other-74
+- date: 2011-09-01
+  kind: conference
+  text: "Mirman, D., Kornilov, K., & Magnuson, J. S. (2011). *Fluent speech, uncertainty, and spoken word recognition*. Architectures and Mechanisms of Language Processing (AMLAP) 2011, Paris, France, 1-3 September."
+
+# CV other-73
+- date: 2011-01-01
+  kind: conference
+  text: "Braze, D., Kukona, A., Tabor, W., Magnuson, J. S., Mencl, W. E., Kornilov, S., et al. (2011). *Variation in visual world performance is related to both verbal and visual memory*. Palo Alto, CA: Poster presented at the 24th CUNY Conference on Human Sentence Processing."
+
+# CV other-75
+- date: 2010-03-01
+  kind: conference
+  text: "Fang, S. (g), Li, J. & Magnuson, J. S. (March, 2010). *Reconsidering ERP evidence for early syntactic encapsulation*. Talk presented at the 23rd Annual CUNY Conference on Human Sentence Processing, New York, NY."
+
+# CV invited-52
+- date: 2010-03-01
+  kind: keynote
+  text: "Magnuson, J.S. (2010, March). *Models of language comprehension: Opportunities and challenges*. Plenary talk given at Cognitive Aging, Atlanta, GA."
+
+# CV other-76
+- date: 2009-11-01
+  kind: conference
+  text: "Fang, S. & Magnuson, J.S. (Nov., 2009). *An electrophysiological study of temporal order and learning in speech perception*. Poster presented at the 50th Annual Meeting of the Psychonomic Society, Boston."
+
+# CV other-77
+- date: 2009-11-01
+  kind: conference
+  text: "Li, J., Fang, S., & Magnuson, J.S. (Nov., 2009). *An electrophysiological index of learned anomaly anticipation in reading*. Poster presented at the 50th Annual Meeting of the Psychonomic Society, Boston."
+
+# CV other-78
+- date: 2009-11-01
+  kind: conference
+  text: "Viswanathan, N., Magnuson, J. S., & Fowler, C. A. (Nov., 2009). *Effects of sine wave contexts on compensation for coarticulation*. Poster presented at the 50th Annual Meeting of the Psychonomic Society, Boston, MA."
+
+# CV other-79
+- date: 2008-01-01
+  kind: conference
+  text: "Fang, S. & Magnuson, J.S. (2008). *Effects of unrelated distractor frequency in the visual world paradigm*. Poster presented at the 49th Annual Meeting of the Psychonomic Society, Chicago, USA."
+
+# CV other-80
+- date: 2008-01-01
+  kind: conference
+  text: "Magnuson, J.S., Mirman, D., & Dixon, J. (2008). *A statistical and computational modeling approach to group and individual differences in the time course of language processing*. Poster presented at the 21st Annual CUNY Conference on Human Sentence Processing. Chapel Hill, NC."
+
+# CV other-81
+- date: 2008-01-01
+  kind: conference
+  text: "Mirman, D. and Magnuson, J.S. (2008). *Dynamics of activation of semantically similar concepts during spoken word recognition*. Paper presented at the 49th Annual Meeting of the Psychonomic Society, Chicago, IL."
+
+# CV other-82
+- date: 2008-01-01
+  kind: conference
+  text: "Mirman, D., Yee, E., Magnuson, J.S., & Blumstein, S. (2008). *Statistical and computational investigations of the time course of spoken word recognition in aphasia*. Poster presented at the 2008 Meeting of the Cognitive Neuroscience Society, San Francisco, CA."
+
+# CV other-83
+- date: 2008-01-01
+  kind: conference
+  text: "Viswanathan, N., Tobin, S. J., Magnuson, J. S., & Fowler, C. A. (2008). *Motor compatibility effects on speech perception*. Poster presented at the 49th Annual meeting of the Psychonomic Society."
+
+# CV other-93
+- date: 2007-11-01
+  kind: conference
+  text: "Viswanathan, N., Magnuson, J.S., & Fowler, C.A. (2007, November). *Effects of Nonspeech Contexts on Speech Categorization: A Critical Examination*. Poster presented at the 48th Annual meeting of the Psychonomic Society, Long Beach CA."
+
+# CV other-87
+- date: 2007-08-01
+  kind: conference
+  text: "Magnuson, J.S., Mirman, D., & Strauss, T. (August, 2007). *Why do neighbors speed visual word recognition but slow spoken word recognition?* Paper presented at the 13th Annual Conference on Architectures and Mechanisms for Language Processing, Turku, Finland."
+
+# CV other-84
+- date: 2007-01-01
+  kind: conference
+  text: "Kukona, A., Fang, S., Aicher, K., Chen, H., & Magnuson, J. S. (2007). *Predictive constraints on sentence processing: Argument structure and semantic priming*. Talk delivered at the 20th Annual CUNY Conference on Human Sentence Processing, La Jolla, CA."
+
+# CV other-85
+- date: 2007-01-01
+  kind: conference
+  text: "Magnuson, J. S., & Strauss, T. (2007). *Do spoken words tell us how long they will be?* Poster presented at the 20th Annual CUNY Conference on Human Sentence Processing, La Jolla, CA."
+
+# CV other-86
+- date: 2007-01-01
+  kind: conference
+  text: "Magnuson, J.S. & Mirman, D. (2007). *Neighborhood effects in word recognition: It's not where you live, it's how you get home*. Paper presented at the 48th Annual Meeting of the Psychonomic Society, Long Beach, CA."
+
+# CV other-88
+- date: 2007-01-01
+  kind: conference
+  text: "Mirman, D. & Magnuson, J.S. (2007). *Attractor dynamics and semantic neighborhood density: Processing is slowed by near neighbors and speeded by distant neighbors*. Paper presented at the 2nd UConn Workshop on Cognition and Dynamics, Storrs, CT."
+
+# CV other-89
+- date: 2007-01-01
+  kind: conference
+  text: "Mirman, D., Magnuson, J.S., Graf Estes, K., & Dixon, J.A. (2007). *Linking statistical learning to language processing*. Invited paper presented at the Workshop on Current Issues in Language Acquisition: Artificial Languages and Statistical Learning, Calgary, Alberta, Canada."
+
+# CV other-90
+- date: 2007-01-01
+  kind: conference
+  text: "Mirman, D., Magnuson, J.S., Strauss, T.J., & Dixon, J.A. (2007). *The time course of pragmatic context integration in homophone ambiguity resolution*. Poster presented at the 48th Annual Meeting of the Psychonomic Society, Long Beach CA."
+
+# CV other-91
+- date: 2007-01-01
+  kind: conference
+  text: "Mirman, D., Strauss, T., Magnuson, J.S., & Dixon, J.A. (2007). *Integration of pragmatic context in homophone ambiguity resolution: Time course of activation of context-appropriate and context-inappropriate meanings*. Poster presented at the 20th Annual CUNY Conference on Human Sentence Processing, La Jolla, CA."
+
+# CV other-92
+- date: 2007-01-01
+  kind: conference
+  text: "Salverda, A. P., Spivey, M., Magnuson, J.S., & Tanenhaus, M. K. (2007). *Eye movements and hand movements as indices of lexical processing*. Poster presented at the 20th Annual CUNY Conference on Human Sentence Processing, La Jolla, CA."
+
+# CV other-99
+- date: 2006-11-01
+  kind: conference
+  text: "Viswanathan, N., Magnuson, J.S., & Fowler, C.A. (2006, November). *Compensation for coarticulation : Comparing Contrast and Gestural theories*. Poster presented at the 47th Annual meeting of the Psychonomic Society."
+
+# CV other-94
+- date: 2006-08-01
+  kind: conference
+  text: "Dixon, J., & Magnuson, J. S., (2006, August). *Growth curve analysis of eye tracking*. UConn Workshop on Nonlinear Dynamics and Cognition (small workshop)."
+
+# CV other-95
+- date: 2006-08-01
+  kind: conference
+  text: "Magnuson, J. S., (2006, August). *Time course measures? Comparing eye tracking, mouse tracking, and ERP*. UConn Workshop on Nonlinear Dynamics and Cognition (small workshop)."
+
+# CV other-96
+- date: 2006-01-01
+  kind: conference
+  text: "Mirman, D. & Magnuson, J.S. (2006). *Location, Location, Location: Contrasting Effects of Near and Distant Semantic Neighbors on Semantic Access*. Poster presented at the 47th Annual Meeting of the Psychonomic Society, Houston, TX."
+
+# CV other-97
+- date: 2006-01-01
+  kind: conference
+  text: "Strauss, T. J., Magnuson, J. S., & Harris, H. D. (2006). *jTRACE: A user-friendly reimplementation and extension of the TRACE model of speech perception and spoken word recognition*. Journal of the Acoustical Society of America, 119 (5), 3245."
+
+# CV other-98
+- date: 2006-01-01
+  kind: conference
+  text: "Viswanathan, N., Magnuson, J.S., & Fowler, C.A. (2006). *Compensation for coarticulation : Three theories compared*. Journal of the Acoustical Society of America, 119 (5), 3241."
+
+# CV other-100
+- date: 2004-01-01
+  kind: conference
+  text: "Harris, H. D. & Magnuson, J. S. (2004). *Proper names, common nouns, and category learning*. Poster presented at the Annual Meeting of the Psychonomic Society."
+
+# CV other-101
+- date: 2003-01-01
+  kind: conference
+  text: "Magnuson, J.S., Tanenhaus, M. K. & Aslin, R. N. (2003). *The time course of lexical competition in spoken word recognition*. Abstracts of the Psychonomic Society: 44th Annual Meeting, 8, 96."
+
+# CV other-102
+- date: 2001-01-01
+  kind: conference
+  text: "Magnuson, J. S., Tanenhaus, M. K., Aslin, R. N., & Dahan, D. (2001). *Eye movements and artificial lexicons: A paradigm for measuring real-time language processing and evaluating models*. Poster presented at the 14th Annual CUNY Conference on Human Sentence Processing."
+
+# CV other-103
+- date: 2001-01-01
+  kind: conference
+  text: "McMurray, B., Magnuson, J. S., Tanenhaus, M. K., & Aslin, R. N. (2001). *Transitional probabilities and lexical status in spoken word recognition*. Poster presented at the 14th Annual CUNY Conference on Human Sentence Processing."
+
+# CV other-104
+- date: 2000-01-01
+  kind: conference
+  text: "Chambers, C. G., Tanenhaus, M. K., & Magnuson, J. S. (2000). *Interaction of referential context and real-world knowledge in syntactic ambiguity resolution*. Paper presented at the Annual Meeting of the Linguistic Society of America, Chicago, IL."
+
+# CV other-105
+- date: 2000-01-01
+  kind: conference
+  text: "Dahan, D., Magnuson, J. S., Tanenhaus, M. K., & Hogan E. (2000). *Tracking the time course of subcategorical mismatches on lexical access*. Poster, Annual meeting of the Psychonomic Society."
+
+# CV other-106
+- date: 1999-01-01
+  kind: conference
+  text: "Chambers, C. G., Tanenhaus, M. K., & Magnuson, J. S. (1999). *Real-world knowledge modulates referential effects on PP-attachment: Evidence from eye movements in spoken language comprehension*. Paper presented at the Fifth Conference on Architectures and Mechanisms for Language Comprehension (AMLaP), Edinburgh, UK."
+
+# CV other-107
+- date: 1999-01-01
+  kind: conference
+  text: "Magnuson, J. S., Dahan, D., Tanenhaus, M. K., & Aslin, R. N. (1999). *A study of frequency and neighborhood effects on spoken word recognition using an artificial lexicon*. Proceedings of the Twelfth Annual CUNY Conference on Human Sentence Processing, 98."
+
+# CV other-108
+- date: 1999-01-01
+  kind: conference
+  text: "Magnuson, J. S., Tanenhaus, M. K., Aslin, R. N., & Dahan, D. (1999). *Learning a novel lexicon: Effects of frequency, phonological overlap, and neighborhood density*. Paper presented at the First Empire State Speech Conference, Binghamton, NY."
+
+# CV other-109
+- date: 1999-01-01
+  kind: conference
+  text: "Magnuson, J. S., Tanenhaus, M. K., Aslin, R. N., & Dahan, D. (1999). *The time course of spoken-word recognition: Measurements and models*. Paper presented at the Fifth Conference on Architectures and Mechanisms for Language Comprehension (AMLaP), Edinburgh, UK."
+
+# CV other-111
+- date: 1998-05-01
+  kind: conference
+  text: "Magnuson, J. S., Dahan, D., Allopenna, P. D., Tanenhaus, M. K., & Aslin, R. N. (1998). *The development and microstructure of lexical dynamics*. Talk presented at the First Annual Meeting of the North East Cognitive Science Society, May, Cornell University, Ithaca, NY."
+
+# CV other-110
+- date: 1998-01-01
+  kind: conference
+  text: "Magnuson, J. S., Bensinger, D. G., Hayhoe, M. M., & Ballard (1998). *Statistical regularities and task constraints in perceptual learning*. Proceedings of the Association for Research in Vision and Ophthalmology, Investigative Ophthalmology and Visual Science, 39."
+
+# CV other-112
+- date: 1997-11-01
+  kind: conference
+  text: "Allopenna, P. D., Magnuson, J. S., & Tanenhaus, M. K. (1997b). *Tracking the time course of lexical access in spoken word recognition*. Presented at the 38th meeting of the Psychonomic Society, November, 1997."
+
+# CV other-114
+- date: 1997-09-01
+  kind: conference
+  text: "Allopenna, P. D., Magnuson, J. S., & Tanenhaus, M. K. (1997d). *Tracking the time course of lexical access in spoken word recognition*. Architectures and Mechanisms for Language Processing (AMLaP), September 11-13, Edinburgh, Scotland."
+
+# CV other-113
+- date: 1997-03-01
+  kind: conference
+  text: "Allopenna, P. D., Magnuson, J. S., & Tanenhaus, M. K. (1997c). *Speech in time primes rhymes: Using eye movements to track lexical access in continuous speech*. Paper presented at the 10th Annual CUNY Conference on Human Sentence Processing, March 20 - 22, Santa Monica, CA."
+
+# CV other-115
+- date: 1997-01-01
+  kind: conference
+  text: "Magnuson, J. S., Sagerer, G., Hayhoe, M. M., & Ballard, D. H. (1997). *The role of fixations in task automatization*. Proceedings of the Association for Research in Vision and Ophthalmology, Investigative Ophthalmology and Visual Science, 38(4), S963."
+
+# CV other-116
+- date: 1997-01-01
+  kind: conference
+  text: "Pruitt, J. S., Magnuson, J. S., & Akahane-Yamada, R. (1997). *The effects of \"mixed\" versus \"blocked\" talker conditions crosses linguistic and phonetic boundaries*. Proceedings of the 1997 Fall meeting of the Acoustical Society of Japan."
+
+# CV other-117
+- date: 1996-01-01
+  kind: conference
+  text: "Allopenna, P. D., Magnuson, J. S., & Tanenhaus, M. K. (1996). *Watching spoken language perception: Using eye movements to track lexical access*. In G. Cottrell (Ed.), Proceedings of the Eighteenth Annual Conference of the Cognitive Science Society, 723. Mahwah, NJ: Erlbaum."
+
+# CV other-118
+- date: 1996-01-01
+  kind: conference
+  text: "Magnuson, J. S. (1996). *Does probability matching require complex representations?* In G. Cottrell (Ed.), Proceedings of the Eighteenth Annual Conference of the Cognitive Science Society, 799. Mahwah, NJ: Erlbaum."
+
+# CV other-119
+- date: 1995-01-01
+  kind: conference
+  text: "Magnuson, J. S., Yamada, R. A., Tohkura, Y., & Bradlow, A. R. (1995). *Testing the importance of talker variability in non-native speech contrast training*. Paper, 129th meeting of the Acoustical Society of America. Journal of the Acoustical Society, 97(5), 3417."
+  pdf: papers/magnuson-1995-testing-importance-talker.pdf
+
+# CV other-120
+- date: 1994-01-01
+  kind: conference
+  text: "Magnuson, J. S., & Yamada, R. A. (1994c). *Talker variability and the identification of American English /r/ and /l/ by Japanese listeners*. Paper presented at the 127th meeting of the Acoustical Society of America. Journal of the Acoustical Society of America, 95, 2872."
+
+# CV other-121
+- date: 1993-01-01
+  kind: conference
+  text: "Magnuson, J. S. & Nusbaum, H. C. (1993). *Talker differences and perceptual normalization*. Paper presented at the 125th meeting of the Acoustical Society of America. Journal of the Acoustical Society of America, 93, 2371."

@@ -1,0 +1,31 @@
+{% comment %}
+  plain-text citation list grouped by year, for entries without fetchable
+  metadata (tech reports, presentations). each entry: date, text (markdown),
+  optional pdf, optional kind (used with include.kind to filter)
+{% endcomment %}
+
+{% assign items = site.data[include.data] %}
+{% if include.kind %}
+  {% assign items = items | where: "kind", include.kind %}
+{% endif %}
+
+{% assign years = items
+  | group_by_exp: "d", "d.date | date: '%Y'"
+  | sort: "name"
+  | reverse
+%}
+
+{% for year in years %}
+  <h3 id="{{ include.data }}-{{ include.kind }}-{{ year.name }}">{{ year.name }}</h3>
+  <ul class="text-list">
+    {% assign entries = year.items | sort: "date" | reverse %}
+    {% for entry in entries %}
+      <li>
+        {{ entry.text | markdownify | remove: "<p>" | remove: "</p>" }}
+        {% if entry.pdf %}
+          {% include button.html type="pdf" link=entry.pdf style="bare" %}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

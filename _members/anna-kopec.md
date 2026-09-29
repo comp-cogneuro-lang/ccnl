@@ -1,12 +1,13 @@
 ---
 name: Anna Kopec
-image: images/anna-kopec.JPG
-role: undergraduate researcher
-group: undergraduates 
+image: images/anna-kopec.jpg
+role: undergrad
+affiliation: University of Connecticut
 links:
   github: Anna-Kopec
   email: anna.kopec@uconn.edu
 ---
+
 
 Anna Kopec ’27 (CLAS) from Bethel, CT, is a cognitive science major focusing on artificial intelligence. In 2024, she was selected as a Holster Scholar and got to present her research project on human statistical learning at the Holster Scholars Symposium. She is currently continuing this research, exploring the relative performances of different neural networks when performing linguistic human statistical learning tasks.  
 

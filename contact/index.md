@@ -1,7 +1,7 @@
 ---
 title: Contact
 nav:
-  order: 5
+  order: 6
   tooltip: Email, address, and location
 ---
 
@@ -29,46 +29,19 @@ Computational Cognitive Neuroscience of Language (CCNL), Dept. of Psychology, U.
 
 {% include section.html %}
 
-{% capture col1 %}
+## Directions
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+Jim Magnuson's UConn office is 119 Bousfield (Weston A. Bousfield Psychology Building), University of Connecticut, Storrs, CT.
 
-{% endcapture %}
+**From I-84:** take Exit 68 (Route 195 South/Storrs Rd.) and follow Route 195 South for about 7 miles (about 1 mile past the intersection with Route 44). At the white church on the right, turn right at the light onto North Eagleville Road, take the first left onto Glenbrook Road, then turn left at the stop sign onto Hillside Road. Turn right immediately after Gampel Pavilion; the South Parking Garage is on your left.
 
-{% capture col2 %}
+**Walking from the South Garage:** at street level, turn right and pass the bank and bookstore (Gampel Pavilion on your left). Cross the street toward the Whetten Graduate Center, pass it on its right side, continue past the library and down the steps. The Bousfield Psychology Building is straight ahead at the bottom of the stairs; the Psychology office is just inside the entrance.
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
+- [UConn campus map](https://maps.uconn.edu/)
+- [Google Maps: Bousfield Psychology Building](https://maps.app.goo.gl/RnQThGtawE9BnNiD9)
 
-{% endcapture %}
+{% include section.html %}
 
-{% include cols.html col1=col1 col2=col2 %}
+## Facilities
 
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+We are a core user of the Cognitive Science Shared Electrophysiology Resource Lab (CSSERL), which is equipped with multiple EEG systems (BrainProducts and EGI) and eye trackers (SR Research EyeLink), and of the UConn [Brain Imaging Research Center](https://birc.uconn.edu/).

@@ -1,17 +1,1303 @@
+# Publications and refereed proceedings, generated from Magnuson CV (2026-08-19).
+# DOI entries are completed by Manubot; others carry manual fields.
+
+# CV pubs-1
+- title: "Extending a formal model of predictive coding to human spoken word recognition"
+  authors:
+    - "B. Rogers"
+    - "M. Y.-C. Li"
+    - "T. Hannagan"
+    - "J. S. Magnuson"
+    - "K. S. Brown"
+  publisher: "Neural Computation"
+  date: 2026-01-01
+  type: article
+
+# CV pubs-2
+- id: doi:10.3758/s13421-025-01843-5
+  type: article
+
+# CV pubs-3
+- id: doi:10.1371/journal.pcbi.1013244
+  type: article
+  pdf: papers/brodbeck-2025-recurrent-neural-networks.pdf
+
+# CV pubs-4
+- id: doi:10.21428/e2759450.9e968b77
+  type: chapter
+
+# CV pubs-5
+- id: doi:10.1016/j.brainres.2025.149563
+  type: article
+  pdf: papers/magnuson-2025-trace-ing-fixations.pdf
+
+# CV pubs-6
+- id: doi:10.1037/rev0000547
+  type: article
+  pdf: papers/frost-2025-statistical-learning-subserves.pdf
+
+# CV pubs-7
+- id: doi:10.1037/xlm0001412
+  type: article
+  pdf: papers/isbilen-2025-finding-words-sea.pdf
+
+# CV pubs-8
+- id: doi:10.3758/s13423-024-02608-y
+  type: article
+  pdf: papers/magnuson-2024-simple-recurrent-networks.pdf
+
+# CV pubs-9
+- id: doi:10.1111/cogs.13449
+  type: article
+  pdf: papers/luthra-2024-do-they-know-christmash.pdf
+
+# CV pubs-10
+- id: doi:10.3758/s13414-024-02849-y
+  type: article
+
+# CV pubs-11
+- id: doi:10.5334/joc.362
+  type: article
+  pdf: papers/magnuson-2024-lexical-feedback-tisk.pdf
+
+# CV pubs-12
+- title: "Spoken word recognition: A focus on plasticity"
+  authors:
+    - "E. C. Kapnoula"
+    - "M. Jevtović"
+    - "J. S. Magnuson"
+  publisher: "Annual Review of Linguistics, 10(1), 233-256"
+  date: 2024-01-01
+  type: article
+  pdf: papers/kapnoula-2024-spoken-word-recognition.pdf
+
+# CV pubs-13
+- id: doi:10.1016/j.cognition.2023.105661
+  type: article
+  pdf: papers/magnuson-2024-contra-assertions-feedback.pdf
+
+# CV proc-1
+- title: "Double dissociations emerge in a flat attractor network"
+  authors:
+    - "I. Malharin"
+    - "S. Mancini"
+    - "J. S. Magnuson"
+  publisher: "Proceedings of the Annual Meeting of the Cognitive Science Society, 46, 5414-5420"
+  date: 2024-01-01
+  link: https://escholarship.org/uc/item/94f2t1kd
+  type: proceedings
+
+# CV proc-2
+- title: "Modeling infant cortical tracking of statistical learning in simple recurrent networks"
+  authors:
+    - "Q. Xu"
+    - "G. S. Sjuls"
+    - "M. Kalashnikova"
+    - "J. S. Magnuson"
+  publisher: "Proceedings of the Annual Meeting of the Cognitive Science Society, 46, 5795-5801"
+  date: 2024-01-01
+  link: https://escholarship.org/uc/item/2fh04209
+  type: proceedings
+
+# CV pubs-14
+- id: doi:10.1111/cogs.13291
+  type: article
+  pdf: papers/brown-2023-investigating-extent-distributional.pdf
+
+# CV pubs-15
+- id: doi:10.1162/nol_a_00091
+  type: article
+
+# CV pubs-16
+- id: doi:10.1016/j.bandl.2023.105264
+  type: article
+
+# CV pubs-17
+- id: doi:10.1093/oxfordhb/9780198845003.013.23
+  type: chapter
+  pdf: papers/magnuson-2022-spoken-word-recognition.pdf
+
+# CV proc-3
+- title: "How feedback in interactive activation improves perception"
+  authors:
+    - "J. S. Magnuson"
+    - "S. Grubb"
+    - "A. M. Crinnion"
+    - "S. Luthra"
+    - "P. Gaston"
+  publisher: "Proceedings of the Annual Meeting of the Cognitive Science Society, 44"
+  date: 2022-01-01
+  link: https://escholarship.org/uc/item/7nv1b52v
+  type: proceedings
+
+# CV pubs-18
+- id: doi:10.1037/xhp0000963
+  type: article
+  pdf: papers/saltzman-2021-attention-task-demands.pdf
+
+# CV pubs-19
+- id: doi:10.3758/s13423-021-01924-x
+  type: article
+  pdf: papers/luthra-2021-signal-reduction-predictive.pdf
+
+# CV pubs-20
+- id: doi:10.3758/s13414-021-02317-x
+  type: article
+  pdf: papers/luthra-2021-listener-expectations-perceptual.pdf
+
+# CV pubs-21
+- id: doi:10.1111/cogs.12962
+  type: article
+  pdf: papers/luthra-2021-robust-lexically-mediated.pdf
+
+# CV pubs-22
+- id: doi:10.3758/s13414-020-02203-y
+  type: article
+  pdf: papers/magnuson-2021-talker-familiarity-accommodation.pdf
+
+# CV pubs-23
+- id: doi:10.3758/s13428-021-01667-6
+  type: article
+  pdf: papers/li-2021-lexfindr.pdf
+
+# CV proc-4
+- title: "Lexically-mediated compensation for coarticulation in older adults"
+  authors:
+    - "S. Luthra"
+    - "G. Peraza-Santiago"
+    - "D. Saltzman"
+    - "A. Crinnion"
+    - "J. Magnuson"
+  publisher: "Proceedings of the Annual Meeting of the Cognitive Science Society, pp. 383-389"
+  date: 2021-01-01
+  type: proceedings
+
+# CV pubs-24
+- id: doi:10.1037/xlm0000945
+  type: article
+  pdf: papers/luthra-2020-boosting-lexical-support.pdf
+
+# CV pubs-25
+- id: doi:10.1111/cogs.12917
+  type: article
+  pdf: papers/luthra-2020-friends-low-entropy.pdf
+
+# CV pubs-26
+- id: doi:10.1111/desc.13023
+  type: article
+
+# CV pubs-27
 - id: doi:10.1111/cogs.12823
-  type: paper
-  description: Our goal is to develop a minimal cognitive model of HSR that can learn to map over-time speech to semantics, without explicit phonetic training as a first step in bridging the gap between HSR and ASR.
-  date: 2020-02-05
-  image: https://comp-cogneuro-lang.github.io/ccnl/images/earshot_model.png
+  type: article
+  pdf: papers/magnuson-2020-earshot-minimal-neural.pdf
   buttons:
+    - type: pdf
+      text: Supplement
+      link: papers/magnuson-2020-earshot-minimal-neural-supp.pdf
     - type: source
-      text: Source Code
-      link: https://github.com/comp-cogneuro-lang/EARShot_TF2
-    - type: website
-      text: Paper
-      link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.12823
-  tags:
-    - computational model
-    - HSR
-- id: doi:10.1101/2024.02.20.580731
-  image: https://comp-cogneuro-lang.github.io/ccnl/images/RNN_20240222.png
+      text: Code
+      link: https://github.com/maglab-uconn/EARSHOT
+
+# CV pubs-28
+- id: doi:10.1002/cad.20331
+  type: article
+  pdf: papers/rakhlin-2020-cohesion-cortical-language.pdf
+
+# CV proc-5
+- title: "Interactions of length and overlap in the TRACE model of spoken word recognition"
+  authors:
+    - "J. S. Magnuson"
+    - "E. S. Simmons"
+  publisher: "Proceedings of the Cognitive Science Society, 158-163"
+  date: 2020-08-01
+  type: proceedings
+
+# CV pubs-29
+- id: doi:10.1007/s41809-019-00035-3
+  type: article
+  pdf: papers/magnuson-2019-fixations-visual-world.pdf
+
+# CV pubs-30
+- id: doi:10.1016/j.jml.2019.03.008
+  type: article
+  pdf: papers/li-2019-individual-differences-subphonemic.pdf
+
+# CV proc-6
+- title: "Does predictive processing imply predictive coding in models of spoken word recognition?"
+  authors:
+    - "J. S. Magnuson"
+    - "M. Li"
+    - "S. Luthra"
+    - "H. You"
+    - "R. Steiner"
+  publisher: "Proceedings of the 41st Annual Conference of the Cognitive Science Society (pp. 735-740). Montreal, QB"
+  date: 2019-01-01
+  type: proceedings
+  pdf: papers/magnuson-2019-predictive-processing-imply.pdf
+
+# CV proc-7
+- title: "EARSHOT: A minimal network model of human speech recognition that operates on real speech"
+  authors:
+    - "J. S. Magnuson"
+    - "H. You"
+    - "J. Rueckl"
+    - "P. Allopenna"
+    - "M. Li"
+    - "S. Luthra"
+    - "R. Steiner"
+    - "H. Nam"
+    - "M. Escabi"
+    - "K. Brown"
+    - "R. Theodore"
+    - "N. Monto"
+  publisher: "Proceedings of the 41st Annual Conference of the Cognitive Science Society (pp. 2248-2253). Montreal, QB"
+  date: 2019-01-01
+  type: proceedings
+  pdf: papers/magnuson-2019-earshot-minimal-network.pdf
+
+# CV pubs-31
+- id: doi:10.3390/e20070526
+  type: article
+
+# CV pubs-32
+- id: doi:10.1080/23273798.2018.1476727
+  type: article
+
+# CV pubs-33
+- id: doi:10.3389/fpsyg.2018.00369
+  type: article
+
+# CV pubs-34
+- id: doi:10.3758/s13428-017-1012-5
+  type: article
+  pdf: papers/you-2018-tisk-1-0.pdf
+
+# CV pubs-35
+- id: doi:10.1016/j.neuropsychologia.2018.01.011
+  type: article
+
+# CV proc-8
+- title: "Friends in low-entropy places: Letter position influences orthographic neighbor effects in visual word identification"
+  authors:
+    - "S. Luthra"
+    - "J. S. Magnuson"
+  publisher: "In T.T. Rogers, M. Rau, X. Zhu, & C. W. Kalish (Eds.), Proceedings of the 40th Annual Conference of the Cognitive Science Society (pp. 2084-2089). Austin, TX: Cognitive Science Society"
+  date: 2018-01-01
+  type: proceedings
+
+# CV proc-9
+- title: "Feedback in the Time-Invariant String Kernel model of spoken word recognition"
+  authors:
+    - "J. S. Magnuson"
+    - "H. You"
+  publisher: "In T.T. Rogers, M. Rau, X. Zhu, & C. W. Kalish (Eds.), Proceedings of the 40th Annual Conference of the Cognitive Science Society (pp. 1062-1067). Austin, TX: Cognitive Science Society"
+  date: 2018-01-01
+  type: proceedings
+
+# CV proc-10
+- title: "Word length, proportion of overlap, and phonological competition in spoken word recognition"
+  authors:
+    - "E. S. Simmons"
+    - "J. S. Magnuson"
+  publisher: "In T.T. Rogers, M. Rau, X. Zhu, & C. W. Kalish (Eds.), Proceedings of the 40th Annual Conference of the Cognitive Science Society (pp. 732-737). Austin, TX: Cognitive Science Society"
+  date: 2018-01-01
+  type: proceedings
+
+# CV pubs-36
+- title: "Mapping spoken words to meaning"
+  authors:
+    - "J. S. Magnuson"
+  publisher: "In G. Gaskell & J. Mirkovic, Speech Perception and Spoken Word Recognition (pp. 76-96). New York: Routledge."
+  date: 2017-01-01
+  type: chapter
+  pdf: papers/magnuson-2017-mapping-spoken-words.pdf
+
+# CV pubs-37
+- title: "The real-time prediction and inhibition of linguistic outcomes: Effects of language and literacy skill"
+  authors:
+    - "A. Kukona"
+    - "D. Braze"
+    - "C. L. Johns"
+    - "W. E. Mencl"
+    - "J. A. Van Dyke"
+    - "J. S. Magnuson"
+    - "K. R. Pugh"
+    - "D. P. Shankweiler"
+    - "W. Tabor"
+  publisher: "Acta Psychologica, 171, 72-84"
+  date: 2016-01-01
+  type: article
+  pdf: papers/kukona-2016-real-time-prediction.pdf
+
+# CV pubs-38
+- title: "Direct and real: Carol A. Fowler’s theory and approach to science"
+  authors:
+    - "A. Olmstead"
+    - "N. Viswanathan"
+    - "J. S. Magnuson"
+  publisher: "Ecological Psychology, 28(3), 127-129"
+  date: 2016-01-01
+  type: article
+  pdf: papers/olmstead-2016-direct-real-carol.pdf
+
+# CV pubs-39
+- id: doi:10.1542/peds.2015-2469
+  type: article
+  pdf: papers/kornilov-2016-genome-wide-association.pdf
+
+# CV pubs-40
+- title: "Vocabulary does not complicate the simple view of reading"
+  authors:
+    - "D. Braze"
+    - "L. Katz"
+    - "J. S. Magnuson"
+    - "W. E. Mencl"
+    - "W. Tabor"
+    - "J. A. Van Dyke"
+    - "T. Gong"
+    - "C. L. Johns"
+    - "D. P. Shankweiler"
+  publisher: "Reading and Writing, 29, 435-451"
+  date: 2016-01-01
+  type: article
+  pdf: papers/braze-2016-vocabulary-complicate-simple.pdf
+
+# CV pubs-41
+- title: "Functionally integrated neural processing of linguistic and talker information: An event-related fMRI and ERP study"
+  authors:
+    - "C. Zhang"
+    - "K. R. Pugh"
+    - "W. E. Mencl"
+    - "S. J. Molfese"
+    - "J. S. Magnuson"
+    - "G. Peng"
+    - "W. S-Y. Wang"
+  publisher: "Neuroimage, 124, 536-549"
+  date: 2016-01-01
+  type: article
+  pdf: papers/zhang-2016-functionally-integrated-neural.pdf
+
+# CV pubs-42
+- id: doi:10.1111/cogs.12315
+  type: article
+  pdf: papers/sadat-2015-breaking-down-bilingual.pdf
+
+# CV pubs-43
+- id: doi:10.1121/1.4904543
+  type: article
+  pdf: papers/magnuson-2015-phoneme-restoration-empirical.pdf
+
+# CV pubs-44
+- title: "Lexical processing deficits in children with Developmental Language Disorder: an event-related potentials study"
+  authors:
+    - "S. A. Kornilov"
+    - "J. S. Magnuson"
+    - "N. Rakhlin"
+    - "N. Landi"
+    - "E. L. Grigorenko"
+  publisher: "Development and Psychopathology, 27, 459-476"
+  date: 2015-01-01
+  type: article
+  pdf: papers/kornilov-2015-lexical-processing-deficits.pdf
+
+# CV pubs-45
+- title: "Individual differences in the shape bias in preschool children with Specific Language Impairment and typical language development: Theoretical and clinical implications"
+  authors:
+    - "B. A. Collisson"
+    - "B. Grela"
+    - "T. Spaulding"
+    - "J. G. Rueckl"
+    - "J. S. Magnuson"
+  publisher: "Developmental Science, 18:3, 373-388"
+  date: 2015-01-01
+  type: article
+  pdf: papers/collisson-2015-individual-differences-shape.pdf
+
+# CV pubs-46
+- title: "Information for coarticulation: Static signal properties or formant dynamics?"
+  authors:
+    - "N. Viswanathan"
+    - "J. S. Magnuson"
+    - "C. Fowler"
+  publisher: "Journal of Experimental Psychology: Human Perception & Performance, 40(3), 1228-1236"
+  date: 2014-01-01
+  type: article
+  pdf: papers/viswanathan-2014-information-coarticulation-static.pdf
+
+# CV pubs-47
+- title: "Attentional but not pre-attentive neural measures of auditory discrimination are atypical in children with Developmental Language Disorder"
+  authors:
+    - "S. A. Kornilov"
+    - "N. Landi"
+    - "N. Rakhlin"
+    - "S-Y. Fang"
+    - "E. L. Grigorenko"
+    - "J. S. Magnuson"
+  publisher: "Developmental Neuropsychology, 39(7), 543-567"
+  date: 2014-01-01
+  type: article
+  pdf: papers/kornilov-2014-attentional-auditory-discrimination.pdf
+
+# CV pubs-48
+- title: "Eye movements reveal planning in humans: A comparison with Scarf and Colombo's (2009) monkeys"
+  authors:
+    - "D. Scarf"
+    - "H. Terrace"
+    - "M. Colombo"
+    - "J. S. Magnuson"
+  publisher: "Journal of Experimental Psychology: Animal Behavior and Processes, 40(2), 178-184"
+  date: 2014-01-01
+  type: article
+  pdf: papers/scarf-2014-eye-movements-reveal.pdf
+
+# CV pubs-49
+- id: doi:10.1016/j.actpsy.2013.10.004
+  type: article
+  pdf: papers/britt-2014-effect-repetition-proportion.pdf
+
+# CV pubs-50
+- title: "Lexical interference effects in sentence processing: Evidence from the visual world paradigm and self-organizing models"
+  authors:
+    - "A. Kukona"
+    - "P. W. Cho"
+    - "J. S. Magnuson"
+    - "W. Tabor"
+  publisher: "Journal of Experimental Psychology: Learning, Memory & Cognition, 40(2), 326-347"
+  date: 2014-01-01
+  type: article
+  pdf: papers/kukona-2014-lexical-interference-effects.pdf
+
+# CV pubs-51
+- id: doi:10.3389/fpsyg.2013.00563
+  type: article
+  pdf: papers/hannagan-2013-spoken-word-recognition.pdf
+
+# CV pubs-52
+- id: doi:10.1037/a0030735
+  type: article
+  pdf: papers/viswanathan-2013-similar-response-patterns.pdf
+
+# CV pubs-53
+- id: doi:10.4135/9781452257044.n135
+  type: chapter
+  pdf: papers/magnuson-2013-frequency-effects-word.pdf
+
+# CV pubs-54
+- title: "Psycholinguistics"
+  authors:
+    - "I. M. Eigsti"
+    - "J. S. Magnuson"
+  publisher: "In F. Volkmar (Ed.), Encyclopedia of Autism Spectrum Disorders: Springer Reference (www.springerreference.com). Berlin Heidelberg: Springer-Verlag."
+  date: 2013-01-01
+  type: chapter
+  pdf: papers/eigsti-2013-psycholinguistics.pdf
+
+# CV pubs-55
+- title: "Spoken word recognition"
+  authors:
+    - "J. S. Magnuson"
+    - "D. Mirman"
+    - "E. Myers"
+  publisher: "In D. Reisberg (Ed.), The Oxford Handbook of Cognitive Psychology (pp. 412-441). New York, USA: Oxford University Press."
+  date: 2013-01-01
+  type: chapter
+  pdf: papers/magnuson-2013-spoken-word-recognition.pdf
+
+# CV pubs-56
+- title: "Computational models of spoken word recognition"
+  authors:
+    - "J. S. Magnuson"
+    - "D. Mirman"
+    - "H. D. Harris"
+  publisher: "In M. Spivey, K. McRae, & M. Joanisse (Eds.), The Cambridge Handbook of Psycholinguistics (pp. 76-103). Cambridge University Press."
+  date: 2012-01-01
+  type: chapter
+  pdf: papers/magnuson-2012-computational-models-spoken.pdf
+
+# CV pubs-57
+- title: "Nondeterminism, pleiotropy, and single word reading: Theoretical and practical concerns"
+  authors:
+    - "J. S. Magnuson"
+  publisher: "In E. Grigorenko & A. Naples (Eds.), Single Word Reading, pp. 377-404. Mahweh, NJ: Erlbaum."
+  date: 2012-01-01
+  type: chapter
+  pdf: papers/magnuson-2012-nondeterminism-pleiotropy-single.pdf
+
+# CV pubs-58
+- title: "Speech perception"
+  authors:
+    - "C. A. Fowler"
+    - "J. S. Magnuson"
+  publisher: "In M. Spivey, K. McRae, & M. Joanisse (Eds.), The Cambridge Handbook of Psycholinguistics (pp. 3-25). Cambridge University Press."
+  date: 2012-01-01
+  type: chapter
+  pdf: papers/fowler-2012-speech-perception.pdf
+
+# CV pubs-59
+- title: "Theories of spoken word recognition deficits in aphasia: Evidence from eye-tracking and computational modeling"
+  authors:
+    - "D. Mirman"
+    - "E. Yee"
+    - "S. Blumstein"
+    - "J. S. Magnuson"
+  publisher: "Brain & Language, 117, 53-68"
+  date: 2011-01-01
+  type: article
+  pdf: papers/mirman-2011-theories-spoken-word.pdf
+
+# CV pubs-60
+- id: doi:10.1007/s11145-011-9316-9
+  type: article
+
+# CV pubs-61
+- title: "Phonological instability in young adult poor readers: Time course measures and computational modeling"
+  authors:
+    - "J. S. Magnuson"
+    - "A. Kukona"
+    - "B. Braze"
+    - "C. L. Johns"
+    - "J. Van Dyke"
+    - "W. Tabor"
+    - "E. Mencl"
+    - "K. R. Pugh"
+    - "D. Shankweiler"
+  publisher: "In P. McCardle, B. Miller, J.R. Lee, & O. Tseng, Dyslexia Across Languages: Orthography and the Brain-Gene-Behavior Link, pp. 184-201. Baltimore: Paul Brookes Publishing."
+  date: 2011-01-01
+  type: chapter
+  pdf: papers/magnuson-2011-phonological-instability-young.pdf
+
+# CV pubs-62
+- title: "The time course of anticipatory constraint integration"
+  authors:
+    - "A. Kukona"
+    - "S. Fang"
+    - "K. A. Aicher"
+    - "H. Chen"
+    - "J. S. Magnuson"
+  publisher: "Cognition, 119, 23-42"
+  date: 2011-01-01
+  type: article
+  pdf: papers/kukona-2011-time-course-anticipatory.pdf
+
+# CV pubs-63
+- title: "Unification of sentence processing via ear and eye: An fMRI study"
+  authors:
+    - "D. Braze"
+    - "E. Mencl"
+    - "W. Tabor"
+    - "K. R. Pugh"
+    - "R. T. Constable"
+    - "R. K. Fulbright"
+    - "J. S. Magnuson"
+    - "J. A. Van Dyke"
+    - "D. P. Shankweiler"
+  publisher: "Cortex, 47, 416-431"
+  date: 2011-01-01
+  type: article
+  pdf: papers/braze-2011-unification-sentence-processing.pdf
+
+# CV proc-11
+- title: "Individual differences in learning artificial lexicons"
+  authors:
+    - "J. S. Magnuson"
+  publisher: "Peer-reviewed symposium contribution, Proceedings of the 17th Meeting of the European Society for Cognitive Psychology, pp. 43-44"
+  date: 2011-01-01
+  type: proceedings
+
+# CV pubs-64
+- title: "Compensation for coarticulation: Disentangling auditory and gestural theories of perception of coarticulatory effects in speech"
+  authors:
+    - "N. Viswanathan"
+    - "J. S. Magnuson"
+    - "C. A. Fowler"
+  publisher: "Journal of Experimental Psychology: Human Perception and Performance, 36, 1005-1015"
+  date: 2010-01-01
+  type: article
+  pdf: papers/viswanathan-2010-compensation-coarticulation-disentangling.pdf
+
+# CV pubs-65
+- title: "Computational modeling of statistical learning: Effects of transitional probability versus frequency and links to word learning"
+  authors:
+    - "D. Mirman"
+    - "K. Graf Estes"
+    - "J. S. Magnuson"
+  publisher: "Infancy, 15, 471-486"
+  date: 2010-01-01
+  type: article
+  pdf: papers/mirman-2010-computational-modeling-statistical.pdf
+
+# CV pubs-66
+- title: "Effect of representational distance between meanings on recognition of ambiguous spoken words"
+  authors:
+    - "D. Mirman"
+    - "T. J. Strauss"
+    - "J. A. Dixon"
+    - "J. S. Magnuson"
+  publisher: "Cognitive Science, 34, 161-173"
+  date: 2010-01-01
+  type: article
+  pdf: papers/mirman-2010-effect-representational-distance.pdf
+
+# CV pubs-67
+- title: "Levy-like diffusion in eye movements during spoken-language comprehension"
+  authors:
+    - "D. G. Stephen"
+    - "D. Mirman"
+    - "J. S. Magnuson"
+    - "J. A. Dixon"
+  publisher: "Physical Review E, 79, 056114"
+  date: 2009-01-01
+  type: article
+  pdf: papers/stephen-2009-levy-like-diffusion.pdf
+
+# CV pubs-68
+- title: "The dynamics of insight: Mathematical discovery as a phase transition"
+  authors:
+    - "D. G. Stephen"
+    - "R. A. Boncoddo"
+    - "J. S. Magnuson"
+    - "J. A. Dixon"
+  publisher: "Memory & Cognition, 37, 1132-1149"
+  date: 2009-01-01
+  type: article
+  pdf: papers/stephen-2009-dynamics-insight-mathematical.pdf
+
+# CV pubs-69
+- title: "The effect of frequency of shared features on judgments of semantic similarity"
+  authors:
+    - "D. Mirman"
+    - "J. S. Magnuson"
+  publisher: "Psychonomic Bulletin & Review, 16(4), 671-677"
+  date: 2009-01-01
+  type: article
+  pdf: papers/mirman-2009-effect-frequency-shared.pdf
+
+# CV pubs-70
+- title: "Dynamics of activation of semantically similar concepts during spoken word recognition"
+  authors:
+    - "D. Mirman"
+    - "J. S. Magnuson"
+  publisher: "Memory & Cognition, 37, 1026-1039"
+  date: 2009-01-01
+  type: article
+  pdf: papers/mirman-2009-dynamics-activation-semantically.pdf
+
+# CV pubs-71
+- title: "A critical examination of the spectral contrast account of compensation for coarticulation"
+  authors:
+    - "N. Viswanathan"
+    - "C. A. Fowler"
+    - "J. S. Magnuson"
+  publisher: "Psychonomic Bulletin and Review, 16, 74-79"
+  date: 2009-01-01
+  type: article
+  pdf: papers/viswanathan-2009-critical-examination-spectral.pdf
+
+# CV pubs-72
+- title: "Immediate effects of form-class constraints on spoken word recognition"
+  authors:
+    - "J. S. Magnuson"
+    - "M. K. Tanenhaus"
+    - "R. N. Aslin"
+  publisher: "Cognition, 108(3), 866-873"
+  date: 2008-01-01
+  type: article
+  pdf: papers/magnuson-2008-immediate-effects-form.pdf
+
+# CV pubs-73
+- title: "The link between statistical segmentation and word learning in adults"
+  authors:
+    - "D. Mirman"
+    - "J. S. Magnuson"
+    - "K. Graf Estes"
+    - "J. A. Dixon"
+  publisher: "Cognition, 108(1), 271-280"
+  date: 2008-01-01
+  type: article
+  pdf: papers/mirman-2008-link-statistical-segmentation.pdf
+
+# CV pubs-74
+- title: "Statistical and computational models of the visual world paradigm: Growth curves and individual differences"
+  authors:
+    - "D. Mirman"
+    - "J. A. Dixon"
+    - "J. S. Magnuson"
+  publisher: "Journal of Memory & Language, 59(4), 475-494"
+  date: 2008-01-01
+  type: article
+  pdf: papers/mirman-2008-statistical-computational-models.pdf
+
+# CV pubs-75
+- title: "Effects of attention on the strength of lexical influences on speech perception: Behavioral experiments and computational mechanisms"
+  authors:
+    - "D. Mirman"
+    - "J. L. McClelland"
+    - "L. L. Holt"
+    - "J. S. Magnuson"
+  publisher: "Cognitive Science, 32, 398-417"
+  date: 2008-01-01
+  type: article
+
+# CV pubs-76
+- title: "Attractor dynamics and semantic neighborhood density: Processing is slowed by near neighbors and speeded by distant neighbors"
+  authors:
+    - "D. Mirman"
+    - "J. S. Magnuson"
+  publisher: "Journal of Experimental Psychology: Learning, Memory & Cognition, 34, 65-79"
+  date: 2008-01-01
+  type: article
+  pdf: papers/mirman-2008-attractor-dynamics-semantic.pdf
+
+# CV proc-12
+- title: "Effect of global context on homophone ambiguity resolution"
+  authors:
+    - "D. Mirman"
+    - "J. S. Magnuson"
+    - "T. J. Strauss"
+    - "J. A. Dixon"
+  publisher: "In B.C. Love, K. McRae, & V.M. Sloutsky (Eds.), Proceedings of the 30th Annual Cognitive Science Society Meeting. (pp. 663-668). Austin, TX: Cognitive Science Society"
+  date: 2008-01-01
+  type: proceedings
+
+# CV proc-13
+- title: "Compensation for Coarticulation may reflect gestural perception: Evidence from a critical examination of the effects of non-speech contexts on speech categorization"
+  authors:
+    - "N. Viswanathan"
+    - "J. S. Magnuson"
+    - "C. A. Fowler"
+  publisher: "Proceedings of the 11th Conference on Laboratory Phonology (LabPhon), Wellington, New Zealand, pp. 147-148"
+  date: 2008-01-01
+  type: proceedings
+
+# CV pubs-77
+- title: "The dynamics of lexical competition during spoken word recognition"
+  authors:
+    - "J. S. Magnuson"
+    - "J. Dixon"
+    - "M. K. Tanenhaus"
+    - "R. N. Aslin"
+  publisher: "Cognitive Science, 31, 133-156"
+  date: 2007-01-01
+  type: article
+  pdf: papers/magnuson-2007-dynamics-lexical-competition.pdf
+
+# CV pubs-78
+- title: "Acoustic differences, listener expectations, and the perceptual accommodation of talker variability"
+  authors:
+    - "J. S. Magnuson"
+    - "H. C. Nusbaum"
+  publisher: "Journal of Experimental Psychology: Human Perception and Performance, 33, 391-409"
+  date: 2007-01-01
+  type: article
+  pdf: papers/magnuson-2007-acoustic-differences-listener.pdf
+
+# CV pubs-79
+- title: "jTRACE : A reimplementation and extension of the TRACE model of speech perception and spoken word recognition"
+  authors:
+    - "T. J. Strauss"
+    - "H. D. Harris"
+    - "J. S. Magnuson"
+  publisher: "Behavior Research Methods, 39, 19-30"
+  date: 2007-01-01
+  type: article
+  pdf: papers/strauss-2007-jtrace-reimplementation-extension.pdf
+
+# CV proc-14
+- title: "Why do neighbors speed visual word recognition but slow spoken word recognition?"
+  authors:
+    - "J. S. Magnuson"
+    - "D. Mirman"
+    - "T. Strauss"
+    - "W. Tabor"
+    - "J. Rodny"
+  publisher: "Proceedings of 13th Annual Conference on Architectures and Mechanisms for Language Processing (AMLAP), p. 37. (Talk)"
+  date: 2007-01-01
+  type: proceedings
+
+# CV proc-15
+- title: "Predictive constraints on sentence processing: Argument structure and semantic priming"
+  authors:
+    - "A. Kukona"
+    - "S. Y. Fang"
+    - "K. Aicher"
+    - "H. Chen"
+    - "J. S. Magnuson"
+  publisher: "Proceedings of the 2007 CUNY Human Sentence Processing Conference, p. 27. March, La Jolla, CA"
+  date: 2007-01-01
+  type: proceedings
+
+# CV proc-16
+- title: "Do spoken words tell us how long they will be?"
+  authors:
+    - "J. S. Magnuson"
+    - "T. Strauss"
+  publisher: "Proceedings 2007 CUNY Human Sentence Processing Conference, p. 113. March, La Jolla"
+  date: 2007-01-01
+  type: proceedings
+
+# CV proc-17
+- title: "Integration of pragmatic context in homophone ambiguity resolution: Time course of activation of context appropriate and context inappropriate meanings"
+  authors:
+    - "D. Mirman"
+    - "T. Strauss"
+    - "J. S. Magnuson"
+    - "J. A. Dixon"
+  publisher: "Proceedings of the 2007 CUNY Human Sentence Processing Conference, p. 114. March, La Jolla, CA"
+  date: 2007-01-01
+  type: proceedings
+
+# CV proc-18
+- title: "Eye movements and hand movements as indices of lexical processing"
+  authors:
+    - "A. P. Salverda"
+    - "M. J. Spivey"
+    - "J. S. Magnuson"
+    - "M. K. Tanenhaus"
+  publisher: "Proceedings of the 2007 CUNY Human Sentence Processing Conference, p. 169. March, La Jolla, CA"
+  date: 2007-01-01
+  type: proceedings
+
+# CV pubs-80
+- title: "Spoken-word recognition"
+  authors:
+    - "D. Dahan"
+    - "J. S. Magnuson"
+  publisher: "In M. J. Traxler & M. A. Gernsbacher (Eds.), Handbook of Psycholinguistics (pp. 249-283). Amsterdam: Academic Press."
+  date: 2006-01-01
+  type: chapter
+
+# CV proc-19
+- title: "The impact of semantic neighborhood density on semantic access"
+  authors:
+    - "D. Mirman"
+    - "J. S. Magnuson"
+  publisher: "Proceedings of the Annual Meeting of the Cognitive Science Society, 1823-1828"
+  date: 2006-01-01
+  type: proceedings
+
+# CV proc-20
+- title: "Speech perception: Linking computational models and human data (half-day tutorial)"
+  authors:
+    - "T. J. Strauss"
+    - "D. Mirman"
+    - "J. S. Magnuson"
+  publisher: "Proceedings of the Annual Meeting of the Cognitive Science Society, 2669"
+  date: 2006-01-01
+  type: proceedings
+
+# CV proc-21
+- title: "Disentangling gestural and auditory contrast accounts of compensation for coarticulation"
+  authors:
+    - "N. Viswanathan"
+    - "J. S. Magnuson"
+    - "C. A. Fowler"
+  publisher: "Proceedings of the Ninth International Conference on Spoken Language Processing (Interspeech 2006 - ICSLP), pp. 861-864"
+  date: 2006-01-01
+  type: proceedings
+
+# CV pubs-81
+- title: "Moving hand reveals dynamics of thought"
+  authors:
+    - "J. S. Magnuson"
+  publisher: "Proceedings of the National Academy of Sciences, 102(29), 9995 - 9996"
+  date: 2005-01-01
+  type: article
+  pdf: papers/magnuson-2005-moving-hand-reveals.pdf
+
+# CV proc-22
+- title: "Interaction in spoken word recognition models: Feedback helps"
+  authors:
+    - "J. S. Magnuson"
+    - "T. J. Strauss"
+    - "H. D. Harris"
+  publisher: "Proceedings of the Annual Meeting of the Cognitive Science Society"
+  date: 2005-01-01
+  type: proceedings
+
+# CV proc-23
+- title: "JTRACE: A reimplementation and extension of the TRACE model of speech perception and spoken word recognition"
+  authors:
+    - "T. J. Strauss"
+    - "J. S. Magnuson"
+    - "H. D. Harris"
+  publisher: "Proceedings of the Annual Meeting of the Cognitive Science Society"
+  date: 2005-01-01
+  type: proceedings
+
+# CV proc-24
+- title: "On the role of interaction in models of spoken word recognition: Feedback helps"
+  authors:
+    - "J. S. Magnuson"
+    - "T. Strauss"
+    - "H. D. Harris"
+  publisher: "Proceedings of the 2005 CUNY Human Sentence Processing Conference, A-19"
+  date: 2005-01-01
+  type: proceedings
+
+# CV pubs-82
+- title: "Actions and affordances in syntactic ambiguity resolution"
+  authors:
+    - "C. G. Chambers"
+    - "M. K. Tanenhaus"
+    - "J. S. Magnuson"
+  publisher: "J. Experimental Psychology: Learning, Memory, & Cognition, 30, 687-696"
+  date: 2004-01-01
+  type: article
+  pdf: papers/chambers-2004-actions-affordances-syntactic.pdf
+
+# CV proc-25
+- title: "A cross-disciplinary look at statistics and grounding in human lexical learning"
+  authors:
+    - "H. D. Harris"
+    - "J. S. Magnuson"
+  publisher: "In Language Learning: An Interdisciplinary Perspective, Papers from the 2004 American Association for Artificial Intelligence Spring Symposium, Technical Report SS-04-05, 28-31"
+  date: 2004-01-01
+  type: proceedings
+
+# CV pubs-83
+- title: "The time course of spoken word recognition and learning: Studies with artificial lexicons"
+  authors:
+    - "J. S. Magnuson"
+    - "M. K. Tanenhaus"
+    - "R. N. Aslin"
+    - "D. Dahan"
+  publisher: "Journal of Experimental Psychology:General, 132(2), 202-227"
+  date: 2003-01-01
+  type: article
+  pdf: papers/magnuson-2003-time-course-spoken.pdf
+
+# CV pubs-84
+- title: "Lexical effects on compensation for coarticulation: A tale of two systems?"
+  authors:
+    - "J. S. Magnuson"
+    - "B. McMurray"
+    - "M. K. Tanenhaus"
+    - "R. N. Aslin"
+  publisher: "Cognitive Science, 27, 795-799"
+  date: 2003-01-01
+  type: article
+  pdf: papers/magnuson-2003-tale-two-systems.pdf
+
+# CV pubs-85
+- title: "Lexical effects on compensation for coarticulation: The ghost of Christmash past"
+  authors:
+    - "J. S. Magnuson"
+    - "B. McMurray"
+    - "M. K. Tanenhaus"
+    - "R. N. Aslin"
+  publisher: "Cognitive Science, 27, 285-298"
+  date: 2003-01-01
+  type: article
+  pdf: papers/magnuson-2003-ghost-christmash-past.pdf
+
+# CV proc-26
+- title: "Immediate integration of syntactic and referential constraints on spoken word recognition"
+  authors:
+    - "J. S. Magnuson"
+    - "M. K. Tanenhaus"
+    - "R. N. Aslin"
+  publisher: "In the Proceedings of the 24th Meeting of the Cognitive Science Society"
+  date: 2002-01-01
+  type: proceedings
+  pdf: papers/magnuson-2002-immediate-integration-syntactic.pdf
+
+# CV pubs-86
+- title: "Subcategorical mismatches and the time course of lexical access: Evidence for lexical competition"
+  authors:
+    - "D. Dahan"
+    - "J. S. Magnuson"
+    - "M. K. Tanenhaus"
+    - "E. M. Hogan"
+  publisher: "Language and Cognitive Processes, 16 (5/6), 507-534"
+  date: 2001-01-01
+  type: article
+  pdf: papers/dahan-2001-subcategorical-mismatches-time.pdf
+
+# CV pubs-87
+- title: "Time course of frequency effects in spoken-word recognition: Evidence from eye movements"
+  authors:
+    - "D. Dahan"
+    - "J. S. Magnuson"
+    - "M. K. Tanenhaus"
+  publisher: "Cognitive Psychology, 42, 317-367"
+  date: 2001-01-01
+  type: article
+  pdf: papers/dahan-2001-time-course-frequency.pdf
+
+# CV pubs-88
+- title: "Spatial representations across fixations for saccadic targeting"
+  authors:
+    - "M. Hayhoe"
+    - "K. Karn"
+    - "J. Magnuson"
+    - "R. Mruczek"
+  publisher: "Psychologica Belgica, 41, 55-74"
+  date: 2001-01-01
+  type: article
+
+# CV pubs-89
+- title: "Linguistic gender and spoken word recognition in French"
+  authors:
+    - "D. Dahan"
+    - "D. Swingley"
+    - "M. K. Tanenhaus"
+    - "J. S. Magnuson"
+  publisher: "Journal of Memory and Language, 42, 465-480"
+  date: 2000-01-01
+  type: article
+  pdf: papers/dahan-2000-linguistic-gender-spoken.pdf
+
+# CV pubs-90
+- title: "Eye movements and lexical access in spoken-language comprehension: Evaluating a linking hypothesis between fixations and linguistic processing"
+  authors:
+    - "M. K. Tanenhaus"
+    - "J. S. Magnuson"
+    - "D. Dahan"
+    - "C. Chambers"
+  publisher: "Journal of Psycholinguistic Research, 29, 557-580"
+  date: 2000-01-01
+  type: article
+  pdf: papers/tanenhaus-2000-eye-movements-lexical.pdf
+
+# CV pubs-91
+- title: "No compelling evidence against feedback in spoken word recognition"
+  authors:
+    - "M. K. Tanenhaus"
+    - "J. S. Magnuson"
+    - "B. McMurray"
+    - "R. N. Aslin"
+  publisher: "Behavioral and Brain Sciences, 23, 348"
+  date: 2000-01-01
+  type: article
+  pdf: papers/tanenhaus-2000-no-compelling-evidence.pdf
+
+# CV proc-27
+- title: "Tracking the time course of subcategorical mismatches on lexical access: Evidence for lexical competition"
+  authors:
+    - "D. Dahan"
+    - "J. S. Magnuson"
+    - "M. K. Tanenhaus"
+    - "E. M. Hogan"
+  publisher: "In A. Cutler, J. M. McQueen, & R., Zondervan (Eds.), Proceedings of the Workshop on Spoken Word Access Processes, 67-70"
+  date: 2000-01-01
+  type: proceedings
+
+# CV proc-28
+- title: "Does lexical knowledge mediate perceptual effects of compensatory coarticulation? Evidence from research with an artificial lexicon"
+  authors:
+    - "M. K. Tanenhaus"
+    - "J. S. Magnuson"
+    - "B. M. McMurray"
+    - "R. A. Aslin"
+  publisher: "In A. Cutler, J. M. McQueen, & R., Zondervan (Eds.), Proceedings of the Workshop on Spoken Word Access Processes, 107-110"
+  date: 2000-01-01
+  type: proceedings
+
+# CV proc-29
+- title: "Spoken word recognition in the visual world paradigm reflects the structure of the entire lexicon"
+  authors:
+    - "J. S. Magnuson"
+    - "M. K. Tanenhaus"
+    - "R. N. Aslin"
+    - "D. Dahan"
+  publisher: "In M. Hahn & S. Stoness (Eds.), Proceedings of the Twenty First Annual Conference of the Cognitive Science Society, pp. 331-336. Mahwah, NJ: Erlbaum"
+  date: 1999-01-01
+  type: proceedings
+  pdf: papers/magnuson-1999-spoken-word-recognition.pdf
+
+# CV pubs-92
+- title: "Tracking the time course of spoken word recognition using eye movements: Evidence for continuous mapping models"
+  authors:
+    - "P. D. Allopenna"
+    - "J. S. Magnuson"
+    - "M. K. Tanenhaus"
+  publisher: "Journal of Memory and Language, 38, 419-439"
+  date: 1998-01-01
+  type: article
+  pdf: papers/allopenna-1998-tracking-time-course.pdf
+
+# CV proc-30
+- title: "Learning to form visual chunks: On the structure of visuo-spatial working memory"
+  authors:
+    - "J. S. Magnuson"
+    - "D. G. Bensinger"
+    - "M. Hayhoe"
+    - "D. Ballard"
+  publisher: "In Gernsbacher, M. A., & Derry, S. J. (Eds.), Proceedings of the Twentieth Annual Conference of the Cognitive Science Society, 645-650. Mahwah, NJ: Erlbaum"
+  date: 1998-01-01
+  type: proceedings
+  pdf: papers/magnuson-1998-learning-form-visual.pdf
+
+# CV proc-31
+- title: "Using an artificial lexicon and eye movements to examine the development and microstructure of lexical dynamics"
+  authors:
+    - "J. S. Magnuson"
+    - "D. Dahan"
+    - "P. D. Allopenna"
+    - "M. K. Tanenhaus"
+    - "R. N. Aslin"
+  publisher: "In Gernsbacher, M. A., & Derry, S. J. (Eds.), Proceedings of the Twentieth Annual Conference of the Cognitive Science Society, 651-656. Mahwah, NJ: Erlbaum"
+  date: 1998-01-01
+  type: proceedings
+  pdf: papers/magnuson-1998-artificial-lexicon-eye.pdf
+
+# CV pubs-93
+- title: "Talker normalization: Phonetic constancy as a cognitive process"
+  authors:
+    - "H. C. Nusbaum"
+    - "J. S. Magnuson"
+  publisher: "In K. Johnson and J. W. Mullennix (Eds.), Talker Variability in Speech Processing, pp. 109 - 132. Academic Press."
+  date: 1997-01-01
+  type: chapter
+  pdf: papers/nusbaum-1997-talker-normalization-phonetic.pdf
+
+# CV proc-32
+- title: "Tracking the time course of lexical activation in continuous speech"
+  authors:
+    - "P. D. Allopenna"
+    - "J. S. Magnuson"
+    - "M. K. Tanenhaus"
+  publisher: "Proceedings of the Nineteenth Annual Conference of the Cognitive Science Society, 7 - 12. Mahwah, NJ: Erlbaum"
+  date: 1997-01-01
+  type: proceedings
+
+# CV proc-33
+- title: "Does complex behavior require complex representations?"
+  authors:
+    - "J. S. Magnuson"
+  publisher: "Proceedings of the Nineteenth Annual Conference of the Cognitive Science Society, 472 - 477. Mahwah, NJ: Erlbaum"
+  date: 1997-01-01
+  type: proceedings
+  pdf: papers/magnuson-1997-complex-behavior-require.pdf
+
+# CV proc-34
+- title: "The effects of talker variability on the perception of English /r/ and /l/ by Japanese listeners: Subject differences and acoustic correlates"
+  authors:
+    - "J. S. Magnuson"
+    - "R. A. Yamada"
+  publisher: "Proceedings of the 1996 International Conference on Spoken Language Processing (CD-ROM), SuP1P1.17/a022.pdf, 1-4"
+  date: 1996-01-01
+  type: proceedings
+  pdf: papers/magnuson-1996-effects-talker-variability.pdf
+
+# CV proc-35
+- title: "Eye-movements and spoken language comprehension"
+  authors:
+    - "M. K. Tanenhaus"
+    - "M. K. Spivey-Knowlton"
+    - "K. M. Eberhard"
+    - "J. C. Sedivy"
+    - "P. D. Allopenna"
+    - "J. S. Magnuson"
+  publisher: "Proceedings of the 34th Annual Meeting of the Association for Computational Linguistics"
+  date: 1996-01-01
+  type: proceedings
+
+# CV proc-36
+- title: "The effects of talker variability on the acquisition of non-native speech contrasts"
+  authors:
+    - "J. S. Magnuson"
+    - "R. A. Yamada"
+  publisher: "Proceedings of the 1995 International Congress of Phonetic Sciences, 306-309"
+  date: 1995-01-01
+  type: proceedings
+  pdf: papers/magnuson-1995-effects-talker-variability.pdf
+
+# CV proc-37
+- title: "The effects of familiarity with a voice on speech perception"
+  authors:
+    - "J. S. Magnuson"
+    - "R. A. Yamada"
+    - "H. C. Nusbaum"
+  publisher: "Proceedings of the 1995 Spring Meeting of the Acoustical Society of Japan, 391-392"
+  date: 1995-01-01
+  type: proceedings
+  pdf: papers/magnuson-1995-effects-familiarity-voice.pdf
+
+# CV proc-38
+- title: "The role of talker variability in non-native phoneme training"
+  authors:
+    - "J. S. Magnuson"
+    - "R. A. Yamada"
+    - "Y. Tohkura"
+    - "A. Bradlow"
+    - "S. Lively"
+    - "D. B. Pisoni"
+  publisher: "Proceedings of the 1995 Spring Meeting of the Acoustical Society of Japan, 393-394"
+  date: 1995-01-01
+  type: proceedings
+  pdf: papers/magnuson-1995-role-talker-variability.pdf
+
+# CV proc-39
+- title: "Some acoustic and non-acoustic conditions that produce talker normalization"
+  authors:
+    - "J. S. Magnuson"
+    - "H. C. Nusbaum"
+  publisher: "Proceedings of the 1994 Spring Meeting of the Acoustical Society of Japan, 637-638"
+  date: 1994-01-01
+  type: proceedings
+
+# CV proc-40
+- title: "Effect of talker variability on the identification of American English /r/ and /l/ by Japanese listeners"
+  authors:
+    - "J. S. Magnuson"
+    - "R. A. Yamada"
+  publisher: "Proceedings of the 1994 Spring Meeting of the Acoustical Society of Japan, 357-358"
+  date: 1994-01-01
+  type: proceedings
+
+# CV proc-41
+- title: "The effects of talker variability on the perception of American English /r/ and /l/ by Japanese subjects: Normalization or criteria setting?"
+  authors:
+    - "J. S. Magnuson"
+    - "R. A. Yamada"
+  publisher: "Proceedings of the 1994 Fall Meeting of the Acoustical Society of Japan, 413-414"
+  date: 1994-01-01
+  type: proceedings
+  pdf: papers/magnuson-1994-effects-talker-variability.pdf
+
+# CV proc-42
+- title: "Variability in familiar and novel talkers: Effects on mora perception and talker identification"
+  authors:
+    - "J. S. Magnuson"
+    - "R. A. Yamada"
+    - "H. C. Nusbaum"
+  publisher: "September 1994 meeting of the Acoustical Society of Japan Technical Committee on Psychological and Physiological Acoustics, Kanazawa, Japan, H-94-44, 1-8"
+  date: 1994-01-01
+  type: proceedings
+  pdf: papers/magnuson-1994-variability-familiar-novel.pdf
+
+# CV proc-43
+- title: "Are representations available for talker identification available for talker normalization?"
+  authors:
+    - "J. S. Magnuson"
+    - "R. A. Yamada"
+    - "H. C. Nusbaum"
+  publisher: "Proceedings of the 1994 International Conference on Spoken Language Processing, 1175-1179"
+  date: 1994-01-01
+  type: proceedings
+  pdf: papers/magnuson-1994-representations-available-talker.pdf
+
+# CV proc-44
+- title: "The intelligibility of Japanese speakers' productions of American English /r/, /l/ and /w/, as evaluated by native speakers of American English"
+  authors:
+    - "R. A. Yamada"
+    - "W. Strange"
+    - "J. S. Magnuson"
+    - "J. S. Pruitt"
+    - "W. D. Clarke III"
+  publisher: "Proceedings of the 1994 International Conference on Spoken Language Processing, 2023-2026"
+  date: 1994-01-01
+  type: proceedings
+
+# CV proc-45
+- title: "Production and perception of American English /r/, /l/ and /w/ by native speakers of Japanese: The effects of immersion in an American English speaking environment"
+  authors:
+    - "R. A. Yamada"
+    - "W. Strange"
+    - "J. S. Magnuson"
+    - "J. S. Pruitt"
+    - "W. D. Clarke III"
+  publisher: "Proceedings of the 1994 Fall Meeting of the Acoustical Society of Japan, 411-412"
+  date: 1994-01-01
+  type: proceedings

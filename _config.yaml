@@ -1,15 +1,15 @@
 # site properties and page defaults
 title: Computational Cognitive Neuroscience of Language (CCNL)
 subtitle: 
-description: We study the intricacies of human speech perception, how it happens in the real world, and possible related disfunctions. To do so, our lab uses insights from human behavior, human neuroimaging, computational models of speech, among other fields of research. --trace
+description: We study the intricacies of human speech perception, how it happens in the real world, and possible related dysfunctions. To do so, our lab uses insights from human behavior, human neuroimaging, computational models of speech, among other fields of research.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: 
-  orcid: 0000-0001-8713-9213
+  email: james.magnuson@uconn.edu
+  orcid: 0000-0003-0158-2367
   google-scholar: ETJoidYAAAAJ
   github: comp-cogneuro-lang
   twitter:  

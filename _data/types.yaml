@@ -153,6 +153,21 @@ paper:
   text: Paper
   tooltip: Paper
 
+chapter:
+  icon: fa-solid fa-book-open
+  text: Chapter
+  tooltip: Book chapter
+
+proceedings:
+  icon: fa-solid fa-file-lines
+  text: Proceedings
+  tooltip: Conference proceedings
+
+pdf:
+  icon: fa-solid fa-file-pdf
+  text: PDF
+  tooltip: Download PDF
+
 book:
   icon: fa-solid fa-book
   text: Book

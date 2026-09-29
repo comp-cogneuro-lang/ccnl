@@ -1,0 +1,48 @@
+name: orcid-candidates
+run-name: propose new publications from ORCID
+
+on:
+  schedule:
+    # weekly, Mondays
+    - cron: "0 6 * * 1"
+
+  # run if user manually requests it
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  orcid-candidates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout branch contents
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "**/requirements.txt"
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade --requirement ./_cite/requirements.txt
+
+      - name: Append new ORCID works to sources.yaml
+        run: python _cite/orcid_candidates.py
+
+      - name: Open pull request with candidates
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: orcid-candidates
+          title: New publications found on ORCID
+          commit-message: Propose new publications from ORCID
+          body: |
+            New works on ORCID that are not yet in `_data/sources.yaml` were appended to the end of that file.
+
+            To review: edit this branch (or the file in the PR), delete entries you don't want (and add them to `_data/candidates-ignore.yaml` so they are not proposed again), check each `type` (article, chapter, proceedings), add a `pdf:` path if you have one, then merge.

@@ -1,0 +1,27 @@
+# Technical reports and working papers (CV 2026-08-19).
+
+# CV tech-1
+- date: 2001-01-01
+  text: "Magnuson, J. S., Dahan, D., & Tanenhaus, M. K. (2001). On the interpretation of computational models: The case of TRACE. In J. S. Magnuson and K.M. Crosswhite (Eds.), *University of Rochester Working Papers in the Language Sciences, 2* (1), 71 - 91."
+  pdf: papers/magnuson-2001-interpretation-computational-models.pdf
+
+# CV tech-2
+- date: 2000-01-01
+  text: "Magnuson, J. S., Tanenhaus, M. K., & Aslin, R. N. (2000). Simple recurrent networks and competition effects in spoken word recognition. *University of Rochester Working Papers in the Language Science, 1*, 56-71."
+  pdf: papers/magnuson-2000-simple-recurrent-networks.pdf
+
+# CV tech-3
+- date: 1995-07-01
+  text: "Magnuson, J. S. (1995.7.25). *Simulating probability matching in groups of foraging animals: A comparison of representational and nonrepresentational models*. ATR Human Information Processing Research Laboratories Technical Report TR-H-160."
+
+# CV tech-4
+- date: 1995-07-01
+  text: "Magnuson, J. S., & Yamada, R. A. (1995.7.25). *The effects of talker variability on the perception of American English /r/ and /l/ by Japanese listeners, II: Subject differences, acoustic and temporal correlates of talker effects, and some technical considerations*. ATR Human Information Processing Research Laboratories Technical Report TR-H-161."
+
+# CV tech-5
+- date: 1995-07-01
+  text: "Magnuson, J. S., Yamada, R. A., & Nusbaum, H. C. (1995.7.20). *The effects of talker variability and familiarity on mora perception and talker identification*. ATR Human Information Processing Research Laboratories Technical Report TR-H-158."
+
+# CV tech-6
+- date: 1994-12-01
+  text: "Magnuson, J. S., & Yamada, R. A. (1994.12.6). *The effects of talker variability on the perception of American English /r/ and /l/ by Japanese listeners*. ATR Human Information Processing Research Laboratories Technical Report TR-H-110."
