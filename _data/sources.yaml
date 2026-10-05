@@ -1301,3 +1301,40 @@
   publisher: "Proceedings of the 1994 Fall Meeting of the Acoustical Society of Japan, 411-412"
   date: 1994-01-01
   type: proceedings
+
+# ---- ORCID candidates: review, edit or delete, then merge ----
+# ORCID candidate: Feedback, Learning, and Robustness in Recurrent Neural Networks: Implications for Human and Artificial Intelligence (2026)
+- id: doi:10.48321/d114dd9112
+  type: article
+# ORCID candidate: Recurrent neural networks as neuro-computational models of human speech recognition (2024)
+- id: doi:10.1101/2024.02.20.580731
+  type: article
+# ORCID candidate: Lexical feedback in the Time-Invariant String Kernel (TISK) model of spoken word recognition (2023)
+- id: doi:10.31234/osf.io/d92gr
+  type: article
+# ORCID candidate: Contra assertions, feedback improves word recognition (2021)
+- id: doi:10.31234/osf.io/aq2cx
+  type: article
+# ORCID candidate: LexFindR: A fast, simple, and extensible R package for finding similar words in a lexicon (2021)
+- id: doi:10.31234/osf.io/8dyru
+  type: article
+# ORCID candidate: Corrigendum to ‘Individual differences in subphonemic sensitivity and phonological skills’. [J. Memory Language 107 (2019) 195–215](S0749596X19300300)(10.1016/j.jml.2019.03.008) (2020)
+- id: doi:10.1016/j.jml.2020.104112
+  type: article
+# ORCID candidate: EARSHOT: A minimal neural network model of incremental human speech recognition (2018)
+- id: doi:10.31234/osf.io/h7a4n
+  type: article
+# ORCID candidate without DOI (add manually or add to candidates-ignore.yaml): Chunky Monkey? The spontaneous temporal chunking of simultaneous chains by Humans (Homo Sapiens) and rhesus monkeys (Macaca mulatta) (2018)
+# ORCID candidate: Individual Differences in Subphonemic Sensitivity and Phonological Skills (2017)
+- id: doi:10.31234/osf.io/3fncy
+  type: article
+# ORCID candidate: Individual differences in decoding skill, print exposure, and cortical structure in young adults (2017)
+- id: doi:10.31234/osf.io/f7tpn
+  type: article
+# ORCID candidate: Lévy-like diffusion in eye movements during spoken-language comprehension (2009)
+- id: doi:10.1103/physreve.79.056114
+  type: article
+# ORCID candidate: The Time Course of Spoken Word Learning and Recognition: Studies With Artificial Lexicons (2003)
+- id: doi:10.1037/0096-3445.132.2.202
+  type: article
+# ORCID candidate without DOI (add manually or add to candidates-ignore.yaml): Acoustic correlates to the effects of talker variability on the perception of English /r/ and /l/ by Japanese listeners (1996)
